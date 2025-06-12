@@ -15,44 +15,148 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<style>
+  .rucred {
+    display: inline-block;
+    background-color: rgb(174, 11, 42);
+    color: white;
+    font-size: 0.8em;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 8px;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  .badge {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+</style>
+
+<style>
+  .logo-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem; 
+  }
+  .logo-row img {
+    height: 60px;
+    width: auto;
+    /* 
+       border-radius: 6px;
+       box-shadow: 0 0 6px rgba(0,0,0,.15); */
+  }
+</style>
+
+<style>
+  .site-footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: rgb(128, 128, 128);
+    margin: 2rem 0 1rem; 
+  }
+  .site-footer a {
+    color: inherit;
+    text-decoration: underline;
+  }
+</style>
+
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03) and will become a visiting research student at [Dalhousie University](https://www.dal.ca/) this summer (2025.07 -- 2025.10), co-sponsored by [Mitacs, Canada](https://www.mitacs.ca/) and [China Scholarship Council](https://www.csc.edu.cn/).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests focus on **reinforcement learning, online learning, continual learning, recommender systems, and computational advertising**. Recently, I am focusing on:  
+(1) sequential bidding ranking algorithms;  
+(2) machine unlearning in generative recommendation.  
+My research aims to build **intelligent systems that are elegant in theory and effective in practice**, and provide credible solutions to the urgent needs of contemporary society.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.06.06*: &nbsp;🎉 Receive a pre-departure scholarship of **3,600 CAD** from China Scholarship Council!
+- *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits is accepted by **KDD 2025 Research Track**. Congratulations to myself on my **first first-author paper**!
+- *2025.03.25*: &nbsp;🎉 Complete Global Study Program at UC Davis and achieve **Academic Perfection**.
+- *2025.02.03*: &nbsp;🎉 A paper about intergrating ad auctions and recommendations is accepted by **WWW 2025**.
+- *2024.12.10*: &nbsp;🎉 Admitted to the Mitacs Globalink Research Internship **full-scholarship** summer research program.
 
-# 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='../images/SeRe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+[Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
+
+**Zhiyuan Su**, Sunhao Dai, Xiao Zhang
+
+- *Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)* <span class="rucred">Oral</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='../images/TICNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *Accepted at WWW 2025 (Acceptance Rate: 20.2%)* <span class="rucred">Poster</span>
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
+- *2025.01*: &nbsp;💰 Mitacs-CSC Co-sponsored Scholarship – 6,000 CAD
+- *2024.12*: &nbsp;🏆 *National Second Prize*, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
+- *2024.10*: &nbsp;🏆 *Second Prize*, Beijing Mathematical Contest in Modeling
+- *2024.10*: &nbsp;💰 *Second-class* Academic Scholarship – 3,000 CNY
+- *2024.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
+- *2024.04*: &nbsp;🎖 Outstanding Communist Youth League Member
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.01 – 2025.03*: &nbsp;🇺🇸 **Global Study Program, University of California, Davis**
+  
+  *- Major: Mathematics & Statistics, Graduated with Academic Perfection*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2022.09 – Present*: &nbsp;🇨🇳 **Gaoling School of Artificial Intelligence, Renmin University of China**
+  
+  *- Bachelor of Engineering in Artificial Intelligence, Supervisors: [Dr. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Dr. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)*
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+# 💻 Work Experiences
+
+- *2025.07 – 2025.10*: &nbsp;🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, [Faculty of Computer Science](https://www.dal.ca/faculty/computerscience.html), Dalhousie University
+
+  *- Lab: [Applied Machine Learning Research Lab](https://web.cs.dal.ca/~gaw/), Supervisor: [Dr. Ga Wu](https://wuga214.github.io/)*
+  
+- *2024.11 – Present*: &nbsp;🇨🇳 *Research Intern*, Beijing Key Laboratory of Research on Large Models and Intelligent Governance
+- *2024.05 – 2024.09*: &nbsp;🇨🇳 *Research Intern*, Engineering Research Center of Next-Generation Intelligent Search and Recommendation, MOE
+- *2023.10 – 2024.09*: &nbsp;🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, [Baidu Inc.](https://home.baidu.com/)
+
+
+# 🪽 Beyond Academics
+
+I love **music, literature, travel and badminton**. I am a **campus singer** at Renmin University of China and have been invited to participate in various concerts and music festivals at RUC. I am also a **musician at NetEase Cloud Music**, and my stage name is [艾诺 Ayinor](http://music.163.com/#/artist?id=36180214). Recently, I am also working on my own new song, so stay tuned!
+
+
+<div class="logo-row">
+  <img src="../images/ruc_logo.png"      alt="">
+  <img src="../images/ucdavis_logo.png"  alt="">
+  <img src="../images/dal_logo.png"      alt="">
+  <img src="../images/mitacs_logo.png"      alt="">
+  <img src="../images/baidu_logo.png"      alt="">
+</div>
+
+
+<footer class="site-footer">
+  <p>&copy; 2025 Zhiyuan Su. All rights reserved.</p>
+  <p>
+    Template adapted from
+    <a href="https://github.com/RayeRen/acad-homepage.github.io"
+       target="_blank" rel="noopener">Yi Ren</a>.
+  </p>
+</footer>
