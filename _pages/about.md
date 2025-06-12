@@ -82,7 +82,6 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 📝 Publications
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='../images/SeRe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
