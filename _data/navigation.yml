@@ -19,7 +19,7 @@ main:
     url: "/#-work-experiences"
 
   - title: "Services"
-  url: "/#-services"
+    url: "/#-services"
 
   - title: "Beyond Academics"
     url: "/#-beyond-academics"
