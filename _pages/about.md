@@ -139,7 +139,7 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 # ⚙️ Services
 
-- Artifact badging reviewer, KDD 2025
+- Artifact badging reviewer, KDD 2025 
 
 
 # 🪽 Beyond Academics
