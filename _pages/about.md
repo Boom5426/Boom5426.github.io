@@ -137,6 +137,11 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 - *2023.10 – 2024.09*: &nbsp;🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, [Baidu Inc.](https://home.baidu.com/)
 
 
+# ⚙️ Services
+
+- Artifact badging reviewer, KDD 2025
+
+
 # 🪽 Beyond Academics
 
 I love **music, literature, travel and badminton**. I am a **campus singer** at Renmin University of China and have been invited to participate in various concerts and music festivals at RUC. I am also a **musician at NetEase Cloud Music**, and my stage name is [艾诺 Ayinor](http://music.163.com/#/artist?id=36180214). Recently, I am also working on my own new song, so stay tuned!
