@@ -131,6 +131,7 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 - *2025.07 – 2025.10*: &nbsp;🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, [Faculty of Computer Science](https://www.dal.ca/faculty/computerscience.html), Dalhousie University
 
   *- Lab: [Applied Machine Learning Research Lab](https://web.cs.dal.ca/~gaw/), Supervisor: [Dr. Ga Wu](https://wuga214.github.io/)*
+  
   *- Project: AI safety for recommender systems in social media services*
   
 - *2024.11 – Present*: &nbsp;🇨🇳 *Research Intern*, Beijing Key Laboratory of Research on Large Models and Intelligent Governance
