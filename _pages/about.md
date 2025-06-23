@@ -136,7 +136,6 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
   
 - *2024.11 – Present*: &nbsp;🇨🇳 *Research Intern*, Beijing Key Laboratory of Research on Large Models and Intelligent Governance
 - *2024.05 – 2024.09*: &nbsp;🇨🇳 *Research Intern*, Engineering Research Center of Next-Generation Intelligent Search and Recommendation, MOE
-- *2023.10 – 2024.09*: &nbsp;🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, [Baidu Inc.](https://home.baidu.com/)
 
 
 # ⚙️ Services
@@ -154,7 +153,6 @@ I love **music, literature, travel and badminton**. I am a **campus singer** at 
   <img src="../images/ucdavis_logo.png"  alt="">
   <img src="../images/dal_logo.png"      alt="">
   <img src="../images/mitacs_logo.png"      alt="">
-  <img src="../images/baidu_logo.png"      alt="">
 </div>
 
 
