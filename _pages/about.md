@@ -67,7 +67,7 @@ redirect_from:
 
 Hi, I am Zhiyuan Su *(pronunciation: Jee-yoo-ahn Soo)*. I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03) and will become a visiting research student at [Dalhousie University](https://www.dal.ca/) this summer (2025.07 -- 2025.10), co-sponsored by [Mitacs, Canada](https://www.mitacs.ca/) and [China Scholarship Council](https://www.csc.edu.cn/).
 
-My research interests focus on **deep reinforcement learning, sequential decision making, continual learning, recommender systems, and computational advertising**. Recently, I am focusing on:  
+My research interests focus on **deep reinforcement learning, online learning, continual learning, recommender system, and computational advertising**. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
 (2) machine unlearning in generative recommendation.  
 My research aims to build **intelligent systems that are elegant in theory and effective in practice**, and provide credible solutions to the urgent needs of contemporary society.
