@@ -74,7 +74,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 🔥 News
-- *2025.06.30*: &nbsp;🎉 Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!.
+- *2025.07.08*: &nbsp;🎉 Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!
 - *2025.06.30*: &nbsp;🎉 Received the presidential scholarship of **40,000 CNY** for being an outstanding exchange student at UC Davis.
 - *2025.06.06*: &nbsp;🎉 Received a pre-departure scholarship of **3,600 CAD** from China Scholarship Council!
 - *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits was accepted by **KDD 2025 Research Track**. Congratulations to myself on my **first first-author paper**!
