@@ -65,7 +65,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Zhiyuan Su *(pronunciation: Jee-yoo-ahn Soo)*. I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03) and will become a visiting research student at [Dalhousie University](https://www.dal.ca/) this summer (2025.07 -- 2025.10), co-sponsored by [Mitacs, Canada](https://www.mitacs.ca/) and [China Scholarship Council](https://www.csc.edu.cn/).
+Hi, I am Zhiyuan Su *(pronunciation: Jee-yoo-ahn Soo)*. I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03). Now I am also a visiting research student at [Dalhousie University](https://www.dal.ca/) (2025.07 -- 2025.10), co-sponsored by [Mitacs, Canada](https://www.mitacs.ca/) and [China Scholarship Council](https://www.csc.edu.cn/).
 
 My research interests focus on **deep reinforcement learning, online learning, continual learning, recommender system, and computational advertising**. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
@@ -134,7 +134,7 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 - *2025.07 – 2025.10*: &nbsp;🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, [Faculty of Computer Science](https://www.dal.ca/faculty/computerscience.html), Dalhousie University
 
-  *- Lab: [Applied Machine Learning Research Lab](https://web.cs.dal.ca/~gaw/), Supervisor: [Dr. Ga Wu](https://wuga214.github.io/)*
+  *- Lab: [Dalhousie Applied Machine Learning Research Lab](https://web.cs.dal.ca/~gaw/), Collaborator: [Dr. Ga Wu](https://wuga214.github.io/)*
   
   *- Project: AI safety for recommender systems in social media services*
   
