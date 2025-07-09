@@ -74,7 +74,8 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 🔥 News
-- *2025.06.30*: &nbsp;🎉 Received the presidential scholarship of **40,000 CNY** for being an outstanding exchange student at UC Davis. Congratulations to myself!
+- *2025.06.30*: &nbsp;🎉 Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!.
+- *2025.06.30*: &nbsp;🎉 Received the presidential scholarship of **40,000 CNY** for being an outstanding exchange student at UC Davis.
 - *2025.06.06*: &nbsp;🎉 Received a pre-departure scholarship of **3,600 CAD** from China Scholarship Council!
 - *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits was accepted by **KDD 2025 Research Track**. Congratulations to myself on my **first first-author paper**!
 - *2025.03.25*: &nbsp;🎉 Completed Global Study Program at UC Davis and achieve **Academic Perfection**.
@@ -109,6 +110,7 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 
 # 🎖 Honors and Awards
+- *2025.07*: &nbsp;💰 SIGKDD-supported KDD 2025 *Student Travel Award* – 1,000 USD
 - *2025.06*: &nbsp;💰 *Presidential Scholarship* for Outstanding International Exchange – 40,000 CNY
 - *2025.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
 - *2025.01*: &nbsp;💰 Mitacs-CSC Co-sponsored Scholarship – 6,000 CAD
