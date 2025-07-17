@@ -91,7 +91,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 **Zhiyuan Su**, Sunhao Dai, Xiao Zhang
 
-- *Accepted at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025 Research Track (Acceptance Rate: 18.4%)* <span class="rucred">Oral</span>
+- *Accepted at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025 (Acceptance Rate: 18.4%)* <span class="rucred">Oral</span>
 
 </div>
 </div>
