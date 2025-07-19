@@ -1,6 +1,9 @@
 /* ==========================================================================
-   ARCHIVE
+   ARCHIVE (Style Updated for a Minimal & Fluid feel)
    ========================================================================== */
+
+// Define a global transition for fluid animations
+$item-transition: all 0.3s ease-in-out;
 
 .archive {
   margin-bottom: 2em;
@@ -14,28 +17,42 @@
     @include prefix(0.5 of 12);
   }
 
+  // Remove default underlines from links for a cleaner look
   a {
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
-    }
+    text-decoration: none;
   }
 }
 
 .archive__subtitle {
-  margin: 1.414em 0 0;
+  margin: 2em 0 1em; // Increased top margin for better separation
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: mix(#fff, $gray, 25%);
-  border-bottom: 1px solid $border-color;
+  font-weight: 600; // Slightly bolder for emphasis
+  color: mix(#000, $gray, 60%); // A bit darker for better readability
+  border-bottom: 1px solid lighten($border-color, 10%); // Softer, lighter border
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
+  }
+}
+
+.archive__item {
+  // Base styling for each item in the archive
+  position: relative;
+  transition: $item-transition;
+
+  // Hover state for the entire item block
+  &:hover {
+    .archive__item-teaser img {
+      // Softer, modern shadow
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+      transform: scale(1.03); // Subtle zoom effect
+    }
+
+    .archive__item-title a {
+      // Underline appears on hover for clarity
+      text-decoration: underline;
+    }
   }
 }
 
@@ -43,14 +60,22 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
-  a + a {
-    opacity: 0.5;
+  a {
+    color: inherit; // Inherit color from parent
+    transition: color 0.2s ease; // Smooth color transition
+
+    &:hover {
+      color: $primary-color; // Use a primary color on hover, if defined
+    }
+
+    + a {
+      opacity: 0.6;
+    }
   }
 }
 
-/* remove border*/
+/* remove border */
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -60,6 +85,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  color: mix(#000, $gray, 80%); // Softer text color
 
   & + p {
     text-indent: 0;
@@ -69,27 +95,22 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+  
   img {
     width: 100%;
+    display: block; // Fix potential bottom space
+    border-radius: $border-radius;
+    transition: $item-transition; // Apply transition to the image
   }
 }
-
-.archive__item:hover {
-  .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
-  }
-
-  .archive__item-title {
-    text-decoration: underline;
-  }
-}
-
 
 /*
    List view
    ========================================================================== */
 
 .list__item {
+  padding-bottom: 1.5em; // Add some space between list items
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
@@ -107,7 +128,6 @@
   }
 }
 
-
 /*
    Grid view
    ========================================================================== */
@@ -115,12 +135,17 @@
 .grid__item {
   margin-bottom: 2em;
 
+  // On hover, lift the card slightly for a 3D effect
+  &:hover {
+    transform: translateY(-6px);
+  }
+
   .page__meta {
     margin: 0 0 4px;
   }
 
   .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
     font-size: $type-size-5;
   }
 
@@ -136,8 +161,8 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    margin-right: 0;
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -151,7 +176,6 @@
   }
 }
 
-
 /*
    Features
    ========================================================================== */
@@ -159,7 +183,7 @@
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  // Removed border-bottom for a cleaner look, using margin for separation
 }
 
 .feature__item {
@@ -176,70 +200,39 @@
     }
   }
 
+  // The following layouts (--left, --right, --center) are structure-based.
+  // The new hover effects from .archive__item will apply to them automatically.
+  // No major style changes are needed here, as they inherit the new fluid feel.
+  
   &--left {
     @include full();
     font-size: 1.25rem;
-
-    .archive__item-teaser {
-      margin-bottom: 2em;
-    }
-
+    .archive__item-teaser { margin-bottom: 2em; }
     @include breakpoint($small) {
-      .archive__item-teaser {
-        @include span(5 of 12);
-      }
-
-      .archive__item-body {
-        @include span(7 of 12 last);
-        @include prefix(0.5 of 12);
-        @include suffix(1 of 12);
-      }
+      .archive__item-teaser { @include span(5 of 12); }
+      .archive__item-body { @include span(7 of 12 last); @include prefix(0.5 of 12); @include suffix(1 of 12); }
     }
   }
 
   &--right {
     @include full();
     font-size: 1.25rem;
-
-    .archive__item-teaser {
-      margin-bottom: 2em;
-    }
-
+    .archive__item-teaser { margin-bottom: 2em; }
     @include breakpoint($small) {
       text-align: right;
-
-      .archive__item-teaser {
-        @include span(5 of 12 rtl);
-      }
-
-      .archive__item-body {
-        @include span(7 of 12 last rtl);
-        @include prefix(0.5 of 12);
-        @include suffix(1 of 12);
-      }
+      .archive__item-teaser { @include span(5 of 12 rtl); }
+      .archive__item-body { @include span(7 of 12 last rtl); @include prefix(0.5 of 12); @include suffix(1 of 12); }
     }
   }
 
   &--center {
     @include full();
     font-size: 1.25rem;
-
-    .archive__item-teaser {
-      margin-bottom: 2em;
-    }
-
+    .archive__item-teaser { margin-bottom: 2em; }
     @include breakpoint($small) {
       text-align: center;
-
-      .archive__item-teaser {
-        margin: 0 auto;
-        width: span(5 of 12);
-      }
-
-      .archive__item-body {
-        margin: 0 auto;
-        width: span(7 of 12);
-      }
+      .archive__item-teaser { margin: 0 auto; width: span(5 of 12); }
+      .archive__item-body { margin: 0 auto; width: span(7 of 12); }
     }
   }
 }
