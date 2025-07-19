@@ -1,9 +1,6 @@
 /* ==========================================================================
-   ARCHIVE (Style Re-imagined for an Artistic & Fluid feel)
+   ARCHIVE
    ========================================================================== */
-
-// A fluid transition for all interactive elements
-$artistic-transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
 .archive {
   margin-bottom: 2em;
@@ -17,95 +14,52 @@ $artistic-transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     @include prefix(0.5 of 12);
   }
 
-  // Links are clean by default, interaction is handled by specific elements
   a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: underline;
+
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
   }
 }
 
 .archive__subtitle {
-  position: relative;
-  margin: 2.5em 0 1.5em;
+  margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  font-weight: 600;
-  color: $dark-gray;
-  border-bottom: none; // Remove the old border
-
-  // Artistic Accent Line
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 40px;
-    height: 3px;
-    background: $primary-color; // Uses your site's primary color
-  }
+  color: mix(#fff, $gray, 25%);
+  border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
 
-.archive__item {
-  position: relative;
-  padding: 1em 0;
-  transition: $artistic-transition;
-
-  &:hover {
-    .archive__item-teaser img {
-      filter: grayscale(0%);
-      transform: scale(1.05);
-    }
-
-    .archive__item-title::after {
-      transform: scaleX(1); // Animate the line in
-    }
-
-    .archive__item-excerpt {
-      opacity: 0.85;
-    }
-  }
-}
-
 .archive__item-title {
-  position: relative;
-  display: inline-block; // Important for the ::after element
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
-  // The dynamic underline effect
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: mix($primary-color, $text-color, 50%);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
-  }
-
   a + a {
-    opacity: 0.6;
+    opacity: 0.5;
   }
 }
 
-.page__content .archive__item-title {
-  margin-top: 1em;
-  border-bottom: none;
+/* remove border*/
+.page__content {
+
+  .archive__item-title {
+    margin-top: 1em;
+    border-bottom: none;
+  }
 }
 
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
-  color: $text-color;
-  opacity: 0.7; // Slightly faded out by default
-  transition: opacity 0.3s ease;
 
   & + p {
     text-indent: 0;
@@ -115,28 +69,44 @@ $artistic-transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
-  margin-bottom: 1em;
-
   img {
     width: 100%;
-    display: block;
-    border-radius: $border-radius;
-    filter: grayscale(80%); // Grayscale by default
-    transform: scale(1);
-    transition: $artistic-transition;
   }
 }
+
+.archive__item:hover {
+  .archive__item-teaser {
+    box-shadow: 0 0 10px rgba(#000, 0.25);
+  }
+
+  .archive__item-title {
+    text-decoration: underline;
+  }
+}
+
 
 /*
    List view
    ========================================================================== */
 
 .list__item {
-  @include breakpoint($medium) { padding-right: $right-sidebar-width-narrow; }
-  @include breakpoint($large) { padding-right: $right-sidebar-width; }
-  @include breakpoint($x-large) { padding-right: $right-sidebar-width-wide; }
-  .page__meta { margin: 0 0 4px; }
+  @include breakpoint($medium) {
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($large) {
+    padding-right: $right-sidebar-width;
+  }
+
+  @include breakpoint($x-large) {
+    padding-right: $right-sidebar-width-wide;
+  }
+
+  .page__meta {
+    margin: 0 0 4px;
+  }
 }
+
 
 /*
    Grid view
@@ -144,72 +114,132 @@ $artistic-transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
 .grid__item {
   margin-bottom: 2em;
-  text-align: center; // Center align text for a more designed look
+
+  .page__meta {
+    margin: 0 0 4px;
+  }
 
   .archive__item-title {
+    margin-top: 0.5em;
     font-size: $type-size-5;
   }
 
   .archive__item-excerpt {
-    display: none; // Keep it clean in grid view
+    display: none;
   }
 
-  @include breakpoint($small) { @include gallery(5 of 10); }
+  @include breakpoint($small) {
+    @include gallery(5 of 10);
+    .archive__item-teaser {
+      max-height: 200px;
+    }
+  }
+
   @include breakpoint($medium) {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0; /* reset before mixin does its thing*/
+    margin-right: 0; /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
+
+    .archive__item-teaser {
+      max-height: 120px;
+    }
+
+    .archive__item-excerpt {
+      display: block;
+      font-size: $type-size-6;
+    }
   }
 }
 
+
 /*
-   Features (Inherits the new artistic styles automatically)
+   Features
    ========================================================================== */
 
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-  border-bottom: none; // Remove border for a cleaner separation
+  border-bottom: 1px solid $border-color;
 }
 
 .feature__item {
   margin-bottom: 2em;
   font-size: 1.25rem;
-  
-  // The general .archive__item hover styles will apply here,
-  // creating a consistent artistic feel across all list types.
-  
+
   @include breakpoint($small) {
     margin-bottom: 0;
     @include gallery(4 of 12);
-    .feature__item-teaser { max-height: 200px; overflow: hidden; }
+
+    .feature__item-teaser {
+      max-height: 200px;
+      overflow: hidden;
+    }
   }
 
   &--left {
-    @include full(); font-size: 1.25rem;
-    .archive__item-teaser { margin-bottom: 2em; }
+    @include full();
+    font-size: 1.25rem;
+
+    .archive__item-teaser {
+      margin-bottom: 2em;
+    }
+
     @include breakpoint($small) {
-      .archive__item-teaser { @include span(5 of 12); }
-      .archive__item-body { text-align: left; @include span(7 of 12 last); @include prefix(0.5 of 12); }
+      .archive__item-teaser {
+        @include span(5 of 12);
+      }
+
+      .archive__item-body {
+        @include span(7 of 12 last);
+        @include prefix(0.5 of 12);
+        @include suffix(1 of 12);
+      }
     }
   }
 
   &--right {
-    @include full(); font-size: 1.25rem;
-    .archive__item-teaser { margin-bottom: 2em; }
+    @include full();
+    font-size: 1.25rem;
+
+    .archive__item-teaser {
+      margin-bottom: 2em;
+    }
+
     @include breakpoint($small) {
-      .archive__item-teaser { @include span(5 of 12 rtl); }
-      .archive__item-body { text-align: right; @include span(7 of 12 last rtl); @include prefix(0.5 of 12); }
+      text-align: right;
+
+      .archive__item-teaser {
+        @include span(5 of 12 rtl);
+      }
+
+      .archive__item-body {
+        @include span(7 of 12 last rtl);
+        @include prefix(0.5 of 12);
+        @include suffix(1 of 12);
+      }
     }
   }
 
   &--center {
-    @include full(); font-size: 1.25rem;
-    .archive__item-teaser { margin-bottom: 2em; }
+    @include full();
+    font-size: 1.25rem;
+
+    .archive__item-teaser {
+      margin-bottom: 2em;
+    }
+
     @include breakpoint($small) {
       text-align: center;
-      .archive__item-teaser { margin: 0 auto; width: span(5 of 12); }
-      .archive__item-body { margin: 1em auto 0; width: span(7 of 12); }
+
+      .archive__item-teaser {
+        margin: 0 auto;
+        width: span(5 of 12);
+      }
+
+      .archive__item-body {
+        margin: 0 auto;
+        width: span(7 of 12);
+      }
     }
   }
 }
