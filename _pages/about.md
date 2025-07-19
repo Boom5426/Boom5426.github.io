@@ -93,6 +93,8 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 - *Accepted at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025* <span class="rucred">Oral</span>
 
+<span style="color:#008080">[Watch our promotional video on YouTube!](https://www.youtube.com/watch?v=lATSWn7t_Xc)</span>
+
 </div>
 </div>
 
