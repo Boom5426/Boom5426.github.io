@@ -142,7 +142,7 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 - *2024.05 – 2024.09*: &nbsp;🇨🇳 *Research Intern*, Engineering Research Center of Next-Generation Intelligent Search and Recommendation, MOE
 
 
-# ⚙️ Services
+# 💼 Services
 - Artifact badging reviewer, KDD 2025
 
 
