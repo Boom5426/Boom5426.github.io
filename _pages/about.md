@@ -154,7 +154,7 @@ I love **music, literature, travel and badminton**. I am a **campus singer** at 
 
 # 🌍 Visitor Map
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2e56a3&w=353&t=tt&d=opzTPaTNgNUrWvD_vjzXkFUMNo05ptM6XPnZfkpH53E&co=ffffff&ct=000000&cmo=c96e3f&cmn=24a765'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=164caf&w=a&t=tt&d=opzTPaTNgNUrWvD_vjzXkFUMNo05ptM6XPnZfkpH53E&co=ffffff&cmo=d32525&cmn=18ba18&ct=000000'></script>
 
 
 
