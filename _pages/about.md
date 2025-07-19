@@ -144,15 +144,6 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 # ⚙️ Services
 - Artifact badging reviewer, KDD 2025
-- *2025.07*: &nbsp;💰 SIGKDD-supported KDD 2025 *Student Travel Award* – 1,000 USD
-- *2025.06*: &nbsp;💰 *Presidential Scholarship* for Outstanding International Exchange – 40,000 CNY
-- *2025.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
-- *2025.01*: &nbsp;💰 Mitacs-CSC Co-sponsored Scholarship – 6,000 CAD
-- *2024.12*: &nbsp;🏆 *National Second Prize*, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
-- *2024.10*: &nbsp;🏆 *Second Prize*, Beijing Mathematical Contest in Modeling
-- *2024.10*: &nbsp;💰 *Second-class* Academic Scholarship – 3,000 CNY
-- *2024.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
-- *2024.04*: &nbsp;🎖 Outstanding Communist Youth League Member
 
 
 # 🪽 Beyond Academics
