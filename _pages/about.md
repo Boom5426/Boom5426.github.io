@@ -75,7 +75,9 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 (2) Evaluating large foundation models in virtual cell tasks. 
 
 
-# 📝 Selected Publications ([All Papers](https://scholar.google.com/citations?hl=zh-CN&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate))
+# 📝 Publications
+## ([See All](https://scholar.google.com/citations?hl=zh-CN&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate))
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -118,6 +120,8 @@ Under review in Nature Communications (Minor Revision)
 
 **Bo Li**, Yong Zhang, Qing Wang, Chengyang Zhang, Mengran Li, Guangyu Wang, Qianqian Song
 
+Briefings in Bioinformatics 2024
+
 **Abstract**: Constructing a hypergraph via Euclidean distance and adjacent position weighting to exploit local correlations in cell images, enabling gene expression prediction for cells in Whole Slide Image (WSI) pathology images.
 
 
@@ -133,6 +137,8 @@ Under review in Nature Communications (Minor Revision)
 
 **Bo Li**, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, Baocai Yin
 
+Pattern Recognition 2024
+
 **Abstract**: Rethinking the cell localization task from the perspective of feature alignment for the first time and proposing a multi-scale hypergraph module that significantly improves accuracy by adaptively aggregating multi-level features.
 
 
@@ -147,6 +153,8 @@ Under review in Nature Communications (Minor Revision)
 [Code](https://github.com/Boom5426/MHFAN)
 
 **Bo Li**, Jie Chen, Hang Yi, Min Feng, Yongquan Yang, Qikui Zhu, and Hong Bu
+
+Engineering Applications of Artificial Intelligence 2024
 
 **Abstract**: To address the challenge of existing density maps losing cell location information in dense regions, a new exponential distance transform map is proposed to provide accurate cell location information with reasonable gradients.
 
