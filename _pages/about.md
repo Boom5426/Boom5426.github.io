@@ -165,7 +165,7 @@ Engineering Applications of Artificial Intelligence 2024
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/Lite_UNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/Lite_Unet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Lite-UNet: A lightweight and efficient network for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197623018183) 
