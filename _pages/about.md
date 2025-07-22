@@ -173,7 +173,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 
 # 💼 Services
-- Artifact badging reviewer, KDD 2025
+Reviewer: **Science Advances**, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, IET Image Processing.
 
 
 # 🌍 Visitor Map
