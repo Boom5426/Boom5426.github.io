@@ -79,11 +79,11 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 [PhenoProfiler : Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)
 
-**Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
-
 [Code](https://github.com/QSong-github/PhenoProfiler), [WebServer](https://phenoprofiler.org/)
 
+**Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
 
+Under review in Nature Communications (Major Revision)
 
 </div></div>
 
@@ -92,9 +92,11 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 [SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/) 
 
+[Code](https://github.com/QSong-github/SpaIM)
+
 **Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
 
-[Code](https://github.com/QSong-github/SpaIM)
+Under review in Nature Communications (Minor Revision)
 
 
 
