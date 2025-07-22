@@ -34,6 +34,10 @@ $global-font-family: $sans-serif;
 $header-font-family: $serif; // Titles will now use our elegant serif font
 $caption-font-family: $serif;
 
+// Added for backward compatibility with older theme files.
+$sans-serif-narrow: $sans-serif;
+
+
 // --- TYPE SCALE ---
 // A more harmonious and spacious type scale for a premium feel.
 $type-size-1: 2.5em;    // ~40px
