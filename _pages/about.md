@@ -174,7 +174,7 @@ Engineering Applications of Artificial Intelligence 2024
   
   *- Master of Electronic Information, Supervisors: [Prof. Yong Zhang](https://sist.bjut.edu.cn/info/1403/2489.htm), [Prof. Baocai Yin](https://sist.bjut.edu.cn/info/1403/2487.htm)*
 
-- *2017.09 - 2021.07*: **Beijing University of Technology**
+- *2017.09 - 2021.07*: **Beijing Information Science & Technology University**
   
   *- Bachelor of Robotics Engineering, Supervisors: [Prof. Hongbo Huang](https://jsjxy.bistu.edu.cn/docs/2025-02/8d1313acd5814afd9f5d15f4b7b9403a.pdf)*
 
