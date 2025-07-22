@@ -86,7 +86,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 [PhenoProfiler : Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)
 
-[Code](https://github.com/QSong-github/PhenoProfiler) | [WebServer](https://phenoprofiler.org/)
+[Code](https://github.com/QSong-github/PhenoProfiler), [WebServer](https://phenoprofiler.org/)
 
 **Bo Li**, Bob Zhang, ..., Qianqian Song
 
