@@ -69,6 +69,8 @@ $info-color: $accent-color;     // Info elements also use the accent color
 $gray: mix($text-color, $background-color, 50%);
 $light-gray: mix($text-color, $background-color, 15%);
 $dark-gray: mix($text-color, #000, 80%);
+// Added for backward compatibility with older theme files during redesign.
+$lighter-gray: #F3F3F3;
 
 // --- CODE BLOCKS ---
 $code-background-color: #F3F3F3;
