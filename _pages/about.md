@@ -70,9 +70,9 @@ Hi, I'm Bo Li, a Ph.D. student at the [University of Macau](https://www.um.edu.m
 
 My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & Cell Painting**. Recently, I am focusing on:  
 
-(1) modeling virtual cells with generative models; 
+(1) Modeling virtual cells with generative models; 
 
-(2) evaluating large foundation models in virtual cell tasks. 
+(2) Evaluating large foundation models in virtual cell tasks. 
 
 
 # 📝 Selected Publications
@@ -87,6 +87,10 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 Under review in Nature Communications (Major Revision)
 
+**Abstract**: We achieved end-to-end cell image encoding with strong generalization performance at the image level, reducing inference time by approximately 40 times.
+
+
+
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/SpaIM.png' alt="sym" width="100%"></div></div>
@@ -100,6 +104,7 @@ Under review in Nature Communications (Major Revision)
 
 Under review in Nature Communications (Minor Revision)
 
+**Abstract**: Predicting unmeasured gene expression in spatial transcriptomics (ST) using single-cell RNA sequencing (scRNA-seq) and achieving state-of-the-art (SOTA) performance in cross-modal imputation based on style transfer concepts.
 
 
 </div></div>
@@ -109,10 +114,11 @@ Under review in Nature Communications (Minor Revision)
 
 [Gene Expression Prediction from Histology Images via Hypergraph Neural Networks](https://academic.oup.com/bib/article/25/6/bbae500/7821151) 
 
-**Bo Li**, Yong Zhang, Qing Wang, Chengyang Zhang, Mengran Li, Guangyu Wang, Qianqian Song
-
 [Code](https://github.com/QSong-github/HGGEP)
 
+**Bo Li**, Yong Zhang, Qing Wang, Chengyang Zhang, Mengran Li, Guangyu Wang, Qianqian Song
+
+**Abstract**: Construct a hypergraph using Euclidean distance and adjacent position weighting to exploit local correlations in cell images, enabling the prediction of gene expression corresponding to cells in Whole Slide Image (WSI) pathology images.
 
 
 </div></div>
@@ -122,9 +128,11 @@ Under review in Nature Communications (Minor Revision)
 
 [Multi-scale hypergraph-based feature alignment network for cell localization](https://www.sciencedirect.com/science/article/pii/S0031320324000116) 
 
+[Code](https://github.com/Boom5426/MHFAN)
+
 **Bo Li**, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, Baocai Yin
 
-[Code](https://github.com/Boom5426/MHFAN)
+**Abstract**: For the first time, we approached the cell localization problem from the perspective of feature alignment and proposed a multi-scale hypergraph module. This module significantly improves accuracy by adaptively aggregating features at different levels.
 
 
 </div></div>
@@ -134,9 +142,11 @@ Under review in Nature Communications (Minor Revision)
 
 [Exponential distance transform maps for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197624001064?via%3Dihub) 
 
+[Code](https://github.com/Boom5426/MHFAN)
+
 **Bo Li**, Jie Chen, Hang Yi, Min Feng, Yongquan Yang, Qikui Zhu, and Hong Bu
 
-[Code](https://github.com/Boom5426/MHFAN)
+**Abstract**: To solve the challenge that existing density maps lose cell location information in dense regions, a new exponential distance transform map is proposed, which can provide accurate cell location information with reasonable gradients.
 
 </div></div>
 
