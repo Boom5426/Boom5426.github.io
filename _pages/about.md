@@ -75,9 +75,12 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 (2) Evaluating large foundation models in virtual cell tasks. 
 
 
-# 📝 Publications
-## ([See All](https://scholar.google.com/citations?hl=zh-CN&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate))
+# 🔥 News
+- *2025*: &nbsp;🎉🎉 happy everyday
 
+
+
+# 📝 Selected Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
