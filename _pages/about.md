@@ -151,7 +151,7 @@ Pattern Recognition 2024
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/EDT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Exponential distance transform maps for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197624001064?via%3Dihub) 
+[Exponential distance transform maps for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197624001064) 
 
 [Code](https://github.com/Boom5426/MHFAN)
 
@@ -165,10 +165,44 @@ Engineering Applications of Artificial Intelligence 2024
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/Lite_UNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Lite-UNet: A lightweight and efficient network for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197623018183) 
+
+[Code](https://github.com/Boom5426/Lite-UNet)
+
+**Bo Li**, Yong Zhang, ..., Baocai Yin
+
+Engineering Applications of Artificial Intelligence 2024
+
+**Abstract**: A lightweight and efficient cell localization model called Lite-UNet is proposed for quickly and accurately localizing cells in images to further improve the efficiency of computer-aided medicine.
+
+</div></div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/HACC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hypergraph Association Weakly Supervised Crowd Counting](https://dl.acm.org/doi/10.1145/3594670) 
+
+[Code](https://github.com/Boom5426/HACC-Hypergraph-Crowd-Counting)
+
+**Bo Li**, Yong Zhang, ..., Baocai Yin
+
+ACM Transactions on Multimedia Computing, Communications and Applications 2023
+
+**Abstract**: A novel hypergraph association module is proposed to solve the problem of uneven distribution of crowd density by encoding higher-order associations among features, which opens a new direction to solve this problem.
+
+</div></div>
+
+
+
 # 📖 Educations
 - *2024.08 – Present*: **University of Macau**
   
-  *- Major: Computer Science, Full Scholarship, Supervisors: [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/), [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/)*
+  *- Ph.D. candidate of Computer Science, Full Scholarship, Supervisors: [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/), [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/)*
 
 - *2021.09 - 2024.07*: **Beijing University of Technology**
   
@@ -182,11 +216,10 @@ Engineering Applications of Artificial Intelligence 2024
 
 # 🎖 Honors and Awards
 - *2024.07*: Top 100 Graduates of BJUT (Top 100/6331)
-- *2024.07*: Excellent Graduate of Beijing
+- *2024.07 & 2021.07*: Excellent Graduate of Beijing
 - *2023.10*: Xiaomi Scholarship
 - *2023.10 & 2022.10*:The First Prize Scholarship
 - *2022.10*: National Scholarship
-- *2021.07*: Excellent Graduate of Beijing
 - *2020.12*: The Second Prize of National Mathematics Competition
 
 
