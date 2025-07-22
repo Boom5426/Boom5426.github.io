@@ -87,7 +87,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 Under review in Nature Communications (Major Revision)
 
-**Abstract**: We achieved end-to-end cell image encoding with strong generalization performance at the image level, reducing inference time by approximately 40 times.
+**Abstract**: Achieving end-to-end cell image encoding for the first time in image perturbation feature extraction tasks, matching non-end-to-end encoding performance while reducing inference time by approximately 40 times.
 
 
 
@@ -118,7 +118,8 @@ Under review in Nature Communications (Minor Revision)
 
 **Bo Li**, Yong Zhang, Qing Wang, Chengyang Zhang, Mengran Li, Guangyu Wang, Qianqian Song
 
-**Abstract**: Construct a hypergraph using Euclidean distance and adjacent position weighting to exploit local correlations in cell images, enabling the prediction of gene expression corresponding to cells in Whole Slide Image (WSI) pathology images.
+**Abstract**: Constructing a hypergraph via Euclidean distance and adjacent position weighting to exploit local correlations in cell images, enabling gene expression prediction for cells in Whole Slide Image (WSI) pathology images.
+
 
 
 </div></div>
@@ -132,7 +133,8 @@ Under review in Nature Communications (Minor Revision)
 
 **Bo Li**, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, Baocai Yin
 
-**Abstract**: For the first time, we approached the cell localization problem from the perspective of feature alignment and proposed a multi-scale hypergraph module. This module significantly improves accuracy by adaptively aggregating features at different levels.
+**Abstract**: Rethinking the cell localization task from the perspective of feature alignment for the first time and proposing a multi-scale hypergraph module that significantly improves accuracy by adaptively aggregating multi-level features.
+
 
 
 </div></div>
@@ -146,7 +148,7 @@ Under review in Nature Communications (Minor Revision)
 
 **Bo Li**, Jie Chen, Hang Yi, Min Feng, Yongquan Yang, Qikui Zhu, and Hong Bu
 
-**Abstract**: To solve the challenge that existing density maps lose cell location information in dense regions, a new exponential distance transform map is proposed, which can provide accurate cell location information with reasonable gradients.
+**Abstract**: To address the challenge of existing density maps losing cell location information in dense regions, a new exponential distance transform map is proposed to provide accurate cell location information with reasonable gradients.
 
 </div></div>
 
