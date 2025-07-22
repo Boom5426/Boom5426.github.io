@@ -87,7 +87,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/SpaIM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/SpaIM.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/) 
@@ -100,7 +100,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics 2024</div><img src='../images/HGGEP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics 2024</div><img src='../images/HGGEP.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Gene Expression Prediction from Histology Images via Hypergraph Neural Networks](https://academic.oup.com/bib/article/25/6/bbae500/7821151) 
@@ -115,7 +115,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition 2024</div><img src='../images/MHFAN.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition 2024</div><img src='../images/MHFAN.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multi-scale hypergraph-based feature alignment network for cell localization](https://www.sciencedirect.com/science/article/pii/S0031320324000116) 
@@ -129,7 +129,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/EDT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/EDT.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Exponential distance transform maps for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197624001064?via%3Dihub) 
@@ -145,7 +145,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 # 📖 Educations
 - *2024.08 – Present*: **University of Macau**
   
-  *- Major: Computer Science, Full Scholarship*
+  *- Major: Computer Science, Full Scholarship, Supervisors: [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/), [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/)*
 
 - *2021.09 - 2024.07*: **Beijing University of Technology**
   
@@ -158,35 +158,22 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 
 # 🎖 Honors and Awards
-- *2025.07*: &nbsp;💰 SIGKDD-supported KDD 2025 *Student Travel Award* – 1,000 USD
-- *2024.07*:	Top 100 Graduates of BJUT, Top 100/6331
-	Excellent Graduate of Beijing, BISTU & BJUT                                09.2021 & 09.2023
-	National Scholarship, BJUT, Top 1%                                               10.2022
-	Xiaomi Scholarship, BJUT, Top 5%                                                     10.2023
-	The First Prize Scholarship, BJUT, Top 10%                                    10.2022 & 10.2023
-	The Second Prize of National Mathematics Competition, BISTU                            12.2020
-
+- *2024.07*: Top 100 Graduates of BJUT (Top 100/6331)
+- *2023.09*: Excellent Graduate of Beijing
+- *2023.10*: Xiaomi Scholarship
+- *2023.10 & 2022.10*:The First Prize Scholarship
+- *2022.10*: National Scholarship
+- *2021.07*: Excellent Graduate of Beijing
+- *2020.12*: The Second Prize of National Mathematics Competition
 
 
 
 # 💻 Work Experiences
-- *2025.07 – 2025.10*: &nbsp;🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, [Faculty of Computer Science](https://www.dal.ca/faculty/computerscience.html), Dalhousie University
-
-  *- Lab: [Dalhousie Applied Machine Learning Research Lab](https://web.cs.dal.ca/~gaw/), Collaborator: [Dr. Ga Wu](https://wuga214.github.io/)*
-  
-  *- Project: AI safety for recommender systems in social media services*
-  
-- *2024.11 – Present*: &nbsp;🇨🇳 *Research Intern*, Beijing Key Laboratory of Research on Large Models and Intelligent Governance
-- *2024.05 – 2024.09*: &nbsp;🇨🇳 *Research Intern*, Engineering Research Center of Next-Generation Intelligent Search and Recommendation, MOE
+- *2022.05 – 2023.06*: *Algorithm Intern: Biomedical Image Analysis*, West China Hospital.
 
 
 # 💼 Services
 - Artifact badging reviewer, KDD 2025
-
-
-# 🪽 Beyond Academics
-
-I love **music, literature, travel and badminton**. I am a **campus singer** at Renmin University of China and have been invited to participate in various concerts and music festivals at RUC. I am also a **musician at NetEase Cloud Music**, and my stage name is [艾诺 Ayinor](http://music.163.com/#/artist?id=36180214). Recently, I am also working on my own new song, so stay tuned!
 
 
 # 🌍 Visitor Map
@@ -194,17 +181,16 @@ I love **music, literature, travel and badminton**. I am a **campus singer** at 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=1838a3&w=400&t=tt&d=opzTPaTNgNUrWvD_vjzXkFUMNo05ptM6XPnZfkpH53E&co=ffffff&cmo=af1616&cmn=1fba1f&ct=000000'></script>
 
 
-
 <div class="logo-row">
-  <img src="../images/ruc_logo.png"      alt="">
-  <img src="../images/ucdavis_logo.png"  alt="">
-  <img src="../images/dal_logo.png"      alt="">
-  <img src="../images/mitacs_logo.png"      alt="">
+  <img src="../images/Bistu-logo.png"      alt="">
+  <img src="../images/Bjut-logo.png"  alt="">
+  <img src="../images/UM_logo.png"      alt="">
+  <img src="../images/huaxi-logo.png"      alt="">
 </div>
 
 
 <footer class="site-footer">
-  <p>&copy; 2025 Zhiyuan Su. All rights reserved.</p>
+  <p>&copy; 2025 Bo Li. All rights reserved.</p>
   <p>
     Template adapted from
     <a href="https://github.com/RayeRen/acad-homepage.github.io"
