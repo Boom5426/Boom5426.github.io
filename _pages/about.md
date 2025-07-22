@@ -182,7 +182,7 @@ Engineering Applications of Artificial Intelligence 2024
 
 # 🎖 Honors and Awards
 - *2024.07*: Top 100 Graduates of BJUT (Top 100/6331)
-- *2023.09*: Excellent Graduate of Beijing
+- *2024.07*: Excellent Graduate of Beijing
 - *2023.10*: Xiaomi Scholarship
 - *2023.10 & 2022.10*:The First Prize Scholarship
 - *2022.10*: National Scholarship
