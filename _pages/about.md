@@ -86,9 +86,9 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 [PhenoProfiler : Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)
 
-[Code](https://github.com/QSong-github/PhenoProfiler), [WebServer](https://phenoprofiler.org/)
+[Code](https://github.com/QSong-github/PhenoProfiler) | [WebServer](https://phenoprofiler.org/)
 
-**Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
+**Bo Li**, Bob Zhang, ..., Qianqian Song
 
 Under review in Nature Communications (Major Revision)
 
@@ -105,7 +105,7 @@ Under review in Nature Communications (Major Revision)
 
 [Code](https://github.com/QSong-github/SpaIM)
 
-**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
+**Bo Li**, Ziyang Tang, ..., Qianqian Song
 
 Under review in Nature Communications (Minor Revision)
 
@@ -121,7 +121,7 @@ Under review in Nature Communications (Minor Revision)
 
 [Code](https://github.com/QSong-github/HGGEP)
 
-**Bo Li**, Yong Zhang, Qing Wang, Chengyang Zhang, Mengran Li, Guangyu Wang, Qianqian Song
+**Bo Li**, Yong Zhang, ..., Qianqian Song
 
 Briefings in Bioinformatics 2024
 
@@ -138,7 +138,7 @@ Briefings in Bioinformatics 2024
 
 [Code](https://github.com/Boom5426/MHFAN)
 
-**Bo Li**, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, Baocai Yin
+**Bo Li**, Yong Zhang, ..., Baocai Yin
 
 Pattern Recognition 2024
 
@@ -155,7 +155,7 @@ Pattern Recognition 2024
 
 [Code](https://github.com/Boom5426/MHFAN)
 
-**Bo Li**, Jie Chen, Hang Yi, Min Feng, Yongquan Yang, Qikui Zhu, and Hong Bu
+**Bo Li**, Jie Chen, ..., and Hong Bu
 
 Engineering Applications of Artificial Intelligence 2024
 
