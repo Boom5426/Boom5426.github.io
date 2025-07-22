@@ -1,15 +1,20 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
+   SINGLE PAGE/POST (Style: Quiet Poetry)
+   Design Rationale: Create a spacious, elegant, and focused reading
+   experience by emphasizing typography, whitespace, and subtle details.
    ========================================================================== */
+
+// --- 1. Main Container & Page Structure --- //
 
 #main {
   @include container;
-  @include clearfix;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay: 0.35s;
+  // Use rhythmic, consistent padding. 24px is 3 * 8px base grid unit.
+  padding: 0 24px;
+  // Smoother, more elegant intro animation
+  animation: intro 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation-delay: 0.3s;
+  backface-visibility: hidden; // Improve animation performance
+  margin-top: 0; // Reset margin, control spacing with .page__inner-wrap
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -17,396 +22,238 @@
 }
 
 .page {
+  // On large screens, create a focused, comfortable reading width.
+  // This is crucial for premium typography.
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(0 of 12);
+    width: span(9 of 12); // A slightly narrower, more elegant column
+    margin-left: span(1.5 of 12);
   }
 
+  // The inner wrapper holds all content elements.
+  // Generous vertical spacing creates rhythm and breathability.
   .page__inner-wrap {
-    @include full();
-
-    .page__content,
-    .page__meta,
-    .page__share {
-      @include full();
-    }
+    padding: 48px 0;
   }
 }
 
-.page__title {
-  margin-top: 0;
-  line-height: 1;
 
-  & + .page__meta {
-    margin-top: -0.5em;
+// --- 2. Typography & Content Styling --- //
+
+.page__title {
+  font-family: $serif; // Use an elegant serif font for main titles
+  font-size: 2.8em; // A larger, more impactful title size
+  font-weight: 600; // Bold but not heavy
+  line-height: 1.2;
+  margin: 0 0 16px;
+  color: $text-color; // Use variable for consistency
+
+  @include breakpoint($medium) {
+    font-size: 3.5em;
   }
 }
 
 .page__lead {
-  font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-family: $serif; // Also serif, for a cohesive, book-like feel
+  font-size: 1.3em;
+  line-height: 1.6;
+  // Softer color for the lead paragraph to distinguish it from the body
+  color: mix($text-color, $background-color, 70%);
+  margin-bottom: 48px;
 }
 
 .page__content {
-  #about-me{
-    margin-top: -10em;
-      &:before { 
-        content: ''; 
-        display: block; 
-        position: relative; 
-        width: 0; 
-        height: 10em; 
-        margin-top: -10em;
-    }
-  }
-  h1 {
-    margin-top: 1em;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
-  }
+  color: $text-color;
 
+  // Base typography for highly readable content
   p, li, dl {
-    font-size: 1em;
+    font-family: $sans-serif;
+    font-size: 1.05em; // Slightly larger for comfort
+    line-height: 1.75; // Generous line-height is key to readability
+    margin: 0 0 24px;
   }
 
-  /* paragraph indents */
-  p {
-    margin: 0 0 $indent-var;
+  // Remove paragraph indents for a modern, clean look
+  p + p {
+    text-indent: 0;
+    margin-top: 0;
+  }
 
-    /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
-        text-indent: $indent-var;
-        margin-top: -($indent-var);
-      }
+  // Headings within the content
+  h1, h2, h3, h4 {
+    font-family: $serif;
+    margin: 64px 0 24px;
+    border-bottom: none; // Remove all harsh borders
+  }
+
+  h2 {
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 1.8em;
+
+    // The artistic accent line for key headings. Our design signature.
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 3px;
+      background: $accent-color; // Use a variable for the accent color
     }
   }
 
+  h3 {
+    font-size: 1.5em;
+  }
+
+  // Elegant link styling
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $accent-color;
+    transition: color 0.2s ease;
 
     &:hover {
+      color: mix($accent-color, $text-color, 70%);
       text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px; // Give the underline some space
     }
   }
 
-  dt {
-    margin-top: 1em;
-    font-family: $sans-serif;
-    font-weight: bold;
-  }
-
-  dd {
-    margin-left: 1em;
-    font-family: $sans-serif;
-    font-size: $type-size-6;
-  }
-
-  .small {
-    font-size: $type-size-6;
-  }
-
-  /* blockquote citations */
-  blockquote + .small {
-    margin-top: -1.5em;
-    padding-left: 1.25rem;
+  // Styling for specific elements like blockquotes
+  blockquote {
+    font-family: $serif;
+    font-style: italic;
+    font-size: 1.2em;
+    padding-left: 24px;
+    border-left: 2px solid $accent-color;
+    margin: 32px 0;
+    color: mix($text-color, $background-color, 80%);
   }
 }
 
-.page__hero {
+
+// --- 3. Hero Section (with overlay) --- //
+
+.page__hero--overlay {
   position: relative;
-  margin-bottom: 2em;
-  @include clearfix;
-  animation: intro 0.3s both;
-  animation-delay: 0.25s;
-
-  &--overlay {
-    position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
-    @include clearfix;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    animation: intro 0.3s both;
-    animation-delay: 0.25s;
-
-    a {
-      color: #fff;
-    }
-
-    .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
-
-      @include breakpoint($x-large) {
-        max-width: $x-large;
-      }
-    }
-
-    .page__title,
-    .page__meta,
-    .page__lead,
-    .btn {
-      color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
-    }
-
-    .page__lead {
-      max-width: $medium;
-    }
-
-    .page__title {
-      font-size: $type-size-2;
-
-      @include breakpoint($small) {
-        font-size: $type-size-1;
-      }
-    }
-  }
-}
-
-.page__hero-image {
-  width: 100%;
-  height: auto;
-  -ms-interpolation-mode: bicubic;
-}
-
-.page__hero-caption {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0 auto;
-  padding: 2px 5px;
+  padding: 6em 24px; // Use rhythmic padding
   color: #fff;
-  font-family: $caption-font-family;
-  font-size: $type-size-7;
-  background: #000;
-  text-align: right;
-  z-index: 5;
-  opacity: 0.5;
-  border-radius: $border-radius 0 $border-radius 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
 
-  @include breakpoint($large) {
-    padding: 5px 10px;
+  // Use a pseudo-element for a clean, non-intrusive overlay
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.4); // Dark overlay for text contrast
+    z-index: 1;
   }
 
-  a {
+  .wrapper {
+    position: relative;
+    z-index: 2;
+  }
+
+  .page__title, .page__lead, .page__meta, .btn {
     color: #fff;
-    text-decoration: none;
+    // Softer, more realistic shadow
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
   }
 }
 
-/*
-   Social sharing
-   ========================================================================== */
+// --- 4. Post Footer: Meta, Sharing & Taxonomy --- //
 
-.page__share {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
-
-  @include breakpoint(max-width $small) {
-    .btn span {
-      border: 0;
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-    }
-  }
+// A wrapper for all post-content meta information for better structure
+.post__footer {
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 1px solid $border-color; // A single, light separator
 }
 
-.page__share-title {
-  margin-bottom: 10px;
-  font-size: $type-size-6;
-  text-transform: uppercase;
-}
-
-
-/*
-   Page meta
-   ========================================================================== */
-
-.page__meta {
-  margin-top: 2em;
-  color: mix(#fff, $gray, 25%);
-  font-family: $sans-serif;
-  font-size: $type-size-6;
-
-  p {
-    margin: 0;
-  }
-
-  a {
-    color: inherit;
-  }
-}
-
-.page__meta-title {
-  margin-bottom: 10px;
-  font-size: $type-size-6;
-  text-transform: uppercase;
-}
-
-
-/*
-   Page taxonomy
-   ========================================================================== */
-
+.page__share,
+.page__meta,
 .page__taxonomy {
-  .sep {
-    display: none;
-  }
-
-  strong {
-    margin-right: 10px;
-  }
+  font-family: $sans-serif;
+  font-size: 0.85em;
+  color: mix($text-color, $background-color, 60%);
+  margin: 0 0 32px;
 }
 
+.page__share-title,
+.page__meta-title,
+.page__taxonomy strong {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: none; // No uppercase shouting for a calmer feel
+  letter-spacing: 0.5px;
+}
+
+// Clean, minimalist taxonomy tags
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
+  margin: 0 12px 12px 0;
+  padding: 0;
   text-decoration: none;
-  border: 1px solid $light-gray;
-  border-radius: $border-radius;
+  border: none; // No borders
+  background: none;
+  color: inherit;
+  transition: color 0.2s ease;
 
   &:hover {
+    color: $accent-color;
     text-decoration: none;
-    color: $link-color-hover;
+  }
+
+  // Add a # for a modern tag look, but make it subtle
+  &::before {
+    content: '#';
+    margin-right: 2px;
+    color: mix($text-color, $background-color, 40%);
   }
 }
 
 
-/*
-   Comments
-   ========================================================================== */
+// --- 5. Comments Section --- //
 
 .page__comments {
-  @include full();
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 1px solid $border-color; // Light separator
 }
 
 .page__comments-title {
-  margin-top: 2rem;
-  margin-bottom: 10px;
-  padding-top: 2rem;
-  font-size: $type-size-6;
-  border-top: 1px solid $border-color;
-  text-transform: uppercase;
-}
-
-.page__comments-form {
-  padding: 1em;
-  background: $lighter-gray;
-  transition: $global-transition;
-
-  &.disabled {
-    input,
-    button,
-    textarea,
-    label {
-      pointer-events: none;
-      cursor: not-allowed;
-      filter: alpha(opacity=65);
-      box-shadow: none;
-      opacity: 0.65;
-    }
-  }
+  font-family: $serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 32px;
+  border-top: none;
+  text-transform: none;
 }
 
 .comment {
-  @include clearfix();
-  margin: 1em 0;
-
-  &:not(:last-child) {
-    border-bottom: 1px solid $border-color;
-  }
-}
-
-.comment__avatar-wrapper {
-  float: left;
-  width: 60px;
-  height: 60px;
-
-  @include breakpoint($large) {
-    width: 100px;
-    height: 100px;
-  }
+  padding: 24px 0;
+  border-bottom: 1px solid $border-color;
 }
 
 .comment__avatar {
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
-
-  @include breakpoint($large) {
-    width: 80px;
-    height: 80px;
-    padding: 5px;
-    border: 1px solid $border-color;
-  }
-}
-
-.comment__content-wrapper {
-  float: right;
-  width: calc(100% - 60px);
-
-  @include breakpoint($large) {
-    width: calc(100% - 100px);
-  }
+  border: none; // Remove border
 }
 
 .comment__author {
+  font-weight: 600;
   margin: 0;
-
-  a {
-    text-decoration: none;
-  }
 }
 
 .comment__date {
-  @extend .page__meta;
-  margin: 0;
-
-  a {
-    text-decoration: none;
-  }
-}
-
-
-/*
-   Related
-   ========================================================================== */
-
-.page__related {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
-  @include clearfix();
-  float: left;
-
-  @include breakpoint($large) {
-    @include pre(2.5 of 12);
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-}
-
-.page__related-title {
-  margin-bottom: 10px;
-  font-size: $type-size-6;
-  text-transform: uppercase;
+  font-size: 0.8em;
+  color: mix($text-color, $background-color, 60%);
+  margin: 4px 0 0;
 }
