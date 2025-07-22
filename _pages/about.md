@@ -109,8 +109,6 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 [Code](https://github.com/QSong-github/HGGEP)
 
-</div></div>
-
 
 
 </div></div>
@@ -123,8 +121,6 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 **Bo Li**, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, Baocai Yin
 
 [Code](https://github.com/Boom5426/MHFAN)
-
-</div></div>
 
 
 </div></div>
