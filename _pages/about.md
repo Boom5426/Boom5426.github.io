@@ -134,7 +134,7 @@ Briefings in Bioinformatics 2024
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition 2024</div><img src='../images/MHFAN.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Multi-scale hypergraph-based feature alignment network for cell localization](https://www.sciencedirect.com/science/article/pii/S0031320324000116) 
+[Multi-scale Hypergraph-based Feature Alignment Network for Cell Localization](https://www.sciencedirect.com/science/article/pii/S0031320324000116) 
 
 [Code](https://github.com/Boom5426/MHFAN)
 
@@ -151,7 +151,7 @@ Pattern Recognition 2024
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/EDT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Exponential distance transform maps for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197624001064) 
+[Exponential Distance Transform Maps for Cell Localization](https://www.sciencedirect.com/science/article/pii/S0952197624001064) 
 
 [Code](https://github.com/Boom5426/MHFAN)
 
@@ -168,7 +168,7 @@ Engineering Applications of Artificial Intelligence 2024
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/Lite_Unet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Lite-UNet: A lightweight and efficient network for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197623018183) 
+[Lite-UNet: A Lightweight and Efficient Network for Cell Localization](https://www.sciencedirect.com/science/article/pii/S0952197623018183) 
 
 [Code](https://github.com/Boom5426/Lite-UNet)
 
@@ -182,7 +182,7 @@ Engineering Applications of Artificial Intelligence 2024
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/HACC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TOMM 2023</div><img src='../images/HACC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Hypergraph Association Weakly Supervised Crowd Counting](https://dl.acm.org/doi/10.1145/3594670) 
