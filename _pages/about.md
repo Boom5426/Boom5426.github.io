@@ -96,18 +96,55 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 [Code](https://github.com/QSong-github/SpaIM)
 
+
+
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/SpaIM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics 2024</div><img src='../images/HGGEP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/) 
+[Gene Expression Prediction from Histology Images via Hypergraph Neural Networks](https://academic.oup.com/bib/article/25/6/bbae500/7821151) 
 
-**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
+**Bo Li**, Yong Zhang, Qing Wang, Chengyang Zhang, Mengran Li, Guangyu Wang, Qianqian Song
 
-[Code](https://github.com/QSong-github/SpaIM)
+[Code](https://github.com/QSong-github/HGGEP)
 
 </div></div>
+
+
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition 2024</div><img src='../images/MHFAN.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Multi-scale hypergraph-based feature alignment network for cell localization](https://www.sciencedirect.com/science/article/pii/S0031320324000116) 
+
+**Bo Li**, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, Baocai Yin
+
+[Code](https://github.com/Boom5426/MHFAN)
+
+</div></div>
+
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI 2024</div><img src='../images/EDT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Exponential distance transform maps for cell localization](https://www.sciencedirect.com/science/article/pii/S0952197624001064?via%3Dihub) 
+
+**Bo Li**, Jie Chen, Hang Yi, Min Feng, Yongquan Yang, Qikui Zhu, and Hong Bu
+
+[Code](https://github.com/Boom5426/MHFAN)
+
+</div></div>
+
+
+
+
+
+
 
 # 🎖 Honors and Awards
 - *2025.07*: &nbsp;💰 SIGKDD-supported KDD 2025 *Student Travel Award* – 1,000 USD
