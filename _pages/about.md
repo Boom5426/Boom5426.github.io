@@ -69,7 +69,9 @@ Hi, I'm Bo Li, a Ph.D. student at the [University of Macau](https://www.um.edu.m
 
 
 My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & Cell Painting**. Recently, I am focusing on:  
+
 (1) modeling virtual cells with generative models; 
+
 (2) evaluating large foundation models in virtual cell tasks. 
 
 
