@@ -75,7 +75,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 (2) Evaluating large foundation models in virtual cell tasks. 
 
 
-# 📝 Selected Publications
+# 📝 Selected Publications ([All Papers](https://scholar.google.com/citations?hl=zh-CN&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -87,7 +87,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 Under review in Nature Communications (Major Revision)
 
-**Abstract**: Achieving end-to-end cell image encoding for the first time in image perturbation feature extraction tasks, matching non-end-to-end encoding performance while reducing inference time by approximately 40 times.
+**Abstract**: Achieving end-to-end cell image encoding for the first time in Image-based Phenotypic Drug Discovery tasks, with performance comparable to non-end-to-end encoding while reducing inference time by approximately 40 times.
 
 
 
