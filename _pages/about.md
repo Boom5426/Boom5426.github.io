@@ -98,6 +98,16 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 </div></div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/SpaIM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/) 
+
+**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
+
+[Code](https://github.com/QSong-github/SpaIM)
+
+</div></div>
 
 # 🎖 Honors and Awards
 - *2025.07*: &nbsp;💰 SIGKDD-supported KDD 2025 *Student Travel Award* – 1,000 USD
