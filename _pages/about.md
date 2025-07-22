@@ -81,7 +81,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 **Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
 
-[Code](https://github.com/QSong-github/PhenoProfiler)
+[Code](https://github.com/QSong-github/PhenoProfiler), [WebServer](https://phenoprofiler.org/)
 
 
 
@@ -142,29 +142,31 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 
 
+# 📖 Educations
+- *2024.08 – Present*: **University of Macau**
+  
+  *- Major: Computer Science, Full Scholarship*
 
+- *2021.09 - 2024.07*: **Beijing University of Technology**
+  
+  *- Master of Electronic Information, Supervisors: [Prof. Yong Zhang](https://sist.bjut.edu.cn/info/1403/2489.htm), [Prof. Baocai Yin](https://sist.bjut.edu.cn/info/1403/2487.htm)*
+
+- *2017.09 - 2021.07*: **Beijing University of Technology**
+  
+  *- Bachelor of Robotics Engineering, Supervisors: [Prof. Hongbo Huang](https://jsjxy.bistu.edu.cn/docs/2025-02/8d1313acd5814afd9f5d15f4b7b9403a.pdf)*
 
 
 
 # 🎖 Honors and Awards
 - *2025.07*: &nbsp;💰 SIGKDD-supported KDD 2025 *Student Travel Award* – 1,000 USD
-- *2025.06*: &nbsp;💰 *Presidential Scholarship* for Outstanding International Exchange – 40,000 CNY
-- *2025.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
-- *2025.01*: &nbsp;💰 Mitacs-CSC Co-sponsored Scholarship – 6,000 CAD
-- *2024.12*: &nbsp;🏆 *National Second Prize*, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
-- *2024.10*: &nbsp;🏆 *Second Prize*, Beijing Mathematical Contest in Modeling
-- *2024.10*: &nbsp;💰 *Second-class* Academic Scholarship – 3,000 CNY
-- *2024.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
-- *2024.04*: &nbsp;🎖 Outstanding Communist Youth League Member
+- *2024.07*:	Top 100 Graduates of BJUT, Top 100/6331
+	Excellent Graduate of Beijing, BISTU & BJUT                                09.2021 & 09.2023
+	National Scholarship, BJUT, Top 1%                                               10.2022
+	Xiaomi Scholarship, BJUT, Top 5%                                                     10.2023
+	The First Prize Scholarship, BJUT, Top 10%                                    10.2022 & 10.2023
+	The Second Prize of National Mathematics Competition, BISTU                            12.2020
 
-# 📖 Educations
-- *2025.01 – 2025.03*: &nbsp;🇺🇸 **Global Study Program, University of California, Davis**
-  
-  *- Major: Mathematics & Statistics, Graduated with Academic Perfection*
 
-- *2022.09 – Present*: &nbsp;🇨🇳 **Gaoling School of Artificial Intelligence, Renmin University of China**
-  
-  *- Bachelor of Engineering in Artificial Intelligence, Supervisors: [Dr. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Dr. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)*
 
 
 # 💻 Work Experiences
