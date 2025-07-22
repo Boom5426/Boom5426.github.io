@@ -76,13 +76,12 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 # 📝 Selected Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-  
-[PhenoProfiler : Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)
+
+[PhenoProfiler : Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)[Code](https://github.com/QSong-github/PhenoProfiler)
 
 **Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
 
-# - *Accepted at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025* <span class="rucred">Oral</span>
-# - [**<span style="color:#548656">Watch our promotional video on YouTube!</span>**](https://www.youtube.com/watch?v=lATSWn7t_Xc)
+
 
 </div>
 </div>
@@ -90,11 +89,10 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/SpaIM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/)
+[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/)[Code](https://github.com/QSong-github/SpaIM)
 
 **Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
 
-# - *Accepted at ACM The Web Conference (WWW) 2025* <span class="rucred">Poster</span>
 
 </div>
 </div>
