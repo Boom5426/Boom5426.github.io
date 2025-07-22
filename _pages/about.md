@@ -65,46 +65,36 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Bo Li, a Ph.D. student at the [University of Macau](https://www.um.edu.mo/), supervised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/). My research is co-supported by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) from the [University of Florida](https://www.ufl.edu/), where I collaborate on interdisciplinary projects at the intersection of Computational Biology & AI Virtual Cell.
-
-My research interests focus on **deep reinforcement learning, online learning, continual learning, recommender system, and computational advertising**. Recently, I am focusing on:  
-(1) sequential bidding ranking algorithms;  
-(2) machine unlearning in generative recommendation.  
-My research aims to build **intelligent systems that are elegant in theory and effective in practice**, and provide credible solutions to the urgent needs of contemporary society.
+Hi, I'm Bo Li, a Ph.D. student at the [University of Macau](https://www.um.edu.mo/), supervised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/). My research is co-supported by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) from the [University of Florida](https://www.ufl.edu/), where I collaborate on interdisciplinary projects at the intersection of **AI Virtual Cell**.
 
 
-# 🔥 News
-- *2025.07.08*: &nbsp;🎉 Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!
-- *2025.06.30*: &nbsp;🎉 Received the presidential scholarship of **40,000 CNY** for being an outstanding exchange student at UC Davis.
-- *2025.06.06*: &nbsp;🎉 Received a pre-departure scholarship of **3,600 CAD** from China Scholarship Council!
-- *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits was accepted by **KDD 2025 Research Track**. Congratulations to myself on my **first first-author paper**!
-- *2025.03.25*: &nbsp;🎉 Completed Global Study Program at UC Davis and achieve **Academic Perfection**.
-- *2025.02.03*: &nbsp;🎉 A paper about intergrating ad auctions and recommendations was accepted by **WWW 2025**. Congratulations to myself!
-- *2024.12.10*: &nbsp;🎉 Admitted to the Mitacs Globalink Research Internship **full-scholarship** summer research program.
+My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & Cell Painting**. Recently, I am focusing on:  
+(1) modeling virtual cells with generative models; 
+(2) evaluating large foundation models in virtual cell tasks. 
 
 
-# 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='../images/SeRe.png' alt="sym" width="100%"></div></div>
+# 📝 Selected Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://arxiv.org/pdf/2506.12389)
+[PhenoProfiler : Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)
 
-**Zhiyuan Su**, Sunhao Dai, Xiao Zhang
+**Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
 
-- *Accepted at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025* <span class="rucred">Oral</span>
-- [**<span style="color:#548656">Watch our promotional video on YouTube!</span>**](https://www.youtube.com/watch?v=lATSWn7t_Xc)
+# - *Accepted at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025* <span class="rucred">Oral</span>
+# - [**<span style="color:#548656">Watch our promotional video on YouTube!</span>**](https://www.youtube.com/watch?v=lATSWn7t_Xc)
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='../images/TICNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/SpaIM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
+[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/)
 
-Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
+**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
 
-- *Accepted at ACM The Web Conference (WWW) 2025* <span class="rucred">Poster</span>
+# - *Accepted at ACM The Web Conference (WWW) 2025* <span class="rucred">Poster</span>
 
 </div>
 </div>
