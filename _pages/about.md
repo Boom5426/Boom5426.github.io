@@ -65,7 +65,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Zhiyuan Su. I am currently a **senior** undergraduate at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03). Now I am also a visiting research student at [Dalhousie University](https://www.dal.ca/) (2025.07 -- 2025.10), co-sponsored by [Mitacs, Canada](https://www.mitacs.ca/) and [China Scholarship Council](https://www.csc.edu.cn/).
+Hi, I'm Bo Li, a Ph.D. student at the [University of Macau](https://www.um.edu.mo/), supervised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/). My research is co-supported by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) from the [University of Florida](https://www.ufl.edu/), where I collaborate on interdisciplinary projects at the intersection of Computational Biology & AI Virtual Cell.
 
 My research interests focus on **deep reinforcement learning, online learning, continual learning, recommender system, and computational advertising**. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
