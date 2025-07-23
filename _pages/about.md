@@ -234,10 +234,6 @@ Reviewer: **Science Advances**, Briefings in Bioinformatics, BMC Biology, Engine
 
 # 🌍 Visitor Map
 
-<div style="width: 60%; max-width: 800px; margin: 0 auto;">
-  <script type='text/javascript' id='clustrmaps' style="display: block; width: 60%;" src='//cdn.clustrmaps.com/map_v2.js?cl=1838a3&w=400&t=tt&d=opzTPaTNgNUrWvD_vjzXkFUMNo05ptM6XPnZfkpH53E&co=ffffff&cmo=af1616&cmn=1fba1f&ct=000000'></script>
-</div>
-
 
 <div class="logo-row">
   <img src="../images/Bistu-logo.png"      alt="">
