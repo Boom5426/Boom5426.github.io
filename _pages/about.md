@@ -234,9 +234,9 @@ Reviewer: **Science Advances**, Briefings in Bioinformatics, BMC Biology, Engine
 
 # 🌍 Visitor Map
 
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <div style="width: 60%; max-width: 800px; height: 400px; overflow: hidden; border: 1px solid #eee; border-radius: 4px;">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=0zou2ciiYKWjym8xX1rNTExGh6V2Wkf-pe87Y6eESIE&cl=ffffff&w=a"></script>
+<div style="width: 100%; max-width: 600px; margin: 20px auto; overflow: hidden; border: 1px solid #f0f0f0; border-radius: 6px;">
+  <div style="padding-top: 75%; position: relative; height: 0;">
+    <script type='text/javascript' id='clustrmaps' style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src='//cdn.clustrmaps.com/map_v2.js?cl=1838a3&w=400&t=tt&d=opzTPaTNgNUrWvD_vjzXkFUMNo05ptM6XPnZfkpH53E&co=ffffff&cmo=af1616&cmn=1fba1f&ct=000000'></script>
   </div>
 </div>
 
