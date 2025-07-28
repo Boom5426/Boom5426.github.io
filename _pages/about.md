@@ -72,7 +72,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 (1) Modeling virtual cells with generative models; 
 
-(2) Evaluating large foundation models in virtual cell tasks. 
+(2) Building large foundation models in virtual cell tasks. 
 
 
 # 🔥 News
