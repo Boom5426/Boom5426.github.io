@@ -107,7 +107,7 @@ Under review in Nature Communications (Major Revision)
 
 **Bo Li**, Ziyang Tang, ..., Qianqian Song
 
-Under review in Nature Communications (Minor Revision)
+Nature Communications 2025 (In Press)
 
 **Abstract**: Predicting unmeasured gene expression in spatial transcriptomics (ST) using single-cell RNA sequencing (scRNA-seq) and achieving state-of-the-art (SOTA) performance in cross-modal imputation based on style transfer concepts.
 
