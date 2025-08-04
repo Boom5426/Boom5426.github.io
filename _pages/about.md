@@ -90,7 +90,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 **Bo Li**, Bob Zhang, ..., Qianqian Song
 
-Under review in Nature Communications (Major Revision)
+Under review in Nature Communications (Minor Revision)
 
 **Abstract**: Achieving end-to-end cell image encoding for the first time in Image-based Phenotypic Drug Discovery tasks, with performance comparable to non-end-to-end encoding while reducing inference time by approximately 40 times.
 
