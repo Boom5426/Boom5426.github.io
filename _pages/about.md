@@ -101,13 +101,13 @@ Under review in Nature Communications (Minor Revision)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='../images/SpaIM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://pmc.ncbi.nlm.nih.gov/articles/PMC11838188/) 
+[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9) 
 
 [Code](https://github.com/QSong-github/SpaIM)
 
 **Bo Li**, Ziyang Tang, ..., Qianqian Song
 
-Nature Communications 2025 (In Press)
+Nature Communications 2025
 
 **Abstract**: Predicting unmeasured gene expression in spatial transcriptomics (ST) using single-cell RNA sequencing (scRNA-seq) and achieving state-of-the-art (SOTA) performance in cross-modal imputation based on style transfer concepts.
 
