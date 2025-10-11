@@ -81,7 +81,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 
 # 📝 Selected Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PhenoProfiler: Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)
@@ -90,7 +90,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 
 **Bo Li**, Bob Zhang, ..., Qianqian Song
 
-Under review in Nature Communications (Minor Revision)
+Nature Communications 2025
 
 **Abstract**: Achieving end-to-end cell image encoding for the first time in Image-based Phenotypic Drug Discovery tasks, with performance comparable to non-end-to-end encoding while reducing inference time by approximately 40 times.
 
