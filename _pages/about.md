@@ -75,6 +75,8 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 (2) Building large foundation models in virtual cell tasks. 
 
 
+📫 How to reach me: yc47955@um.edu.mo | WeChat: Boom_5426
+
 # 🔥 News
 - *2025*: &nbsp;🎉🎉 happy everyday
 
