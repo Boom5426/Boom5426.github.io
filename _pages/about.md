@@ -86,7 +86,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='../images/PhenoProfiler.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PhenoProfiler: Advancing Morphology Representations for Image-based Drug Discovery](https://arxiv.org/abs/2502.19568)
+[PhenoProfiler: Advancing Morphology Representations for Image-based Drug Discovery](https://www.nature.com/articles/s41467-025-67479-w)
 
 [Code](https://github.com/QSong-github/PhenoProfiler), [WebServer](https://phenoprofiler.org/)
 
