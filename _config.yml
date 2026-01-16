@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Bo Li 李波"
-  avatar           : "images/CV_me1.jpg"
+  avatar           : "images/CV_me.jpg"
   bio              : "Pattern Analysis and Machine Intelligence (PAMI) Research Group, University of Macau"
   location         : "Macau"
   employer         :
