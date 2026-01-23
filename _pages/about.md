@@ -78,7 +78,7 @@ My research interests focus on **AI Virtual Cell & Phenotypic Drug Discovery & C
 📫 How to reach me: yc47955@um.edu.mo | WeChat: Boom_5426
 
 # 🔥 News
-- *2025*: &nbsp;🎉🎉 happy everyday
+- *2026*: &nbsp;🎉🎉 happy everyday
 
 
 
