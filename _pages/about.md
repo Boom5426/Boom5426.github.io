@@ -65,7 +65,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Bo Li, a Ph.D. student at the [University of Macau](https://www.um.edu.mo/), supervised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/). My research is co-supervised by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) from the [University of Florida](https://www.ufl.edu/), where I collaborate on interdisciplinary projects at the intersection of **AI Virtual Cell**. My research interests focus on **AI Virtual Cell & Virtual Organoid & Phenotypic Drug Discovery**. 
+Hi, I'm Bo Li, a Ph.D. student at the [University of Macau](https://www.um.edu.mo/), supervised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/). My research is co-supervised by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) from the [University of Florida](https://www.ufl.edu/). My work sits at the intersection of **AI for biomedicine** and **agent systems**, with current interests in **virtual cell**, **phenotypic drug discovery**, **biomedical knowledge retrieval**, and related AI systems for data-driven biological discovery.
 
 📫 How to reach me: yc47955@um.edu.mo | WeChat: Boom_5426
 
