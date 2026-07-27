@@ -102,10 +102,10 @@ I am always open to collaborations on virtual cell modeling, phenotypic drug dis
 
 # 🔥 News
 - *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
-- *2026.05*: &nbsp;📄 **CellScientist**, a dual-space hierarchical agent framework for closed-loop refinement of virtual cell models, is on [arXiv](https://arxiv.org/abs/2605.07335) (co-author).
-- *2026.04*: &nbsp;🧬 **MVCBench**, our multimodal benchmark for drug-induced virtual cell phenotypes, is on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1).
-- *2026.01*: &nbsp;🎉 *Permutation-Consistent Variational Encoding for Incomplete Multi-View Multi-Label Classification* accepted at **ICLR 2026** (co-author).
-- *2025.12*: &nbsp;🎉 **PhenoProfiler** published in [***Nature Communications***](https://www.nature.com/articles/s41467-025-67479-w) (Nat Commun **17**, 793, 2026).
+- *2026.05*: &nbsp;📄 **CellScientist** preprint released on [arXiv](https://arxiv.org/abs/2605.07335) (co-author).
+- *2026.04*: &nbsp;🧬 **MVCBench** preprint released on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1).
+- *2026.01*: &nbsp;🎉 One paper accepted at **ICLR 2026** (co-author).
+- *2025.12*: &nbsp;🎉 **PhenoProfiler** published in [***Nature Communications***](https://www.nature.com/articles/s41467-025-67479-w).
 - *2025.08*: &nbsp;🎉 **SpaIM** published in [***Nature Communications***](https://www.nature.com/articles/s41467-025-63185-9).
 
 # 📝 Selected Publications
