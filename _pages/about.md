@@ -112,6 +112,19 @@ I am always open to collaborations on virtual cell modeling, phenotypic drug dis
 
 Five representative works below. The complete list, including eight first-author journal papers, is on [Google Scholar](https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate).
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='../images/MVCBench.png' alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="100%" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
+
+**Bo Li**, Qing Wang, Shihang Wang, Bob Zhang, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song
+
+<span class="venue">bioRxiv</span> 2026 &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
+
+**TL;DR**: A systematic benchmark of 24 drug-molecular and gene representation methods across ~1.1M drug-induced profiles. It exposes a modality-dependent asymmetry: advanced molecular representations substantially help morphological phenotype prediction but barely beat classical fingerprints for transcriptomic response, where task-specific gene representations outperform general-purpose foundation models.
+
+</div></div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2026</div><img src='../images/PhenoProfiler.png' alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="100%" loading="lazy"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -135,19 +148,6 @@ Five representative works below. The complete list, including eight first-author
 <span class="venue">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM)
 
 **TL;DR**: Recasts cross-modal imputation as style transfer, separating data-agnostic gene-expression "content" from platform-specific "style" to predict unmeasured genes in spatial transcriptomics from scRNA-seq. Across 53 datasets spanning sequencing- and imaging-based platforms, it consistently outperforms 12 state-of-the-art methods in gene coverage and expression accuracy.
-
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='../images/MVCBench.png' alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="100%" loading="lazy"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
-
-**Bo Li**, Qing Wang, Shihang Wang, Bob Zhang, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song
-
-<span class="venue">bioRxiv</span> 2026 &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
-
-**TL;DR**: A systematic benchmark of 24 drug-molecular and gene representation methods across ~1.1M drug-induced profiles. It exposes a modality-dependent asymmetry: advanced molecular representations substantially help morphological phenotype prediction but barely beat classical fingerprints for transcriptomic response, where task-specific gene representations outperform general-purpose foundation models.
 
 </div></div>
 
@@ -223,7 +223,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 # 💼 Academic Service
 
-**Journal reviewer**: *Science Advances*, IEEE TIP, IEEE TNNLS, IEEE TCE, IEEE TSMCS, Medical Image Analysis, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, CAAI Transactions on Intelligence Technology, Artificial Intelligence Review, Knowledge-Based Systems, IET Image Processing.
+**Journal reviewer**: *Science Advances*, IEEE TIP, IEEE TNNLS, IEEE TCE, IEEE TSMCS, Medical Image Analysis, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Knowledge-Based Systems, CAAI Transactions on Intelligence Technology, and Artificial Intelligence Review.
 
 **Collaborations**: Purdue University, Cornell University, University of Florida, National University of Singapore, Sun Yat-sen University, Sichuan University, Beijing University of Technology, and Macao Polytechnic University.
 
