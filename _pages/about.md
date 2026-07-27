@@ -77,7 +77,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm **Bo Li (李波)**, a Ph.D. student in Computer Science at the [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/) and co-advised by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) (University of Florida). Since June 2026 I have been a visiting student at the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
+Hi, I'm **Bo Li (李波)**, a Ph.D. student in Computer Science at the [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/) and co-advised by [Prof. Qianqian Song](https://qsong-github.github.io/SongLab/) (Purdue University). Since June 2026 I have been a visiting student at the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 
 I build **multimodal virtual cell models**: systems that learn how cells respond to drugs across morphology, transcriptomics, and molecular structure, together with the **agent systems** that turn such models into automated scientific discovery. My work has moved along one continuous line, from perceiving cell phenotypes in images, to aligning them with molecular readouts, to benchmarking and orchestrating virtual cell models end to end.
 
@@ -89,14 +89,14 @@ I build **multimodal virtual cell models**: systems that learn how cells respond
 </div>
 
 <div class="link-row">
-  <a class="link-btn" href="mailto:yc47955@um.edu.mo">Email</a>
+  <a class="link-btn" href="mailto:Boom985426@gmail.com">Email</a>
   <a class="link-btn ghost" href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ">Google Scholar</a>
   <a class="link-btn ghost" href="https://github.com/Boom5426">GitHub</a>
   <a class="link-btn ghost" href="https://orcid.org/0000-0003-0608-1502">ORCID</a>
   <a class="link-btn ghost" href="{{ site.baseurl }}/files/CV_Bo_Li.pdf">CV (PDF)</a>
 </div>
 
-📫 **Contact**: yc47955@um.edu.mo &nbsp;·&nbsp; Boom985426@gmail.com &nbsp;·&nbsp; WeChat: Boom_5426
+📫 **Contact**: Boom985426@gmail.com &nbsp;·&nbsp; WeChat: Boom_5426
 
 I am always open to collaborations on virtual cell modeling, phenotypic drug discovery, and agentic systems for science. Feel free to reach out.
 
@@ -104,7 +104,7 @@ I am always open to collaborations on virtual cell modeling, phenotypic drug dis
 - *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 - *2026.05*: &nbsp;📄 **CellScientist**, a dual-space hierarchical agent framework for closed-loop refinement of virtual cell models, is on [arXiv](https://arxiv.org/abs/2605.07335) (co-author).
 - *2026.04*: &nbsp;🧬 **MVCBench**, our multimodal benchmark for drug-induced virtual cell phenotypes, is on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1).
-- *2026*: &nbsp;🎉 *Permutation-Consistent Variational Encoding for Incomplete Multi-View Multi-Label Classification* accepted at **ICLR 2026** (co-author).
+- *2026.01*: &nbsp;🎉 *Permutation-Consistent Variational Encoding for Incomplete Multi-View Multi-Label Classification* accepted at **ICLR 2026** (co-author).
 - *2025.12*: &nbsp;🎉 **PhenoProfiler** published in [***Nature Communications***](https://www.nature.com/articles/s41467-025-67479-w) (Nat Commun **17**, 793, 2026).
 - *2025.08*: &nbsp;🎉 **SpaIM** published in [***Nature Communications***](https://www.nature.com/articles/s41467-025-63185-9).
 
@@ -198,7 +198,7 @@ Research code and community resources, **700+ GitHub stars** in total.
 
 - *2024.08 – Present*: **University of Macau**
 
-  *- Ph.D. in Computer Science, Full Scholarship. Advisors: [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/), [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/)*
+  *- Ph.D. in Computer Science, Full Scholarship. Advisors: [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/), [Prof. Qianqian Song](https://qsong-github.github.io/SongLab/)*
 
 - *2021.09 – 2024.07*: **Beijing University of Technology**
 
