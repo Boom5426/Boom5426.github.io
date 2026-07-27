@@ -7,7 +7,10 @@
 
 # Site Settings
 title                    : "Bo Li 李波"
-description              : # "\"Everything that rises must converge.\""
+tagline                  : "Multimodal Virtual Cell Modeling and Agent Systems"
+description              : "Ph.D. student in Computer Science at the University of Macau, visiting the School of Computing, NUS. I work on multimodal virtual cell modeling, phenotypic drug discovery, and agent systems for scientific discovery."
+url                      : "https://boom5426.github.io"
+baseurl                  : ""
 repository               : "Boom5426/Boom5426.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,11 +26,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Bo Li 李波"
   avatar           : "images/CV_me.jpg"
-  bio              : "Pattern Analysis and Machine Intelligence (PAMI) Research Group, University of Macau"
-  location         : "Macau"
+  bio              : "Ph.D. student, PAMI Research Group, University of Macau · Visiting student, School of Computing, NUS"
+  location         : "Singapore / Macau"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "yc47955@um.edu.mo"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :

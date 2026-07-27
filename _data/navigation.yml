@@ -6,20 +6,23 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Selected Publications"
+  - title: "Publications"
     url: "/#-selected-publications"
 
-  - title: "Honors and Awards"
+  - title: "Open Source"
+    url: "/#-open-source"
+
+  - title: "Education"
+    url: "/#-education"
+
+  - title: "Experience"
+    url: "/#-research-and-work-experience"
+
+  - title: "Honors"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Service"
+    url: "/#-academic-service"
 
-  - title: "Work Experiences"
-    url: "/#-work-experiences"
-
-  - title: "Services"
-    url: "/#-services"
-
-  - title: "Visitor Map"
-    url: "/#-visitor-map"
+  - title: "CV"
+    url: "/files/CV_Bo_Li.pdf"
