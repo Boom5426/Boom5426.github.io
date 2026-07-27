@@ -1,18 +1,29 @@
 <script>
+    // Fills in live Google Scholar numbers if, and only if, the page contains
+    // the elements that display them:
+    //   #total_cit                  -> total citation count
+    //   .show_paper_citations[data]  -> per-paper count, keyed by author_pub_id
+    // Both are optional, so the page renders fine when neither is present.
     $(document).ready(function () {
+        var totalCitEl = document.getElementById('total_cit');
+        var citationEles = document.getElementsByClassName('show_paper_citations');
+        if (!totalCitEl && citationEles.length === 0) {
+            return;
+        }
         {% if site.google_scholar_stats_use_cdn %}
         var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
+            if (totalCitEl) {
+                totalCitEl.innerHTML = data['citedby'];
+            }
             Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+                var paper = data['publications'][element.getAttribute('data')];
+                if (paper) {
+                    element.innerHTML = '| Citations: ' + paper['num_citations'];
+                }
             });
         });
     })

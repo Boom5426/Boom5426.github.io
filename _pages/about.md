@@ -9,28 +9,6 @@ redirect_from:
 ---
 
 <style>
-  /* --- inline chips used in the bio / stat row --- */
-  .chip-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .5rem;
-    margin: 1rem 0 .5rem;
-  }
-  .chip {
-    display: inline-block;
-    padding: 3px 10px;
-    border-radius: 999px;
-    font-size: .8em;
-    font-weight: 600;
-    line-height: 1.6;
-    background-color: #f0f3f9;
-    color: #00369f;
-    border: 1px solid #d8e0ee;
-    white-space: nowrap;
-  }
-  .chip a { color: inherit; text-decoration: none; }
-  .chip a:hover { text-decoration: underline; }
-
   /* --- "contact / profile link" buttons under the intro --- */
   .link-row {
     display: flex;
@@ -99,7 +77,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm **Bo Li (李波)**, a Ph.D. student in Computer Science at the [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/) and co-advised by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) (University of Florida). Since June 2026 I have been a visiting student at the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/), hosted by Prof. Yang Zhang.
+Hi, I'm **Bo Li (李波)**, a Ph.D. student in Computer Science at the [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/) and co-advised by [Prof. Qianqian Song](https://hobi.med.ufl.edu/profile/song-qianqian/) (University of Florida). Since June 2026 I have been a visiting student at the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 
 I build **multimodal virtual cell models**: systems that learn how cells respond to drugs across morphology, transcriptomics, and molecular structure, together with the **agent systems** that turn such models into automated scientific discovery. My work has moved along one continuous line, from perceiving cell phenotypes in images, to aligning them with molecular readouts, to benchmarking and orchestrating virtual cell models end to end.
 
@@ -108,13 +86,6 @@ I build **multimodal virtual cell models**: systems that learn how cells respond
   <span class="step">Cross-modal understanding</span><span class="sep">→</span>
   <span class="step">Multimodal virtual cell modeling</span><span class="sep">→</span>
   <span class="step">Multi-agent scientific systems</span>
-</div>
-
-<div class="chip-row">
-  <span class="chip">8 first-author journal papers</span>
-  <span class="chip">2 × Nature Communications</span>
-  <span class="chip"><a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ">Citations: <span id='total_cit'>520+</span></a></span>
-  <span class="chip"><a href="https://github.com/Boom5426">700+ GitHub stars</a></span>
 </div>
 
 <div class="link-row">
@@ -130,7 +101,7 @@ I build **multimodal virtual cell models**: systems that learn how cells respond
 I am always open to collaborations on virtual cell modeling, phenotypic drug discovery, and agentic systems for science. Feel free to reach out.
 
 # 🔥 News
-- *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by Prof. Yang Zhang.
+- *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 - *2026.05*: &nbsp;📄 **CellScientist**, a dual-space hierarchical agent framework for closed-loop refinement of virtual cell models, is on [arXiv](https://arxiv.org/abs/2605.07335) (co-author).
 - *2026.04*: &nbsp;🧬 **MVCBench**, our multimodal benchmark for drug-induced virtual cell phenotypes, is on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1).
 - *2026*: &nbsp;🎉 *Permutation-Consistent Variational Encoding for Incomplete Multi-View Multi-Label Classification* accepted at **ICLR 2026** (co-author).
@@ -148,7 +119,7 @@ Five representative works below. The complete list, including eight first-author
 
 **Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
 
-<span class="venue">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [Web server](https://phenoprofiler.org/) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
+<span class="venue">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
 
 **TL;DR**: The first end-to-end encoder for image-based phenotypic drug discovery. It replaces the conventional multi-step segmentation-and-feature-extraction pipeline with a single model, evaluated on ~400K high-content images and 8.42M single-cell images, improving accuracy and robustness by up to 20% over prior methods while cutting inference time by roughly 40×.
 
@@ -215,7 +186,7 @@ Research code and community resources, **700+ GitHub stars** in total.
 | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Agent skills for drafting, revising, auditing, and resubmitting Nature-style manuscripts | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Nature-Paper-Skills?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Nature-Paper-Skills) |
 | [Awesome-Virtual-Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | Papers, datasets, benchmarks, and community resources for AI virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Awesome-Virtual-Cell) |
 | [Awesome-Phenotypic-Drug-Discovery](https://github.com/Boom5426/Awesome-Phenotypic-Drug-Discovery) | Curated resources for phenotypic drug discovery | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Phenotypic-Drug-Discovery?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Awesome-Phenotypic-Drug-Discovery) |
-| [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | End-to-end phenotypic profiling, with a public [web server](https://phenoprofiler.org/) | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/PhenoProfiler) |
+| [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | End-to-end phenotypic profiling for image-based drug discovery | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/PhenoProfiler) |
 | [SpaIM](https://github.com/QSong-github/SpaIM) | Style-transfer imputation for spatial transcriptomics | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/SpaIM?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/SpaIM) |
 | [MHFAN](https://github.com/Boom5426/MHFAN) | Multi-scale hypergraph feature alignment for cell localization | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/MHFAN?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/MHFAN) |
 | [UM_CS_QE](https://github.com/Boom5426/UM_CS_QE) | Study resources for the University of Macau CIS Ph.D. qualifying exam | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/UM_CS_QE?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/UM_CS_QE) |
@@ -223,7 +194,7 @@ Research code and community resources, **700+ GitHub stars** in total.
 # 📖 Education
 - *2026.06 – 2027.06*: **National University of Singapore**
 
-  *- Visiting Student, School of Computing. Host: Prof. Yang Zhang*
+  *- Visiting Student, School of Computing. Host: [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
 
 - *2024.08 – Present*: **University of Macau**
 
@@ -236,26 +207,6 @@ Research code and community resources, **700+ GitHub stars** in total.
 - *2017.09 – 2021.07*: **Beijing Information Science & Technology University**
 
   *- B.Eng. in Robotics Engineering. Advisor: [Prof. Hongbo Huang](https://jsjxy.bistu.edu.cn/docs/2025-02/8d1313acd5814afd9f5d15f4b7b9403a.pdf)*
-
-# 💻 Research and Work Experience
-
-**Multimodal Virtual Cell Modeling and Benchmarking** &nbsp;·&nbsp; *2024.06 – Present*
-- Study drug-induced cellular phenotypes through multimodal virtual cell modeling, focusing on cross-modal alignment between morphology, transcriptomics, and biological function.
-- Built **MVCBench** to evaluate molecular and gene foundation models for virtual cell phenotype prediction.
-- Connected phenotype representation learning (**PhenoProfiler**) with autonomous virtual cell modeling (**CellScientist**) into a coherent line from phenotype understanding to multimodal benchmarking.
-
-**DrugClaw: Multi-Agent System for Drug Knowledge Reasoning** &nbsp;·&nbsp; *2026.01 – 2026.05*
-- Developed a workflow-native agentic RAG system for drug research, targeting traceable evidence integration, multi-step reasoning, and executable scientific workflows.
-- Designed core modules for sandboxed code execution, multi-agent coordination, evidence synthesis, and confidence scoring; hardened reliability through input standardization, exception handling, and fallback design.
-- Generalized the system into a reusable framework covering 57 skills and 15 drug-research task types.
-
-**Cell Image Understanding and Spatial Omics Modeling** &nbsp;·&nbsp; *2022.05 – 2024.08*
-- Developed multimodal methods linking biomedical images to molecular readouts, covering spatial transcriptomics imputation and image-based gene expression prediction.
-- Built **SpaIM**, a style-transfer framework for single-cell spatial transcriptomics imputation.
-- Introduced hypergraph neural networks to model higher-order structure in image-based gene expression prediction.
-
-**Algorithm Intern, Biomedical Image Analysis** &nbsp;·&nbsp; West China Hospital, Sichuan University &nbsp;·&nbsp; *2022.05 – 2023.06*
-- Worked on cell localization and counting for clinical pathology images, contributing methods later published in *Engineering Applications of Artificial Intelligence*.
 
 # 🎖 Honors and Awards
 - *2024*: Ph.D. Scholarship, University of Macau

@@ -20,8 +20,9 @@ Other things worth knowing:
 
 ## Google Scholar citation count
 
-The citation number on the homepage is fetched at page load from the
-`google-scholar-stats` branch, which
+The homepage does not currently display a citation count. The machinery is still in place:
+add an element with `id="total_cit"` to `about.md` and it will be filled in at page load from
+the `google-scholar-stats` branch, which
 [`.github/workflows/google_scholar_crawler.yaml`](.github/workflows/google_scholar_crawler.yaml)
 refreshes daily via [`scholarly`](https://github.com/scholarly-python-package/scholarly).
 
@@ -29,9 +30,9 @@ The profile id defaults to the one in the workflow; override it with a repositor
 `GOOGLE_SCHOLAR_ID` (Settings → Secrets and variables → Actions).
 
 Google throttles scraping from shared CI addresses, so runs can fail. That is handled by design:
-the workflow fails loudly rather than publishing a wrong number, and `about.md` renders a static
-fallback figure so the page never shows a blank. Run the workflow manually from the Actions tab
-to check whether it currently succeeds.
+the workflow fails loudly rather than publishing a wrong number, and the fetch script is a no-op
+when the page has no element to fill. Run the workflow manually from the Actions tab to check
+whether it currently succeeds.
 
 ## Local preview
 
