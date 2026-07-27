@@ -143,7 +143,7 @@ Five representative works below. The complete list, including eight first-author
 
 [MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
 
-**Bo Li**, Qing Wang, Shihang Wang, ..., Qianqian Song
+**Bo Li**, Qing Wang, Shihang Wang, Bob Zhang, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song
 
 <span class="venue">bioRxiv</span> 2026 &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
 
@@ -225,7 +225,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 **Journal reviewer**: *Science Advances*, IEEE TIP, IEEE TNNLS, IEEE TCE, IEEE TSMCS, Medical Image Analysis, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, CAAI Transactions on Intelligence Technology, Artificial Intelligence Review, Knowledge-Based Systems, IET Image Processing.
 
-**Collaborations**: University of Florida, Cornell University, Sun Yat-sen University, and Sichuan University.
+**Collaborations**: Purdue University, Cornell University, University of Florida, National University of Singapore, Sun Yat-sen University, Sichuan University, Beijing University of Technology, and Macao Polytechnic University.
 
 # 🧰 Skills
 - **Research**: multimodal representation learning, medical image analysis, spatial omics modeling, phenotypic drug discovery, virtual cell modeling and benchmarking.
