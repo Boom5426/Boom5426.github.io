@@ -52,6 +52,15 @@ redirect_from:
   }
   .arc .sep { color: #b0b0b0; font-weight: bold; }
 
+  /* --- job-market notice --- */
+  .avail {
+    border-left: 3px solid #00369f;
+    background-color: #f5f8fd;
+    padding: .7rem .9rem;
+    margin: 1rem 0 1.5rem;
+    line-height: 1.6;
+  }
+
   .badge { font-weight: 600; margin-bottom: 5px; }
   .venue { font-weight: 600; }
 
@@ -98,7 +107,9 @@ I build **multimodal virtual cell models**: systems that learn how cells respond
 
 📫 **Contact**: Boom985426@gmail.com &nbsp;·&nbsp; WeChat: Boom_5426
 
-I am always open to collaborations on virtual cell modeling, phenotypic drug discovery, and agentic systems for science. Feel free to reach out.
+<div class="avail">
+🔍 <b>I am seeking postdoctoral positions starting in Fall 2027</b>, in academia or industrial research, on multimodal virtual cell modeling, phenotypic drug discovery, and agentic systems for science. I am also always open to collaborations. Feel free to reach out.
+</div>
 
 # 🔥 News
 - *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
@@ -223,7 +234,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 # 💼 Academic Service
 
-**Journal reviewer**: *Science Advances*, IEEE TIP, IEEE TNNLS, IEEE TCE, IEEE TSMCS, Medical Image Analysis, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Knowledge-Based Systems, CAAI Transactions on Intelligence Technology, and Artificial Intelligence Review.
+**Journal reviewer**: *Science Advances*, IEEE TIP, IEEE TNNLS, IEEE TCE, IEEE TSMCS, Medical Image Analysis, *Bioinformatics*, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Knowledge-Based Systems, CAAI Transactions on Intelligence Technology, and Artificial Intelligence Review.
 
 **Collaborations**: Purdue University, Cornell University, University of Florida, National University of Singapore, Sun Yat-sen University, Sichuan University, Beijing University of Technology, and Macao Polytechnic University.
 
