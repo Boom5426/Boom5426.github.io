@@ -103,9 +103,10 @@ I build **multimodal virtual cell models**: systems that learn how cells respond
   <a class="link-btn ghost" href="https://github.com/Boom5426">GitHub</a>
   <a class="link-btn ghost" href="https://orcid.org/0000-0003-0608-1502">ORCID</a>
   <a class="link-btn ghost" href="{{ site.baseurl }}/files/CV_Bo_Li.pdf">CV (PDF)</a>
+  <a class="link-btn ghost" href="{{ site.baseurl }}/images/WeChat_QR.png" title="WeChat ID: BoomLi5426">WeChat</a>
 </div>
 
-📫 **Contact**: Boom985426@gmail.com &nbsp;·&nbsp; WeChat: Boom_5426
+📫 **Contact**: Boom985426@gmail.com &nbsp;·&nbsp; WeChat: BoomLi5426
 
 <div class="avail">
 🔍 <b>I am seeking postdoctoral positions starting in Fall 2027</b>, in academia or industrial research, on multimodal virtual cell modeling, phenotypic drug discovery, and agentic systems for science. I am also always open to collaborations. Feel free to reach out.
