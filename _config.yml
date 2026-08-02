@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Bo Li 李波"
 tagline                  : "Multimodal Virtual Cell Modeling and Agent Systems"
-description              : "Ph.D. student in Computer Science at the University of Macau, visiting the School of Computing, NUS. I work on multimodal virtual cell modeling, phenotypic drug discovery, and agent systems for scientific discovery."
+description              : "Ph.D. student in the Department of Artificial Intelligence, University of Macau, visiting the School of Computing, NUS. I work on multimodal virtual cell modeling, phenotypic drug discovery, and agent systems for scientific discovery."
 url                      : "https://boom5426.github.io"
 baseurl                  : ""
 repository               : "Boom5426/Boom5426.github.io"

@@ -86,7 +86,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm **Bo Li (李波)**, a Ph.D. student in Computer Science at the [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/) and co-advised by [Prof. Qianqian Song](https://qsong-github.github.io/SongLab/) (Purdue University). Since June 2026 I have been a visiting student at the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
+Hi, I'm **Bo Li (李波)**, a Ph.D. student in the Department of Artificial Intelligence, [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://scholar.google.com/citations?hl=en&user=dlZuABAAAAAJ&view_op=list_works&sortby=pubdate) and co-advised by [Prof. Qianqian Song](https://qsong-github.github.io/SongLab/) (Purdue University). Since June 2026 I have been a visiting student at the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 
 I build **multimodal virtual cell models**: systems that learn how cells respond to drugs across morphology, transcriptomics, and molecular structure, together with the **agent systems** that turn such models into automated scientific discovery. My work has moved along one continuous line, from perceiving cell phenotypes in images, to aligning them with molecular readouts, to benchmarking and orchestrating virtual cell models end to end.
 
@@ -210,7 +210,7 @@ Research code and community resources, **700+ GitHub stars** in total.
 
 - *2024.08 – Present*: **University of Macau**
 
-  *- Ph.D. in Computer Science, Full Scholarship. Advisors: [Prof. Bob Zhang](https://www.fst.um.edu.mo/personal/bobzhang/), [Prof. Qianqian Song](https://qsong-github.github.io/SongLab/)*
+  *- Ph.D. in Computer Science, Department of Artificial Intelligence, Full Scholarship. Advisors: [Prof. Bob Zhang](https://scholar.google.com/citations?hl=en&user=dlZuABAAAAAJ&view_op=list_works&sortby=pubdate), [Prof. Qianqian Song](https://qsong-github.github.io/SongLab/)*
 
 - *2021.09 – 2024.07*: **Beijing University of Technology**
 
