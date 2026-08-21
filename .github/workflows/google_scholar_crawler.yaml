@@ -1,29 +1,47 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+# Publishes the live Google Scholar citation count to the `google-scholar-stats`
+# branch, which `_includes/fetch_google_scholar_stats.html` reads at page load.
+#
+# Setup: the profile id below is used by default. To override it, add a
+# repository secret named GOOGLE_SCHOLAR_ID (Settings > Secrets and variables >
+# Actions). Use `workflow_dispatch` to test a run manually.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Fetch citation data
+        working-directory: ./google_scholar_crawler
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID || 'y1myk_IAAAAJ' }}
+        run: python main.py
+
+      - name: Publish to google-scholar-stats branch
+        working-directory: ./google_scholar_crawler/results
+        run: |
+          git init -b google-scholar-stats
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f *.json
+          git commit -m "Updated citation data"
+          git push --force \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" \
+            HEAD:google-scholar-stats
