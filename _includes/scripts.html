@@ -1,9 +1,9 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
 <script>
-  // This page used to carry <base target="_blank">, which pushed every link into
-  // a new tab, including the in-page nav anchors. Only off-site links and the
-  // CV PDF open in a new tab now.
+  // The head used to carry a document-wide base target, which pushed every link
+  // into a new tab, including the in-page nav anchors. Only off-site links and
+  // the CV PDF open in a new tab now.
   (function () {
     var links = document.querySelectorAll('a[href]');
     for (var i = 0; i < links.length; i++) {
