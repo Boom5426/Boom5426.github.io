@@ -1,4 +1,23 @@
-<script src="assets/js/main.min.js"></script>
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+
+<script>
+  // This page used to carry <base target="_blank">, which pushed every link into
+  // a new tab, including the in-page nav anchors. Only off-site links and the
+  // CV PDF open in a new tab now.
+  (function () {
+    var links = document.querySelectorAll('a[href]');
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      if (a.hasAttribute('target')) { continue; }
+      var offsite = a.hostname && a.hostname !== window.location.hostname;
+      var isPdf = /\.pdf$/i.test(a.pathname || '');
+      if (offsite || isPdf) {
+        a.setAttribute('target', '_blank');
+        a.setAttribute('rel', (a.getAttribute('rel') ? a.getAttribute('rel') + ' ' : '') + 'noopener');
+      }
+    }
+  })();
+</script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

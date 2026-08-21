@@ -1,4 +1,9 @@
-{% if page.analytics != false %}
+{% comment %}
+  Only emitted once site.google_analytics_id is set in _config.yml. Without the
+  guard the page still requested gtag.js with an empty id: a wasted round trip
+  that collected nothing.
+{% endcomment %}
+{% if site.google_analytics_id and page.analytics != false %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>

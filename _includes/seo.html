@@ -52,8 +52,11 @@
   {% comment %} Normalise to exactly one leading slash, then make it absolute. {% endcomment %}
   {% assign seo_image_url = seo_image | prepend: "/" | replace: "//", "/" | prepend: seo_url %}
   <meta property="og:image" content="{{ seo_image_url }}">
+  <meta property="og:image:alt" content="{{ site.title }}: {{ site.tagline }}">
+  {% comment %} site.og_image is the wide 1200x630 card; the fallback avatar is portrait. {% endcomment %}
+  {% if site.og_image %}{% assign twitter_card = "summary_large_image" %}{% else %}{% assign twitter_card = "summary" %}{% endif %}
   {% unless site.twitter.username %}
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="{{ twitter_card }}">
     <meta name="twitter:image" content="{{ seo_image_url }}">
     <meta name="twitter:title" content="{{ site.title }}">
     {% if seo_description %}<meta name="twitter:description" content="{{ seo_description }}">{% endif %}

@@ -17,6 +17,9 @@ google_scholar_stats_use_cdn : true
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
+# Social preview card used for og:image (1200x630, generated for this site).
+og_image                 : "images/og-card.png"
+
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
@@ -158,9 +161,6 @@ whitelist:
   - jemoji
 
 
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# No compress_html block: it only takes effect with the `compress` layout from
+# jch.penibelst.de, which this repository does not ship. GitHub Pages already
+# serves the HTML gzipped, so the whitespace costs nothing over the wire.
