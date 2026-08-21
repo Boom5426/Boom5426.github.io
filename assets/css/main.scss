@@ -107,3 +107,238 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+/* ==========================================================================
+   Homepage components
+   Moved out of the inline <style> block in _pages/about.md so that the dark
+   palette at the end of this file can restyle everything in one place.
+   ========================================================================== */
+
+/* Section headings are <h2> in the markup, so the page keeps a single <h1>
+   (the visually hidden name). These rules keep them looking like the <h1>
+   headings they replaced, including the sticky-masthead scroll offset. */
+.page__content h2 {
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: $type-size-3;
+    border-bottom: 1px solid $border-color;
+}
+
+h2:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
+    margin-top: -$scroll_offset;
+}
+
+[hidden] { display: none !important; }
+
+/* --- "contact / profile link" buttons under the intro --- */
+.link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin: 1rem 0 1.5rem;
+}
+.link-btn {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: .85em;
+    font-weight: 600;
+    background-color: #00369f;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.link-btn:hover { background-color: #002a7a; }
+.link-btn:focus-visible { outline: 2px solid #00369f; outline-offset: 2px; }
+.link-btn.ghost {
+    background-color: transparent;
+    color: #00369f !important;
+    border: 1px solid #00369f;
+}
+.link-btn.ghost:hover { background-color: #f0f3f9; }
+
+/* --- research arc strip --- */
+.arc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .4rem;
+    font-size: .85em;
+    color: #5a5a5a;
+    margin: 1rem 0 0;
+}
+.arc .step {
+    padding: 3px 9px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    border-left: 3px solid #00369f;
+}
+.arc .sep { color: #b0b0b0; font-weight: bold; }
+
+/* --- job-market notice --- */
+.avail {
+    border-left: 3px solid #00369f;
+    background-color: #f5f8fd;
+    padding: .7rem .9rem;
+    margin: 1rem 0 1.5rem;
+    line-height: 1.6;
+}
+
+.badge { font-weight: 600; margin-bottom: 5px; }
+.venue { font-weight: 600; }
+
+/* Teaser images carry width/height attributes so the browser can reserve the
+   space before they load; height:auto keeps them scaled to .paper-box-image. */
+.paper-box-image img { height: auto; }
+
+/* --- full publication list --- */
+.pub-list {
+    margin: 1.5rem 0 2rem;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    padding: 0 1rem;
+}
+.pub-list > summary {
+    cursor: pointer;
+    padding: .75rem 0;
+    font-weight: 600;
+    font-size: .95em;
+    color: #00369f;
+    list-style: none;
+}
+.pub-list > summary::-webkit-details-marker { display: none; }
+.pub-list > summary:before { content: "\25B8"; display: inline-block; width: 1.1em; }
+.pub-list[open] > summary:before { content: "\25BE"; }
+.pub-list .pub-note {
+    font-size: .8em;
+    color: #6b6b6b;
+    margin: 0 0 1rem;
+    padding-top: .2rem;
+    border-top: 1px solid $border-color;
+}
+.pub-list .pub-year {
+    font-weight: 700;
+    font-size: .95em;
+    color: #00369f;
+    margin: 1.3rem 0 .5rem;
+}
+.pub-list .pub-items { list-style: none; margin: 0; padding: 0; }
+.pub-list .pub-items li {
+    margin: 0 0 .9rem;
+    padding-left: .9rem;
+    border-left: 2px solid $border-color;
+    font-size: .85em;
+    line-height: 1.5;
+}
+.pub-list .pub-au { color: #5a5a5a; }
+.pub-list .pub-venue { color: #6b6b6b; }
+
+/* --- institution logo strip --- */
+.logo-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.logo-row img { height: 60px; width: auto; }
+
+.globe-row { display: flex; justify-content: center; margin-top: 2rem; }
+
+.site-footer {
+    text-align: center;
+    font-size: .85em;
+    color: rgb(128, 128, 128);
+    margin: 2rem 0 1rem;
+}
+.site-footer a { color: inherit; text-decoration: underline; }
+
+/* ==========================================================================
+   Dark palette
+   The page follows the reader's system setting. Only colors change: no layout,
+   no spacing, no font sizes, so the light rendering above stays the source of
+   truth for everything else.
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+
+    html, body { background-color: #14171d; color: #cfd4dc; }
+
+    a { color: #7fa8ff; }
+    a:visited { color: #a9bff0; }
+    a:hover, a:focus { color: #a8c4ff; }
+
+    hr { border-color: #2a303b; }
+    code, pre { background-color: #1b1f27; color: #d5dbe4; }
+    blockquote { border-left-color: #2a303b; }
+
+    /* masthead and priority-plus navigation */
+    .masthead { background-color: #14171d; border-bottom-color: #2a303b; }
+    .greedy-nav { background: #14171d; }
+    .greedy-nav a { color: #b8c0cc; }
+    .greedy-nav a:hover { color: #ffffff; }
+    .greedy-nav .visible-links a:before { background: #4f7fe0; }
+    .greedy-nav button { background-color: #2a303b; color: #cfd4dc; }
+    .greedy-nav .hidden-links {
+        background: #1b1f27;
+        border-color: #2a303b;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    }
+    .greedy-nav .hidden-links a:hover { background: #262b35; color: #ffffff; }
+    .greedy-nav .hidden-links:before { border-color: #2a303b transparent; }
+    .greedy-nav .hidden-links:after { border-color: #1b1f27 transparent; }
+
+    /* sidebar author card. The links list is a popover only on narrow screens;
+       on desktop the theme renders it flat (border:0, transparent), so the dark
+       surface has to stay inside the narrow breakpoint or it leaks a stray box. */
+    @media (max-width: 57.8124em) {
+        .sidebar .author__urls { background: #1b1f27; border-color: #2a303b; }
+        .sidebar .author__urls:before { border-color: #2a303b transparent; }
+        .sidebar .author__urls:after { border-color: #1b1f27 transparent; }
+    }
+    .author__bio { color: #9aa3b0; }
+
+    /* page furniture */
+    .page__content h2 { border-bottom-color: #2a303b; }
+    .paper-box { border-bottom-color: #2a303b; }
+    .paper-box-image img { box-shadow: 3px 3px 12px rgba(0, 0, 0, .65); }
+    thead { background-color: #1e232c; }
+    td { border-bottom-color: #2a303b; }
+
+    /* homepage components */
+    .arc { color: #9aa3b0; }
+    .arc .step { background-color: #1b1f27; border-left-color: #4f7fe0; }
+    .arc .sep { color: #5b6474; }
+    .avail { background-color: #172233; border-left-color: #4f7fe0; }
+
+    .link-btn { background-color: #2a5bd7; }
+    .link-btn:hover { background-color: #3d6ce8; }
+    .link-btn:focus-visible { outline-color: #8fb2ff; }
+    .link-btn.ghost {
+        background-color: transparent;
+        color: #8fb2ff !important;
+        border-color: #3f5f9e;
+    }
+    .link-btn.ghost:hover { background-color: #1d2634; }
+
+    .pub-list { border-color: #2a303b; }
+    .pub-list > summary { color: #8fb2ff; }
+    .pub-list .pub-note { color: #8b94a3; border-top-color: #2a303b; }
+    .pub-list .pub-year { color: #8fb2ff; }
+    .pub-list .pub-items li { border-left-color: #2a303b; }
+    .pub-list .pub-au { color: #a7b0bd; }
+    .pub-list .pub-venue { color: #8b94a3; }
+
+    /* Institution logos are drawn for a white page, so they keep a light card. */
+    .logo-row {
+        background: #eef1f6;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+    }
+
+    .site-footer { color: #7d8694; }
+}

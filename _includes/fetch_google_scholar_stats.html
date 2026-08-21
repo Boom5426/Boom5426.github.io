@@ -1,30 +1,38 @@
 <script>
-    // Fills in live Google Scholar numbers if, and only if, the page contains
-    // the elements that display them:
-    //   #total_cit                  -> total citation count
-    //   .show_paper_citations[data]  -> per-paper count, keyed by author_pub_id
-    // Both are optional, so the page renders fine when neither is present.
-    $(document).ready(function () {
-        var totalCitEl = document.getElementById('total_cit');
-        var citationEles = document.getElementsByClassName('show_paper_citations');
-        if (!totalCitEl && citationEles.length === 0) {
-            return;
+  // Fills in live Google Scholar numbers when, and only when, the page contains
+  // the elements that display them:
+  //   #total_cit                   -> total citation count
+  //   .show_paper_citations[data]  -> per-paper count, keyed by author_pub_id
+  // The data file lives on the `google-scholar-stats` branch, refreshed daily by
+  // .github/workflows/google_scholar_crawler.yaml. If the branch, the file or the
+  // network is unavailable, #gs-cit-wrap stays hidden: no number beats a stale one.
+  (function () {
+    var totalCitEl = document.getElementById('total_cit');
+    var citationEls = document.getElementsByClassName('show_paper_citations');
+    if (!totalCitEl && citationEls.length === 0) { return; }
+
+    {% if site.google_scholar_stats_use_cdn %}
+    var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@';
+    {% else %}
+    var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/';
+    {% endif %}
+
+    fetch(gsDataBaseUrl + 'google-scholar-stats/gs_data.json')
+      .then(function (response) {
+        if (!response.ok) { throw new Error('HTTP ' + response.status); }
+        return response.json();
+      })
+      .then(function (data) {
+        if (totalCitEl && data.citedby != null) {
+          totalCitEl.textContent = data.citedby;
+          var wrap = document.getElementById('gs-cit-wrap');
+          if (wrap) { wrap.hidden = false; }
         }
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            if (totalCitEl) {
-                totalCitEl.innerHTML = data['citedby'];
-            }
-            Array.prototype.forEach.call(citationEles, element => {
-                var paper = data['publications'][element.getAttribute('data')];
-                if (paper) {
-                    element.innerHTML = '| Citations: ' + paper['num_citations'];
-                }
-            });
+        Array.prototype.forEach.call(citationEls, function (element) {
+          var paper = data.publications && data.publications[element.getAttribute('data')];
+          if (paper) { element.textContent = '| Citations: ' + paper.num_citations; }
         });
-    })
+      })
+      .catch(function () { /* leave the page as rendered */ });
+  })();
 </script>
