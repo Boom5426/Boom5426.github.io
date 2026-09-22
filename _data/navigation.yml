@@ -1,25 +1,22 @@
-# main links links
+# main links
 main:
-  - title: "About Me"
-    url: "/#about-me"
-
-  - title: "News"
-    url: "/#-news"
+  - title: "Research"
+    url: "/#research"
 
   - title: "Publications"
-    url: "/#-selected-publications"
+    url: "/#publications"
 
-  - title: "Open Source"
-    url: "/#-open-source"
+  - title: "News"
+    url: "/#news"
+
+  - title: "Software"
+    url: "/#software"
 
   - title: "Education"
-    url: "/#-education"
-
-  - title: "Honors"
-    url: "/#-honors-and-awards"
+    url: "/#education"
 
   - title: "Service"
-    url: "/#-academic-service"
+    url: "/#service"
 
   - title: "CV"
     url: "/files/CV_Bo_Li.pdf"
