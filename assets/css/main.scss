@@ -98,14 +98,17 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: .32rem .75rem;
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
+    max-width: calc(100% - .5rem);
     color: white;
     background-color: #00369f;
-    font-size: .8em;
+    border-radius: 0 3px 3px 0;
+    font-size: .72em;
+    font-weight: 700;
+    line-height: 1.25;
 }
 /* ==========================================================================
    Homepage components
@@ -133,6 +136,125 @@ h2:before {
 }
 
 [hidden] { display: none !important; }
+
+
+/* --- homepage research identity hero --- */
+.hero-block {
+    margin: .2rem 0 1.15rem;
+    padding: .25rem 0 1.25rem;
+    border-bottom: 1px solid $border-color;
+}
+.hero-kicker {
+    margin-bottom: .35rem;
+    color: #00369f;
+    font-size: .78em;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+.hero-title {
+    max-width: 900px;
+    margin: 0 0 .7rem;
+    font-size: clamp(1.75rem, 4vw, 2.55rem);
+    line-height: 1.12;
+    font-weight: 720;
+    letter-spacing: -.025em;
+    color: #202632;
+}
+.hero-meta {
+    margin: 0 0 .8rem;
+    color: #616975;
+    font-size: .9em;
+}
+.hero-copy {
+    max-width: 900px;
+    margin: 0;
+    font-size: 1.02em;
+    line-height: 1.7;
+}
+.hero-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    margin-top: 1rem;
+}
+.hero-keywords span {
+    padding: 4px 9px;
+    border: 1px solid #dfe5ef;
+    border-radius: 999px;
+    background: #f8fafc;
+    color: #4d5868;
+    font-size: .76em;
+    font-weight: 600;
+}
+
+/* --- research agenda: Measure -> Model -> Design --- */
+.research-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: .65rem;
+    align-items: stretch;
+    margin: 1.25rem 0 2rem;
+}
+.research-card {
+    min-width: 0;
+    padding: 1rem 1rem .9rem;
+    border: 1px solid #e3e7ee;
+    border-top: 3px solid #00369f;
+    border-radius: 7px;
+    background: #fbfcfe;
+}
+.research-card h3 {
+    margin: .35rem 0 .55rem;
+    font-size: 1em;
+    line-height: 1.4;
+}
+.research-card p {
+    margin: 0;
+    color: #56606d;
+    font-size: .82em;
+    line-height: 1.6;
+}
+.research-num {
+    color: #00369f;
+    font-size: .72em;
+    font-weight: 800;
+    letter-spacing: .06em;
+}
+.research-work {
+    margin-top: .75rem;
+    padding-top: .65rem;
+    border-top: 1px solid #e8ebf0;
+    color: #394353;
+    font-size: .78em;
+    font-weight: 650;
+}
+.research-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a1a9b4;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+.pub-record {
+    margin: 1rem 0 2rem;
+    padding: .75rem .9rem;
+    border-left: 3px solid #00369f;
+    background: #f8fafc;
+    font-size: .88em;
+}
+
+@media (max-width: 57.8124em) {
+    .hero-title { font-size: 1.85rem; }
+    .research-grid {
+        grid-template-columns: 1fr;
+        gap: .55rem;
+    }
+    .research-arrow {
+        min-height: .4rem;
+        transform: rotate(90deg);
+    }
+}
 
 /* --- "contact / profile link" buttons under the intro --- */
 .link-row {
@@ -332,6 +454,30 @@ h2:before {
     .pub-list .pub-items li { border-left-color: #2a303b; }
     .pub-list .pub-au { color: #a7b0bd; }
     .pub-list .pub-venue { color: #8b94a3; }
+
+    .hero-block { border-bottom-color: #2a303b; }
+    .hero-kicker, .research-num { color: #8fb2ff; }
+    .hero-title { color: #eef2f8; }
+    .hero-meta, .research-card p { color: #9ea8b6; }
+    .hero-keywords span {
+        background: #1b1f27;
+        border-color: #313845;
+        color: #b8c0cc;
+    }
+    .research-card {
+        background: #181c23;
+        border-color: #2d3440;
+        border-top-color: #4f7fe0;
+    }
+    .research-work {
+        border-top-color: #2a303b;
+        color: #c6cdd7;
+    }
+    .research-arrow { color: #5f6877; }
+    .pub-record {
+        background: #181f2b;
+        border-left-color: #4f7fe0;
+    }
 
     /* Institution logos are drawn for a white page, so they keep a light card. */
     .logo-row {
