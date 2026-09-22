@@ -15,7 +15,7 @@ redirect_from:
 <div class="hero-block">
   <div class="hero-kicker">AI FOR BIOLOGY</div>
   <div class="hero-title">Measuring, modeling, and designing cellular perturbations</div>
-  <p class="hero-meta"><strong>Bo Li (李波)</strong> · Ph.D. Candidate, University of Macau · Visiting Student, NUS Computing</p>
+  <p class="hero-meta"><strong>Bo Li (李波)</strong> · Ph.D. Student, University of Macau · Visiting Student, NUS Computing</p>
   <p class="hero-copy">I develop computational methods for understanding and controlling cellular responses. My research asks what biological distinctions experiments can reliably resolve, how multimodal virtual-cell models can predict perturbation responses, and how desired cellular states can be translated into effective interventions.</p>
   <div class="hero-keywords">
     <span>Single-cell perturbations</span>
@@ -68,6 +68,8 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
     <div class="research-work">Current direction · Intervention Design</div>
   </div>
 </div>
+
+<span class='anchor' id='publications'></span>
 
 ## 📝 Selected Publications
 
@@ -127,6 +129,8 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 
 <div class="pub-record">Full publication record on <a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"><strong>Google Scholar ↗</strong></a></div>
 
+<span class='anchor' id='news'></span>
+
 ## 🔥 News
 - *2026.09*: &nbsp;🧬 Released **PertResolve**, a measurement-resolution framework for fine-grained perturbation prediction. [Project](https://boom5426.github.io/PertResolve/) · [Code](https://github.com/Boom5426/PertResolve)
 - *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
@@ -136,6 +140,8 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 - *2025.12*: &nbsp;🎉 **PhenoProfiler** published in [***Nature Communications***](https://www.nature.com/articles/s41467-025-67479-w).
 
 
+
+<span class='anchor' id='software'></span>
 
 ## 🛠 Software & Resources
 
@@ -148,6 +154,8 @@ Selected research software and community resources.
 | [Awesome-Virtual-Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | Curated papers, datasets, benchmarks, and resources for AI virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Awesome-Virtual-Cell) |
 | [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | End-to-end phenotypic profiling for image-based drug discovery | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/PhenoProfiler) |
 | [SpaIM](https://github.com/QSong-github/SpaIM) | Cross-modal imputation for spatial transcriptomics | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/SpaIM?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/SpaIM) |
+
+<span class='anchor' id='education'></span>
 
 ## 📖 Education
 - *2026.06 – 2027.06*: **National University of Singapore**
@@ -176,6 +184,8 @@ Selected research software and community resources.
 
 ## 📜 Patents
 Co-inventor of three Chinese invention patents on cell image density map generation and cell localization: **CN115457546A**, **CN115810046A**, **CN115457547A**.
+
+<span class='anchor' id='service'></span>
 
 ## 💼 Academic Service
 
