@@ -58,7 +58,7 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
     <div class="research-num">02 · MODEL</div>
     <h3>How do cells respond across perturbations and modalities?</h3>
     <p>Learn and evaluate cellular representations across transcriptomics, morphology, molecular structure, and biological context.</p>
-    <div class="research-work">MVCBench · PhenoProfiler · SpaIM</div>
+    <div class="research-work"><a href="https://qsong-github.github.io/MVCBench/">MVCBench</a> · <a href="https://phenoprofiler.org/">PhenoProfiler</a> · <a href="https://github.com/QSong-github/SpaIM">SpaIM</a></div>
   </div>
   <div class="research-arrow">→</div>
   <div class="research-card">
@@ -106,7 +106,7 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 
 **Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
 
-<span class="venue">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
+<span class="venue">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Webserver](https://phenoprofiler.org/) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
 
 **TL;DR**: Learns cellular representations directly from high-content microscopy for image-based phenotypic drug discovery.
 
@@ -119,7 +119,7 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 
 **Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
 
-<span class="venue">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM)
+<span class="venue">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028)
 
 **TL;DR**: Connects single-cell and spatial transcriptomics through a style-transfer formulation for cross-modal gene-expression inference.
 
@@ -150,6 +150,7 @@ Selected research software and community resources.
 | Project | What it is | Stars |
 | :--- | :--- | :--- |
 | [PertResolve](https://github.com/Boom5426/PertResolve) | Measurement-resolution framework and benchmark for perturbation prediction | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/PertResolve) |
+| [MVCBench](https://github.com/QSong-github/MVCBench) | Multimodal benchmark for drug-induced virtual cell phenotypes | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/MVCBench) |
 | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Agent skills for drafting, revising, auditing, and resubmitting scientific manuscripts | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Nature-Paper-Skills?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Nature-Paper-Skills) |
 | [Awesome-Virtual-Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | Curated papers, datasets, benchmarks, and resources for AI virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Awesome-Virtual-Cell) |
 | [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | End-to-end phenotypic profiling for image-based drug discovery | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/PhenoProfiler) |
