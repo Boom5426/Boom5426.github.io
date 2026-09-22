@@ -48,7 +48,20 @@ I build **multimodal virtual cell models**: systems that learn how cells respond
 
 ## 📝 Selected Publications
 
-Five representative works below<span id="gs-cit-wrap" hidden>, cited <b><span id="total_cit"></span></b> times in total</span>. The complete list is one click below, and on [Google Scholar](https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate).
+Six representative works below<span id="gs-cit-wrap" hidden>, cited <b><span id="total_cit"></span></b> times in total</span>. The complete list is one click below, and on [Google Scholar](https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate).
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript 2026</div><img src="https://raw.githubusercontent.com/Boom5426/PertResolve/main/assets/fig1_overview.png" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" width="920" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Measurement resolution constrains fine-grained perturbation prediction](https://boom5426.github.io/PertResolve/)
+
+**Bo Li**, Chengyang Zhang, Mengran Li, Bob Zhang, Lin Wang, Zhenchao Tang, Jun Liu, Chengliang Liu, Chen Wei, Yuhao Yi, Jiancheng Lv, Yang Zhang
+
+<span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)
+
+**TL;DR**: A measurement-resolution framework for fine-grained perturbation prediction that separates perturbation detection, perturbation identification, and response prediction. Across 470 coding-variant conditions (321,043 cells) and a broader panel of 31 configurations from 14 public resources, it shows when weak fine-grained prediction reflects model limitations versus distinctions that the experiment itself cannot reproducibly resolve.
+
+</div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></div></div>
 <div class='paper-box-text' markdown="1">
