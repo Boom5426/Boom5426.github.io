@@ -48,7 +48,7 @@ I build **multimodal virtual cell models**: systems that learn how cells respond
 
 ## 📝 Selected Publications
 
-Six representative works below<span id="gs-cit-wrap" hidden>, cited <b><span id="total_cit"></span></b> times in total</span>. The complete list is one click below, and on [Google Scholar](https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate).
+Representative works below<span id="gs-cit-wrap" hidden>, cited <b><span id="total_cit"></span></b> times in total</span>. The complete list is one click below, and on [Google Scholar](https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate).
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript 2026</div><img src="https://raw.githubusercontent.com/Boom5426/PertResolve/main/assets/fig1_overview.png" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" width="920" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -99,32 +99,6 @@ Six representative works below<span id="gs-cit-wrap" hidden>, cited <b><span id=
 <span class="venue">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM)
 
 **TL;DR**: Recasts cross-modal imputation as style transfer, separating data-agnostic gene-expression "content" from platform-specific "style" to predict unmeasured genes in spatial transcriptomics from scRNA-seq. Across 53 datasets spanning sequencing- and imaging-based platforms, it consistently outperforms 12 state-of-the-art methods in gene coverage and expression accuracy.
-
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Briefings in Bioinformatics 2024</div><picture><source srcset="{{ '/images/HGGEP.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/HGGEP.png' | relative_url }}" alt="HGGEP: hypergraph neural network for gene expression prediction from histology" width="800" height="457" loading="lazy" decoding="async"></picture></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Gene Expression Prediction from Histology Images via Hypergraph Neural Networks](https://academic.oup.com/bib/article/25/6/bbae500/7821151)
-
-**Bo Li**, Yong Zhang, Qing Wang, Chengyang Zhang, Mengran Li, Guangyu Wang, Qianqian Song
-
-<span class="venue">Briefings in Bioinformatics</span> **25**(6), bbae500 (2024) &nbsp;·&nbsp; [Paper](https://academic.oup.com/bib/article/25/6/bbae500/7821151) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/HGGEP)
-
-**TL;DR**: Builds a hypergraph over image patches using Euclidean distance and adjacent-position weighting, so that higher-order local correlations in whole-slide images can be exploited to predict spot-level gene expression.
-
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition 2024</div><picture><source srcset="{{ '/images/MHFAN.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MHFAN.png' | relative_url }}" alt="MHFAN: multi-scale hypergraph feature alignment network for cell localization" width="800" height="828" loading="lazy" decoding="async"></picture></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Multi-scale Hypergraph-based Feature Alignment Network for Cell Localization](https://www.sciencedirect.com/science/article/pii/S0031320324000116)
-
-**Bo Li**, Yong Zhang, Chengyang Zhang, Xinglin Piao, Yongli Hu, Baocai Yin
-
-<span class="venue">Pattern Recognition</span> **149**, 110260 (2024) &nbsp;·&nbsp; [Paper](https://www.sciencedirect.com/science/article/pii/S0031320324000116) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/MHFAN)
-
-**TL;DR**: Reframes cell localization as a feature-alignment problem and introduces a multi-scale hypergraph module that adaptively aggregates multi-level features, substantially improving localization accuracy in dense tissue.
 
 </div></div>
 
