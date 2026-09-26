@@ -28,10 +28,6 @@ redirect_from:
     </div>
   </div>
 
-  <div class="hero-actions">
-    <a class="link-btn ghost" href="{{ '/files/CV_Bo_Li.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> CV (PDF)</a>
-    <a class="link-btn ghost" href="{{ '/images/WeChat_QR.png' | relative_url }}" title="WeChat ID: BoomLi5426"><i class="fas fa-comments" aria-hidden="true"></i> WeChat</a>
-  </div>
 </div>
 
 <div class="avail">
