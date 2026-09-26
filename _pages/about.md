@@ -61,6 +61,10 @@ redirect_from:
     <span>🧫 <strong>MVCBench</strong> preprint released on <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">bioRxiv</a>.</span>
   </div>
   <div class="news-item">
+    <span class="news-date">2026.01</span>
+    <span>🎉 One paper accepted at <strong>ICLR 2026</strong> (co-author).</span>
+  </div>
+  <div class="news-item">
     <span class="news-date">2025.12</span>
     <span>🎉 <strong>PhenoProfiler</strong> published in <a href="https://www.nature.com/articles/s41467-025-67479-w"><em>Nature Communications</em></a>.</span>
   </div>
@@ -75,6 +79,10 @@ redirect_from:
   <div class="news-item">
     <span class="news-date">2024.08</span>
     <span>🎓 Started my Ph.D. at the <strong>University of Macau</strong>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024.07</span>
+    <span>🏅 Graduated from <strong>Beijing University of Technology</strong>; recognized as a Top 100 Graduate and Beijing Outstanding Graduate.</span>
   </div>
   <div class="news-item">
     <span class="news-date">2024.03–06</span>
