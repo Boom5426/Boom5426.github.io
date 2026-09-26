@@ -78,7 +78,7 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 
 [VCDesign: Candidate-Conditioned Inverse Modeling for Cellular Intervention Design](https://boom5426.github.io/VCDesign-CED/)
 
-**Bo Li** et al.
+**Bo Li**, Lin Wang, Bob Zhang, Mengran Li, Zhenchao Tang, Chengyang Zhang, Minghao Sun, Chengliang Liu, Zhiyuan Liu, Yang Zhang
 
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign)
 
