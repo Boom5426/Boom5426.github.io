@@ -13,33 +13,30 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <div class="hero-block">
-  <div class="hero-kicker">AI FOR BIOLOGY</div>
+  <div class="hero-kicker"><i class="fas fa-dna" aria-hidden="true"></i><span>AI FOR BIOLOGY</span></div>
   <div class="hero-title">Measuring, modeling, and designing cellular perturbations</div>
-  <p class="hero-meta"><strong>Bo Li (李波)</strong> · Ph.D. Student, University of Macau · Visiting Student, NUS Computing</p>
-  <p class="hero-copy">I develop computational methods for understanding and controlling cellular responses. My research asks what biological distinctions experiments can reliably resolve, how multimodal virtual-cell models can predict perturbation responses, and how desired cellular states can be translated into effective interventions.</p>
-  <div class="hero-keywords">
-    <span>Single-cell perturbations</span>
-    <span>Multimodal virtual cells</span>
-    <span>Measurement-aware evaluation</span>
-    <span>Intervention design</span>
+  <p class="hero-copy">I develop computational methods for understanding and controlling cellular responses, spanning measurement-aware evaluation, multimodal virtual-cell modeling, and intervention design.</p>
+
+  <div class="hero-affiliations">
+    <div class="affiliation-line">
+      <span class="affiliation-icon"><i class="fas fa-university" aria-hidden="true"></i></span>
+      <span><a href="https://www.um.edu.mo/"><strong>University of Macau</strong></a> · advised by <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Prof. Bob Zhang</a> · co-advised by <a href="https://polytechnic.purdue.edu/profile/song1081">Prof. Qianqian Song</a> at <a href="https://www.purdue.edu/">Purdue University</a></span>
+    </div>
+    <div class="affiliation-line">
+      <span class="affiliation-icon"><i class="fas fa-globe-asia" aria-hidden="true"></i></span>
+      <span><a href="https://www.nus.edu.sg/"><strong>National University of Singapore</strong></a> · visiting student · hosted by <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Prof. Yang Zhang</a></span>
+    </div>
+  </div>
+
+  <div class="hero-actions">
+    <a class="link-btn ghost" href="{{ '/files/CV_Bo_Li.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> CV (PDF)</a>
+    <a class="link-btn ghost" href="{{ '/images/WeChat_QR.png' | relative_url }}" title="WeChat ID: BoomLi5426"><i class="fas fa-comments" aria-hidden="true"></i> WeChat</a>
   </div>
 </div>
 
-I am a Ph.D. student in the Department of Artificial Intelligence, [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://fic.um.edu.mo/zh-hant/people/bobzhang/) and co-advised by [Prof. Qianqian Song](https://polytechnic.purdue.edu/profile/song1081) at [Purdue University](https://www.purdue.edu/). Since June 2026, I have been a visiting student at the [National University of Singapore](https://www.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
-
-<div class="link-row">
-  <a class="link-btn" href="mailto:Boom985426@gmail.com">Email</a>
-  <a class="link-btn ghost" href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ">Google Scholar</a>
-  <a class="link-btn ghost" href="https://github.com/Boom5426">GitHub</a>
-  <a class="link-btn ghost" href="https://orcid.org/0000-0003-0608-1502">ORCID</a>
-  <a class="link-btn ghost" href="{{ '/files/CV_Bo_Li.pdf' | relative_url }}">CV (PDF)</a>
-  <a class="link-btn ghost" href="{{ '/images/WeChat_QR.png' | relative_url }}" title="WeChat ID: BoomLi5426">WeChat</a>
-</div>
-
-📫 **Contact**: Boom985426@gmail.com &nbsp;·&nbsp; WeChat: BoomLi5426
-
 <div class="avail">
-🔍 <b>I am seeking postdoctoral positions starting in Fall 2027</b>, in academia or industrial research, on AI for Biology, virtual cells, perturbation modeling, and intervention design. I am also always open to collaborations.
+  <i class="fas fa-search" aria-hidden="true"></i>
+  <span><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, virtual cells, perturbation modeling, and intervention design.</span>
 </div>
 
 <span class='anchor' id='research'></span>
@@ -48,24 +45,43 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 
 <div class="research-grid">
   <div class="research-card">
-    <div class="research-num">01 · MEASURE</div>
-    <h3>What can an experiment actually resolve?</h3>
-    <p>Quantify perturbation detectability, identifiability, reproducibility, and the measurement resolution available to downstream predictive models.</p>
-    <div class="research-work"><a href="https://boom5426.github.io/PertResolve/">PertResolve</a> · <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a></div>
+    <div class="research-card-head">
+      <span class="research-icon"><i class="fas fa-microscope" aria-hidden="true"></i></span>
+      <div class="research-num">01 · MEASURE</div>
+    </div>
+    <h3>What can experiments reliably resolve?</h3>
+    <p>Measurement resolution, reproducibility, and evaluation of perturbation effects.</p>
+    <div class="research-work">
+      <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
+      <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>
+    </div>
   </div>
-  <div class="research-arrow">→</div>
+
   <div class="research-card">
-    <div class="research-num">02 · MODEL</div>
-    <h3>How do cells respond across perturbations and modalities?</h3>
-    <p>Learn and evaluate cellular representations across transcriptomics, morphology, molecular structure, and biological context.</p>
-    <div class="research-work"><a href="https://qsong-github.github.io/MVCBench/">MVCBench</a> · <a href="https://phenoprofiler.org/">PhenoProfiler</a> · <a href="https://github.com/QSong-github/SpaIM">SpaIM</a></div>
+    <div class="research-card-head">
+      <span class="research-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
+      <div class="research-num">02 · MODEL</div>
+    </div>
+    <h3>How do cells respond?</h3>
+    <p>Multimodal representation and prediction of cellular phenotypes across perturbations and contexts.</p>
+    <div class="research-work">
+      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
+      <a href="https://phenoprofiler.org/">PhenoProfiler</a>
+      <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
+    </div>
   </div>
-  <div class="research-arrow">→</div>
+
   <div class="research-card">
-    <div class="research-num">03 · DESIGN</div>
-    <h3>Which intervention can move a cell toward a desired state?</h3>
-    <p>Move beyond forward prediction toward inverse intervention design: given an initial and desired cellular state, identify effective perturbations.</p>
-    <div class="research-work"><a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a> · <a href="https://github.com/Boom5426/PopRetrieve">PopRetrieve</a></div>
+    <div class="research-card-head">
+      <span class="research-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></span>
+      <div class="research-num">03 · DESIGN</div>
+    </div>
+    <h3>Which interventions should be tested?</h3>
+    <p>Finite-budget selection of interventions for desired cellular states.</p>
+    <div class="research-work">
+      <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
+      <a href="https://github.com/Boom5426/PopRetrieve">PopRetrieve</a>
+    </div>
   </div>
 </div>
 
