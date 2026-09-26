@@ -15,7 +15,7 @@ redirect_from:
 <div class="hero-block">
   <div class="hero-kicker"><i class="fas fa-dna" aria-hidden="true"></i><span>AI FOR BIOLOGY</span></div>
   <div class="hero-title">Measuring, modeling, and designing cellular perturbations</div>
-  <p class="hero-copy">I develop computational methods for understanding and controlling cellular responses, spanning measurement-aware evaluation, multimodal virtual-cell modeling, and intervention design.</p>
+  <p class="hero-copy">I develop computational methods for measuring, modeling, and controlling cellular responses, focusing on what experiments can reliably resolve, how multimodal virtual-cell models generalize across perturbations and contexts, and how models can prioritize interventions that move cells toward desired states.</p>
 
   <div class="hero-affiliations">
     <div class="affiliation-line">
