@@ -25,7 +25,7 @@ redirect_from:
   </div>
 </div>
 
-I am a Ph.D. student in the Department of Artificial Intelligence, [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://fic.um.edu.mo/zh-hant/people/bobzhang/) and co-advised by [Prof. Qianqian Song](https://polytechnic.purdue.edu/profile/song1081). Since June 2026, I have been a visiting student at the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
+I am a Ph.D. student in the Department of Artificial Intelligence, [University of Macau](https://www.um.edu.mo/), advised by [Prof. Bob Zhang](https://fic.um.edu.mo/zh-hant/people/bobzhang/) and co-advised by [Prof. Qianqian Song](https://polytechnic.purdue.edu/profile/song1081) at [Purdue University](https://www.purdue.edu/). Since June 2026, I have been a visiting student at the [National University of Singapore](https://www.nus.edu.sg/), hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 
 <div class="link-row">
   <a class="link-btn" href="mailto:Boom985426@gmail.com">Email</a>
@@ -73,19 +73,6 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 
 ## 📝 Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MEASURE · Perturbation Evaluation</div><img src="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" width="920" loading="lazy" decoding="async"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Measurement resolution constrains fine-grained perturbation prediction](https://boom5426.github.io/PertResolve/)
-
-**Bo Li**, Chengyang Zhang, Mengran Li, Bob Zhang, Lin Wang, Zhenchao Tang, Jun Liu, Chengliang Liu, Chen Wei, Yuhao Yi, Jiancheng Lv, Yang Zhang
-
-<span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)
-
-**TL;DR**: Separates what biological distinctions experiments can reproducibly resolve from what perturbation-prediction models can learn.
-
-</div></div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">DESIGN · Intervention Design</div><img src="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" alt="VCDesign: candidate-conditioned inverse modeling for cellular intervention design" width="960" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -96,6 +83,19 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign)
 
 **TL;DR**: Formulates cellular intervention design as finite-budget ranking over variable candidate sets and evaluates selected interventions by held-out outcomes, with Candidate Effect Distillation supporting response-unseen candidates.
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MEASURE · Perturbation Evaluation</div><img src="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" width="920" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Measurement resolution constrains fine-grained perturbation prediction](https://boom5426.github.io/PertResolve/)
+
+**Bo Li**, Chengyang Zhang, Mengran Li, Bob Zhang, Lin Wang, Zhenchao Tang, Jun Liu, Chengliang Liu, Chen Wei, Yuhao Yi, Jiancheng Lv, Yang Zhang
+
+<span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)
+
+**TL;DR**: Separates what biological distinctions experiments can reproducibly resolve from what perturbation-prediction models can learn.
 
 </div></div>
 
@@ -122,6 +122,19 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 <span class="venue">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Webserver](https://phenoprofiler.org/) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
 
 **TL;DR**: Learns cellular representations directly from high-content microscopy for image-based phenotypic drug discovery.
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Cross-modal Biology</div><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9)
+
+**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
+
+<span class="venue">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028)
+
+**TL;DR**: Connects single-cell and spatial transcriptomics through a style-transfer formulation for cross-modal gene-expression inference.
 
 </div></div>
 
