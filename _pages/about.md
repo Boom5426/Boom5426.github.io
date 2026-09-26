@@ -65,7 +65,7 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
     <div class="research-num">03 · DESIGN</div>
     <h3>Which intervention can move a cell toward a desired state?</h3>
     <p>Move beyond forward prediction toward inverse intervention design: given an initial and desired cellular state, identify effective perturbations.</p>
-    <div class="research-work">Current direction · Intervention Design</div>
+    <div class="research-work"><a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a></div>
   </div>
 </div>
 
@@ -83,6 +83,19 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)
 
 **TL;DR**: Separates what biological distinctions experiments can reproducibly resolve from what perturbation-prediction models can learn.
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DESIGN · Intervention Design</div><img src="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" alt="VCDesign: candidate-conditioned inverse modeling for cellular intervention design" width="960" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[VCDesign: Candidate-Conditioned Inverse Modeling for Cellular Intervention Design](https://boom5426.github.io/VCDesign-CED/)
+
+**Bo Li** et al.
+
+<span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign)
+
+**TL;DR**: Formulates cellular intervention design as finite-budget ranking over variable candidate sets and evaluates selected interventions by held-out outcomes, with Candidate Effect Distillation supporting response-unseen candidates.
 
 </div></div>
 
@@ -112,26 +125,12 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Cross-modal Biology</div><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9)
-
-**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
-
-<span class="venue">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028)
-
-**TL;DR**: Connects single-cell and spatial transcriptomics through a style-transfer formulation for cross-modal gene-expression inference.
-
-</div></div>
-
-
-
 <div class="pub-record">Full publication record on <a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"><strong>Google Scholar ↗</strong></a></div>
 
 <span class='anchor' id='news'></span>
 
 ## 🔥 News
+- *2026.09*: &nbsp;🎯 Released **VCDesign**, a framework for finite-budget cellular intervention design and response-unseen candidate ranking. [Project](https://boom5426.github.io/VCDesign-CED/) · [Code](https://github.com/Boom5426/VCDesign-CED)
 - *2026.09*: &nbsp;🧬 Released **PertResolve**, a measurement-resolution framework for fine-grained perturbation prediction. [Project](https://boom5426.github.io/PertResolve/) · [Code](https://github.com/Boom5426/PertResolve)
 - *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 - *2026.05*: &nbsp;📄 **CellScientist** preprint released on [arXiv](https://arxiv.org/abs/2605.07335) (co-author).
@@ -149,6 +148,7 @@ Selected research software and community resources.
 
 | Project | What it is | Stars |
 | :--- | :--- | :--- |
+| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget cellular intervention design with support for response-unseen candidates | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
 | [PertResolve](https://github.com/Boom5426/PertResolve) | Measurement-resolution framework and benchmark for perturbation prediction | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/PertResolve) |
 | [MVCBench](https://github.com/QSong-github/MVCBench) | Multimodal benchmark for drug-induced virtual cell phenotypes | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/MVCBench) |
 | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Agent skills for drafting, revising, auditing, and resubmitting scientific manuscripts | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Nature-Paper-Skills?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Nature-Paper-Skills) |
