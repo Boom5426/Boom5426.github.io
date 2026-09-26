@@ -42,7 +42,7 @@ redirect_from:
 <div class="news-window" role="region" aria-label="Recent news" tabindex="0">
   <div class="news-item">
     <span class="news-date">2026.09</span>
-    <span>🎯 Released <strong>VCDesign</strong> for finite-budget cellular intervention design. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a></span>
+    <span>🎯 Released <strong>VCDesign</strong>, a finite-budget intervention-design framework for virtual cells. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.09</span>
@@ -148,7 +148,7 @@ redirect_from:
       <div class="research-num">03 · DESIGN</div>
     </div>
     <h3>Which interventions are worth testing for a desired cellular transition?</h3>
-    <p>Translate predicted or observed cellular responses into finite-budget intervention ranking, and evaluate selected candidates by the outcomes they actually produce.</p>
+    <p>Rank a feasible candidate set under a finite experimental budget and evaluate the selected top-B prefix using independently measured held-out outcomes.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
       <a href="https://github.com/Boom5426/PopRetrieve">PopRetrieve</a>
@@ -160,16 +160,16 @@ redirect_from:
 
 ## 📝 Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DESIGN · Intervention Design</div><img src="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" alt="VCDesign: candidate-conditioned inverse modeling for cellular intervention design" width="960" loading="lazy" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DESIGN · Intervention Design</div><img src="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" alt="VCDesign: finite-budget intervention design for virtual cells" width="960" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[VCDesign: Candidate-Conditioned Inverse Modeling for Cellular Intervention Design](https://boom5426.github.io/VCDesign-CED/)
+[VCDesign: Finite-Budget Intervention Design for Virtual Cells](https://boom5426.github.io/VCDesign-CED/)
 
 **Bo Li**, Lin Wang, Bob Zhang, Mengran Li, Zhenchao Tang, Chengyang Zhang, Minghao Sun, Chengliang Liu, Zhiyuan Liu, Yang Zhang
 
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign)
 
-**TL;DR**: Formulates cellular intervention design as finite-budget ranking over variable candidate sets and evaluates selected interventions by held-out outcomes, with Candidate Effect Distillation supporting response-unseen candidates.
+**TL;DR**: Defines virtual-cell intervention design as finite-budget ranking over variable candidate sets and evaluates the executable top-B prefix using independently measured held-out outcomes. VCDesign-CED augments direct candidate scoring with effects inferred from historical perturbation measurements and biological knowledge when a candidate's own response is absent from the CED effect atlas.
 
 </div></div>
 
@@ -235,7 +235,7 @@ Selected research software and community resources.
 
 | Project | What it is | Stars |
 | :--- | :--- | :--- |
-| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget cellular intervention design with support for response-unseen candidates | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
+| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget intervention design with outcome-based evaluation and CED effect inference from historical perturbation data and biological knowledge | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
 | [PertResolve](https://github.com/Boom5426/PertResolve) | Measurement-resolution framework and benchmark for perturbation prediction | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/PertResolve) |
 | [MVCBench](https://github.com/QSong-github/MVCBench) | Multimodal benchmark for drug-induced virtual cell phenotypes | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/MVCBench) |
 | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Agent skills for drafting, revising, auditing, and resubmitting scientific manuscripts | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Nature-Paper-Skills?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Nature-Paper-Skills) |
