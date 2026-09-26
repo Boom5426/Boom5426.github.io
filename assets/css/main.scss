@@ -155,13 +155,19 @@ h2:before {
 }
 .hero-kicker i { font-size: .92em; }
 .hero-title {
-    max-width: 850px;
+    max-width: none;
     margin: 0 0 .65rem;
-    font-size: clamp(1.85rem, 3.4vw, 2.35rem);
+    font-size: clamp(1.72rem, 2.6vw, 2.05rem);
     line-height: 1.11;
     font-weight: 720;
     letter-spacing: -.025em;
     color: #202632;
+}
+
+@include breakpoint($large) {
+    .hero-title {
+        white-space: nowrap;
+    }
 }
 .hero-copy {
     max-width: 860px;
