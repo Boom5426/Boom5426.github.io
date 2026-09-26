@@ -42,11 +42,11 @@ redirect_from:
 <div class="news-window" role="region" aria-label="Recent news" tabindex="0">
   <div class="news-item">
     <span class="news-date">2026.09</span>
-    <span>🎯 Released <strong>VCDesign</strong>, a finite-budget framework for cellular intervention design. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a></span>
+    <span>🎯 Released <strong>VCDesign</strong> for finite-budget cellular intervention design. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.09</span>
-    <span>🧬 Released <strong>PertResolve</strong>, a measurement-resolution framework for fine-grained perturbation prediction. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a></span>
+    <span>🧬 Released <strong>PertResolve</strong> for measurement-aware perturbation evaluation. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.06</span>
@@ -74,7 +74,7 @@ redirect_from:
   </div>
   <div class="news-item">
     <span class="news-date">2024.10</span>
-    <span>📄 <strong>HGGEP</strong>, gene-expression prediction from histology via hypergraph neural networks, published in <a href="https://academic.oup.com/bib/article/25/6/bbae500/7821151"><em>Briefings in Bioinformatics</em></a>.</span>
+    <span>📄 <strong>HGGEP</strong> published in <a href="https://academic.oup.com/bib/article/25/6/bbae500/7821151"><em>Briefings in Bioinformatics</em></a>.</span>
   </div>
   <div class="news-item">
     <span class="news-date">2024.08</span>
@@ -82,11 +82,11 @@ redirect_from:
   </div>
   <div class="news-item">
     <span class="news-date">2024.07</span>
-    <span>🏅 Graduated from <strong>Beijing University of Technology</strong>; recognized as a Top 100 Graduate and Beijing Outstanding Graduate.</span>
+    <span>🏅 Graduated from <strong>Beijing University of Technology</strong> as a Top 100 Graduate and Beijing Outstanding Graduate.</span>
   </div>
   <div class="news-item">
     <span class="news-date">2024.03–06</span>
-    <span>🔬 Published a cell-localization series spanning <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324000116"><em>Pattern Recognition</em></a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623018183"><em>Engineering Applications of Artificial Intelligence</em></a>, including MHFAN, Lite-UNet, and exponential distance-transform maps.</span>
+    <span>🔬 Published MHFAN, Lite-UNet, and EDTM across <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324000116"><em>Pattern Recognition</em></a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623018183"><em>EAAI</em></a>.</span>
   </div>
 </div>
 
