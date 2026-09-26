@@ -51,7 +51,7 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
     <div class="research-num">01 · MEASURE</div>
     <h3>What can an experiment actually resolve?</h3>
     <p>Quantify perturbation detectability, identifiability, reproducibility, and the measurement resolution available to downstream predictive models.</p>
-    <div class="research-work"><a href="https://boom5426.github.io/PertResolve/">PertResolve</a></div>
+    <div class="research-work"><a href="https://boom5426.github.io/PertResolve/">PertResolve</a> · <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a></div>
   </div>
   <div class="research-arrow">→</div>
   <div class="research-card">
@@ -65,7 +65,7 @@ I am a Ph.D. student in the Department of Artificial Intelligence, [University o
     <div class="research-num">03 · DESIGN</div>
     <h3>Which intervention can move a cell toward a desired state?</h3>
     <p>Move beyond forward prediction toward inverse intervention design: given an initial and desired cellular state, identify effective perturbations.</p>
-    <div class="research-work"><a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a></div>
+    <div class="research-work"><a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a> · <a href="https://github.com/Boom5426/PopRetrieve">PopRetrieve</a></div>
   </div>
 </div>
 
