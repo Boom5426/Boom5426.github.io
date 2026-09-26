@@ -32,7 +32,7 @@ redirect_from:
 
 <div class="avail">
   <i class="fas fa-search" aria-hidden="true"></i>
-  <span><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, virtual cells, perturbation modeling, and intervention design.</span>
+  <span><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, measurement-aware evaluation, multimodal virtual cells, and intervention design.</span>
 </div>
 
 <span class='anchor' id='research'></span>
@@ -45,8 +45,8 @@ redirect_from:
       <span class="research-icon"><i class="fas fa-microscope" aria-hidden="true"></i></span>
       <div class="research-num">01 · MEASURE</div>
     </div>
-    <h3>What can experiments reliably resolve?</h3>
-    <p>Measurement resolution, reproducibility, and evaluation of perturbation effects.</p>
+    <h3>What biological distinctions can experiments reliably resolve?</h3>
+    <p>Study measurement resolution, reproducibility, and whether experimental readouts contain enough information to support the distinctions and evaluations asked of downstream models.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
       <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>
@@ -58,8 +58,8 @@ redirect_from:
       <span class="research-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
       <div class="research-num">02 · MODEL</div>
     </div>
-    <h3>How do cells respond?</h3>
-    <p>Multimodal representation and prediction of cellular phenotypes across perturbations and contexts.</p>
+    <h3>How do cellular responses generalize across modalities and contexts?</h3>
+    <p>Develop and benchmark representations that connect perturbations with transcriptomic, morphological, molecular, and spatial measurements across biological contexts.</p>
     <div class="research-work">
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
@@ -72,8 +72,8 @@ redirect_from:
       <span class="research-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></span>
       <div class="research-num">03 · DESIGN</div>
     </div>
-    <h3>Which interventions should be tested?</h3>
-    <p>Finite-budget selection of interventions for desired cellular states.</p>
+    <h3>Which interventions are worth testing for a desired cellular transition?</h3>
+    <p>Translate predicted or observed cellular responses into finite-budget intervention ranking, and evaluate selected candidates by the outcomes they actually produce.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
       <a href="https://github.com/Boom5426/PopRetrieve">PopRetrieve</a>
@@ -157,7 +157,7 @@ redirect_from:
 ## 🔥 News
 - *2026.09*: &nbsp;🎯 Released **VCDesign**, a framework for finite-budget cellular intervention design and response-unseen candidate ranking. [Project](https://boom5426.github.io/VCDesign-CED/) · [Code](https://github.com/Boom5426/VCDesign-CED)
 - *2026.09*: &nbsp;🧬 Released **PertResolve**, a measurement-resolution framework for fine-grained perturbation prediction. [Project](https://boom5426.github.io/PertResolve/) · [Code](https://github.com/Boom5426/PertResolve)
-- *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **School of Computing, National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
+- *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
 - *2026.05*: &nbsp;📄 **CellScientist** preprint released on [arXiv](https://arxiv.org/abs/2605.07335) (co-author).
 - *2026.04*: &nbsp;🧬 **MVCBench** preprint released on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1).
 - *2026.01*: &nbsp;🎉 One paper accepted at **ICLR 2026** (co-author).
@@ -186,11 +186,11 @@ Selected research software and community resources.
 ## 📖 Education
 - *2026.06 – 2027.06*: **National University of Singapore**
 
-  *- Visiting Student, School of Computing. Host: [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
+  *- Visiting Student. Host: [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
 
 - *2024.08 – Present*: **University of Macau**
 
-  *- Ph.D. in Computer Science, Department of Artificial Intelligence, Full Scholarship. Advisors: [Prof. Bob Zhang](https://fic.um.edu.mo/zh-hant/people/bobzhang/), [Prof. Qianqian Song](https://polytechnic.purdue.edu/profile/song1081)*
+  *- Ph.D. in Computer Science, Department of Artificial Intelligence, Full Scholarship. Advisor: [Prof. Bob Zhang](https://fic.um.edu.mo/zh-hant/people/bobzhang/); Co-advisor: [Prof. Qianqian Song](https://polytechnic.purdue.edu/profile/song1081), Purdue University*
 
 - *2021.09 – 2024.07*: **Beijing University of Technology**
 
@@ -221,7 +221,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 ## 🧭 Research Interests & Technical Stack
 
-**Research**: AI for Biology · virtual cells · single-cell perturbation modeling · multimodal learning · phenotypic drug discovery · spatial omics · intervention design · scientific agents  
+**Research**: AI for Biology · cellular perturbations · virtual cells · measurement-aware evaluation · multimodal cellular modeling · phenotypic profiling · spatial omics · intervention design · scientific agents  
 **Technical**: Python · PyTorch · CUDA · Linux
 
 <div class="logo-row">
