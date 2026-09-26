@@ -250,6 +250,48 @@ h2:before {
     font-size: .82em;
 }
 
+/* --- compact scrollable news window --- */
+.news-window {
+    max-height: 190px;
+    overflow-y: auto;
+    margin: .85rem 0 1.2rem;
+    padding: .15rem .8rem .15rem .15rem;
+    border: 1px solid #e3e7ee;
+    border-radius: 8px;
+    background: #fbfcfe;
+    scrollbar-width: thin;
+    scrollbar-color: #b9c5d8 transparent;
+}
+.news-window:focus-visible {
+    outline: 2px solid #00369f;
+    outline-offset: 2px;
+}
+.news-item {
+    display: grid;
+    grid-template-columns: 4.7rem minmax(0, 1fr);
+    gap: .65rem;
+    padding: .62rem .55rem;
+    border-bottom: 1px solid #edf0f4;
+    font-size: .82em;
+    line-height: 1.5;
+}
+.news-item:last-child { border-bottom: 0; }
+.news-date {
+    color: #00369f;
+    font-weight: 750;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+.news-window a { font-weight: 600; }
+
+@media (max-width: 40em) {
+    .news-window { max-height: 220px; }
+    .news-item {
+        grid-template-columns: 1fr;
+        gap: .15rem;
+    }
+}
+
 /* --- research agenda: Measure / Model / Design --- */
 .research-grid {
     display: grid;
@@ -485,6 +527,13 @@ h2:before {
     /* homepage components */
     .avail { background-color: #171d27; border-left-color: #4f7fe0; }
     .avail > i { color: #8fb2ff; }
+    .news-window {
+        background: #181c23;
+        border-color: #2d3440;
+        scrollbar-color: #4a5568 transparent;
+    }
+    .news-item { border-bottom-color: #2a303b; }
+    .news-date { color: #8fb2ff; }
 
     .link-btn { background-color: #2a5bd7; }
     .link-btn:hover { background-color: #3d6ce8; }

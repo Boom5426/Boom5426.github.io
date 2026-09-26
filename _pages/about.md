@@ -35,6 +35,53 @@ redirect_from:
   <span><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, measurement-aware evaluation, multimodal virtual cells, and intervention design.</span>
 </div>
 
+<span class='anchor' id='news'></span>
+
+## 🔥 News
+
+<div class="news-window" role="region" aria-label="Recent news" tabindex="0">
+  <div class="news-item">
+    <span class="news-date">2026.09</span>
+    <span>🎯 Released <strong>VCDesign</strong>, a finite-budget framework for cellular intervention design. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a></span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.09</span>
+    <span>🧬 Released <strong>PertResolve</strong>, a measurement-resolution framework for fine-grained perturbation prediction. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a></span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.06</span>
+    <span>🇸🇬 Started a one-year visit to the <strong>National University of Singapore</strong>, hosted by <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Prof. Yang Zhang</a>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.05</span>
+    <span>🤖 <strong>CellScientist</strong> preprint released on <a href="https://arxiv.org/abs/2605.07335">arXiv</a> (co-author).</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.04</span>
+    <span>🧫 <strong>MVCBench</strong> preprint released on <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">bioRxiv</a>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.12</span>
+    <span>🎉 <strong>PhenoProfiler</strong> published in <a href="https://www.nature.com/articles/s41467-025-67479-w"><em>Nature Communications</em></a>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.08</span>
+    <span>🧬 <strong>SpaIM</strong> published in <a href="https://www.nature.com/articles/s41467-025-63185-9"><em>Nature Communications</em></a>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024.10</span>
+    <span>📄 <strong>HGGEP</strong>, gene-expression prediction from histology via hypergraph neural networks, published in <a href="https://academic.oup.com/bib/article/25/6/bbae500/7821151"><em>Briefings in Bioinformatics</em></a>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024.08</span>
+    <span>🎓 Started my Ph.D. at the <strong>University of Macau</strong>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024.03–06</span>
+    <span>🔬 Published a cell-localization series spanning <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324000116"><em>Pattern Recognition</em></a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623018183"><em>Engineering Applications of Artificial Intelligence</em></a>, including MHFAN, Lite-UNet, and exponential distance-transform maps.</span>
+  </div>
+</div>
+
 <span class='anchor' id='research'></span>
 
 ## 🔬 Research
@@ -151,19 +198,6 @@ redirect_from:
 </div></div>
 
 <div class="pub-record">Full publication record on <a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"><strong>Google Scholar ↗</strong></a></div>
-
-<span class='anchor' id='news'></span>
-
-## 🔥 News
-- *2026.09*: &nbsp;🎯 Released **VCDesign**, a framework for finite-budget cellular intervention design and response-unseen candidate ranking. [Project](https://boom5426.github.io/VCDesign-CED/) · [Code](https://github.com/Boom5426/VCDesign-CED)
-- *2026.09*: &nbsp;🧬 Released **PertResolve**, a measurement-resolution framework for fine-grained perturbation prediction. [Project](https://boom5426.github.io/PertResolve/) · [Code](https://github.com/Boom5426/PertResolve)
-- *2026.06*: &nbsp;🇸🇬 Started a one-year visit to the **National University of Singapore**, hosted by [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/).
-- *2026.05*: &nbsp;📄 **CellScientist** preprint released on [arXiv](https://arxiv.org/abs/2605.07335) (co-author).
-- *2026.04*: &nbsp;🧬 **MVCBench** preprint released on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1).
-- *2026.01*: &nbsp;🎉 One paper accepted at **ICLR 2026** (co-author).
-- *2025.12*: &nbsp;🎉 **PhenoProfiler** published in [***Nature Communications***](https://www.nature.com/articles/s41467-025-67479-w).
-
-
 
 <span class='anchor' id='software'></span>
 
