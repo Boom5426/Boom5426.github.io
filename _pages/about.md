@@ -49,6 +49,18 @@ redirect_from:
     <span>🧬 Released <strong>PertResolve</strong> for measurement-aware perturbation evaluation. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a></span>
   </div>
   <div class="news-item">
+    <span class="news-date">2026.09</span>
+    <span>📘 Collaborative paper published in <a href="https://doi.org/10.1007/s11263-026-03025-5"><strong>IJCV</strong></a> on incomplete multi-view multi-label learning.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.08</span>
+    <span>📘 Collaborative paper published in <a href="https://pubmed.ncbi.nlm.nih.gov/42672031/"><strong>IEEE TPAMI</strong></a> on incomplete multi-view multi-label learning.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.08</span>
+    <span>🧬 Collaborative paper <strong>PSSD</strong> published in <a href="https://academic.oup.com/bioinformatics/article/42/8/btag598/8757724"><em>Bioinformatics</em></a> for histology-to-gene-expression prediction.</span>
+  </div>
+  <div class="news-item">
     <span class="news-date">2026.06</span>
     <span>🇸🇬 Started a one-year visit to the <strong>National University of Singapore</strong>, hosted by <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Prof. Yang Zhang</a>.</span>
   </div>
@@ -69,12 +81,20 @@ redirect_from:
     <span>🎉 <strong>PhenoProfiler</strong> published in <a href="https://www.nature.com/articles/s41467-025-67479-w"><em>Nature Communications</em></a>.</span>
   </div>
   <div class="news-item">
+    <span class="news-date">2025.12</span>
+    <span>🧬 Collaborative spatial-omics paper <strong>HAST</strong> published in <a href="https://www.nature.com/articles/s42003-025-09312-0"><em>Communications Biology</em></a>.</span>
+  </div>
+  <div class="news-item">
     <span class="news-date">2025.08</span>
     <span>🧬 <strong>SpaIM</strong> published in <a href="https://www.nature.com/articles/s41467-025-63185-9"><em>Nature Communications</em></a>.</span>
   </div>
   <div class="news-item">
     <span class="news-date">2024.10</span>
     <span>📄 <strong>HGGEP</strong> published in <a href="https://academic.oup.com/bib/article/25/6/bbae500/7821151"><em>Briefings in Bioinformatics</em></a>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024.08</span>
+    <span>🧬 Collaborative paper <strong>AntiFormer</strong> published in <a href="https://academic.oup.com/bib/article/25/5/bbae403/7736247"><em>Briefings in Bioinformatics</em></a> for antibody binding-affinity prediction.</span>
   </div>
   <div class="news-item">
     <span class="news-date">2024.08</span>
