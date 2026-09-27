@@ -36,6 +36,13 @@ redirect_from:
   <span><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, virtual cells, measurement-aware evaluation, and intervention design.</span>
 </div>
 
+<div class="research-hero">
+  <img src="{{ '/images/research_program_hero.webp' | relative_url }}"
+       alt="Research program from multimodal biological measurements through decision-centric virtual cells and intervention design to experimental feedback"
+       width="640" height="274" loading="eager" decoding="async">
+  <div class="research-hero-caption"><strong>Research program ·</strong> Multimodal biological measurements → Decision-centric virtual cells → Intervention design → Experimental feedback</div>
+</div>
+
 <span class='anchor' id='news'></span>
 
 ## 🔥 News
