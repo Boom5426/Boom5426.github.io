@@ -42,7 +42,7 @@ redirect_from:
 <div class="news-window" role="region" aria-label="Recent news" tabindex="0">
   <div class="news-item">
     <span class="news-date">2026.09</span>
-    <span>🎯 Released <strong>VCDesign</strong>, a finite-budget intervention-design framework for virtual cells. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a></span>
+    <span>🎯 Released <strong>VCDesign</strong>, a framework for finite-budget intervention design in virtual cells. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.09</span>
@@ -148,7 +148,7 @@ redirect_from:
       <div class="research-num">03 · DESIGN</div>
     </div>
     <h3>Which interventions are worth testing for a desired cellular transition?</h3>
-    <p>Rank a feasible candidate set under a finite experimental budget and evaluate the selected top-B prefix using independently measured held-out outcomes.</p>
+    <p>Rank feasible interventions toward a desired cellular state under a finite experimental budget, then evaluate the selected experiments by independently measured outcomes.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
       <a href="https://github.com/Boom5426/PopRetrieve">PopRetrieve</a>
@@ -169,7 +169,7 @@ redirect_from:
 
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign)
 
-**TL;DR**: Defines virtual-cell intervention design as finite-budget ranking over variable candidate sets and evaluates the executable top-B prefix using independently measured held-out outcomes. VCDesign-CED augments direct candidate scoring with effects inferred from historical perturbation measurements and biological knowledge when a candidate's own response is absent from the CED effect atlas.
+**TL;DR**: Formulates virtual-cell intervention design as finite-budget ranking over feasible candidates and evaluates the experiments actually selected using independently measured held-out outcomes. When candidate responses are already available, direct retrieval is the appropriate solver; VCDesign-CED supports the complementary setting where a candidate's own response is absent from its effect atlas.
 
 </div></div>
 
@@ -235,7 +235,7 @@ Selected research software and community resources.
 
 | Project | What it is | Stars |
 | :--- | :--- | :--- |
-| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget intervention design with outcome-based evaluation and CED effect inference from historical perturbation data and biological knowledge | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
+| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget intervention ranking and outcome-based evaluation for virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
 | [PertResolve](https://github.com/Boom5426/PertResolve) | Measurement-resolution framework and benchmark for perturbation prediction | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/PertResolve) |
 | [MVCBench](https://github.com/QSong-github/MVCBench) | Multimodal benchmark for drug-induced virtual cell phenotypes | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/MVCBench) |
 | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Agent skills for drafting, revising, auditing, and resubmitting scientific manuscripts | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Nature-Paper-Skills?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Nature-Paper-Skills) |
