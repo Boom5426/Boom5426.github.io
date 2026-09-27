@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="screen-reader-text">Bo Li 李波 — AI for Biology: from biological measurements to experimental decisions</h1>
+<h1 class="screen-reader-text">Bo Li 李波 — AI for Biology: from multimodal virtual cells to experimental decisions</h1>
 
 <span class='anchor' id='about-me'></span>
 
 <div class="hero-block">
   <div class="hero-kicker"><i class="fas fa-dna" aria-hidden="true"></i><span>AI FOR BIOLOGY</span></div>
-  <div class="hero-title">From Biological Measurements to Experimental Decisions</div>
+  <div class="hero-title">From Multimodal Virtual Cells to Experimental Decisions</div>
   <p class="hero-copy">I develop decision-centric AI methods that connect multimodal biological measurements, virtual-cell modeling, and intervention design. My work asks what biological distinctions experiments can reliably resolve, what information generalizes across cellular contexts, and which interventions are worth testing under limited experimental budgets.</p>
   <div class="hero-vision"><span>Long-term vision</span><strong>AI-driven Experimental Intelligence for Biology</strong></div>
 
