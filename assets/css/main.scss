@@ -140,8 +140,34 @@ h2:before {
 
 /* --- homepage research identity hero --- */
 .hero-block {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
     margin: .1rem 0 .75rem;
-    padding: .15rem 0 .35rem;
+    padding: .85rem 1rem .7rem;
+    border: 1px solid #edf0f4;
+    border-radius: 10px;
+}
+.hero-block::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: url("{{ '/images/research_program_hero.webp' | relative_url }}");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .15;
+    filter: saturate(.92) contrast(1.02);
+    pointer-events: none;
+}
+.hero-block::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(255,255,255,.84) 0%, rgba(255,255,255,.72) 46%, rgba(255,255,255,.58) 100%);
+    pointer-events: none;
 }
 .hero-kicker {
     display: inline-flex;
@@ -266,30 +292,6 @@ h2:before {
     margin-top: .18rem;
     color: #00369f;
     font-size: .82em;
-}
-
-/* --- research-program hero illustration --- */
-.research-hero {
-    margin: 1.05rem 0 1.35rem;
-}
-.research-hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 1px solid #edf0f4;
-    border-radius: 10px;
-    background: #fff;
-}
-.research-hero-caption {
-    margin-top: .42rem;
-    color: #687381;
-    font-size: .73em;
-    line-height: 1.45;
-    text-align: center;
-}
-.research-hero-caption strong {
-    color: #00369f;
-    font-weight: 800;
 }
 
 /* --- compact scrollable news window --- */
@@ -527,6 +529,13 @@ h2:before {
 }
 
 @media (max-width: 57.8124em) {
+    .hero-block {
+        padding: .72rem .75rem .6rem;
+    }
+    .hero-block::before {
+        background-position: 54% center;
+        background-size: auto 100%;
+    }
     .hero-title { font-size: 1.85rem; }
     .research-grid {
         grid-template-columns: 1fr;
@@ -668,12 +677,19 @@ h2:before {
     }
     .news-item { border-bottom-color: #2a303b; }
     .news-date { color: #8fb2ff; }
-    .research-hero img {
+    .hero-block {
         border-color: #2d3440;
-        background: #fff;
+        background: #14171d;
     }
-    .research-hero-caption { color: #98a3b1; }
-    .research-hero-caption strong { color: #8fb2ff; }
+    .hero-block::before {
+        background-color: #14171d;
+        background-blend-mode: multiply;
+        opacity: .68;
+        filter: saturate(.95) contrast(1.08) brightness(.78);
+    }
+    .hero-block::after {
+        background: linear-gradient(90deg, rgba(20,23,29,.82) 0%, rgba(20,23,29,.70) 48%, rgba(20,23,29,.58) 100%);
+    }
 
     .link-btn { background-color: #2a5bd7; }
     .link-btn:hover { background-color: #3d6ce8; }
