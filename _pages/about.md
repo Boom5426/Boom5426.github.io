@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="screen-reader-text">Bo Li 李波 — AI for Biology: measuring, modeling, and designing cellular perturbations</h1>
+<h1 class="screen-reader-text">Bo Li 李波 — AI for Biology: from biological measurements to experimental decisions</h1>
 
 <span class='anchor' id='about-me'></span>
 
 <div class="hero-block">
   <div class="hero-kicker"><i class="fas fa-dna" aria-hidden="true"></i><span>AI FOR BIOLOGY</span></div>
-  <div class="hero-title">Measuring, modeling, and designing cellular perturbations</div>
-  <p class="hero-copy">I develop computational methods for measuring, modeling, and controlling cellular responses, focusing on what experiments can reliably resolve, how multimodal virtual-cell models generalize across perturbations and contexts, and how models can prioritize interventions that move cells toward desired states.</p>
+  <div class="hero-title">From Biological Measurements to Experimental Decisions</div>
+  <p class="hero-copy">I develop decision-centric AI methods that connect multimodal biological measurements, virtual-cell modeling, and intervention design. My work asks what biological distinctions experiments can reliably resolve, what information generalizes across cellular contexts, and which interventions are worth testing under limited experimental budgets.</p>
+  <div class="hero-vision"><span>Long-term vision</span><strong>AI-driven Experimental Intelligence for Biology</strong></div>
 
   <div class="hero-affiliations">
     <div class="affiliation-line">
@@ -32,7 +33,7 @@ redirect_from:
 
 <div class="avail">
   <i class="fas fa-search" aria-hidden="true"></i>
-  <span><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, measurement-aware evaluation, multimodal virtual cells, and intervention design.</span>
+  <span><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, virtual cells, measurement-aware evaluation, and intervention design.</span>
 </div>
 
 <span class='anchor' id='news'></span>
@@ -121,7 +122,7 @@ redirect_from:
       <div class="research-num">01 · MEASURE</div>
     </div>
     <h3>What biological distinctions can experiments reliably resolve?</h3>
-    <p>Study measurement resolution, reproducibility, and whether experimental readouts contain enough information to support the distinctions and evaluations asked of downstream models.</p>
+    <p>Determine whether experimental measurements contain reproducible information at the biological resolution required by downstream prediction and evaluation. Separate measurement limitations from model limitations before interpreting benchmark performance.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
       <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>
@@ -133,8 +134,8 @@ redirect_from:
       <span class="research-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
       <div class="research-num">02 · MODEL</div>
     </div>
-    <h3>How do cellular responses generalize across modalities and contexts?</h3>
-    <p>Develop and benchmark representations that connect perturbations with transcriptomic, morphological, molecular, and spatial measurements across biological contexts.</p>
+    <h3>What biological information transfers across modalities and contexts?</h3>
+    <p>Learn and evaluate cellular representations across transcriptomic, morphological, spatial, and perturbational measurements, with an emphasis on what information remains useful under biological and experimental shifts.</p>
     <div class="research-work">
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
@@ -142,18 +143,35 @@ redirect_from:
     </div>
   </div>
 
-  <div class="research-card">
+  <div class="research-card research-card-current">
     <div class="research-card-head">
       <span class="research-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></span>
       <div class="research-num">03 · DESIGN</div>
+      <span class="research-focus">Current focus</span>
     </div>
-    <h3>Which interventions are worth testing for a desired cellular transition?</h3>
-    <p>Rank feasible interventions toward a desired cellular state under a finite experimental budget, then evaluate the selected experiments by independently measured outcomes.</p>
+    <h3>Which experiments are worth performing next?</h3>
+    <p>Formulate intervention design as a finite-budget decision problem: rank feasible interventions toward a biological objective and evaluate the selected experiments using independently measured outcomes.</p>
+    <div class="research-direction">Toward adaptive intervention selection and prospective experimental feedback.</div>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
-      <a href="https://github.com/Boom5426/PopRetrieve">PopRetrieve</a>
     </div>
   </div>
+</div>
+
+<span class='anchor' id='vision'></span>
+
+## 🔭 Research Vision
+
+<div class="vision-strip">
+  <div class="vision-lead"><strong>AI systems should not only model cellular responses, but help decide what biological experiments are worth performing next.</strong></div>
+  <div class="vision-copy">My long-term goal is to connect reliable biological models, intervention-design algorithms, scientific workflow agents, and experimental feedback into progressively more capable experimental decision systems.</div>
+  <div class="vision-pipeline" aria-label="Research vision pipeline">
+    <span>Reliable measurements</span><i class="fas fa-arrow-right" aria-hidden="true"></i>
+    <span>Decision-centric virtual cells</span><i class="fas fa-arrow-right" aria-hidden="true"></i>
+    <span>Intervention design</span><i class="fas fa-arrow-right" aria-hidden="true"></i>
+    <span>Prospective experimental feedback</span>
+  </div>
+  <div class="vision-note"><strong>Virtual cell</strong> models biology · <strong>Scientific agent</strong> plans and orchestrates · <strong>Experiment</strong> provides external feedback and validation</div>
 </div>
 
 <span class='anchor' id='publications'></span>
@@ -169,11 +187,11 @@ redirect_from:
 
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign)
 
-**TL;DR**: Formulates virtual-cell intervention design as finite-budget ranking over feasible candidates and evaluates the experiments actually selected using independently measured held-out outcomes. When candidate responses are already available, direct retrieval is the appropriate solver; VCDesign-CED supports the complementary setting where a candidate's own response is absent from its effect atlas.
+**TL;DR**: Formulates cellular intervention design as finite-budget ranking over feasible candidates and evaluates the selected experiments using independently measured held-out outcomes. VCDesign separates the experimental decision from the computational solver, while VCDesign-CED supports response-unseen candidates by transferring historical perturbation evidence through biological knowledge.
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MEASURE · Perturbation Evaluation</div><img src="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" width="920" loading="lazy" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MEASURE · Measurement-aware Evaluation</div><img src="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" width="920" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Measurement resolution constrains fine-grained perturbation prediction](https://boom5426.github.io/PertResolve/)
@@ -182,11 +200,11 @@ redirect_from:
 
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)
 
-**TL;DR**: Separates what biological distinctions experiments can reproducibly resolve from what perturbation-prediction models can learn.
+**TL;DR**: Separates measurement limits from modeling limits by asking whether an experiment can reproducibly resolve the biological distinctions that downstream prediction models are expected to recover.
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Virtual Cell Benchmark</div><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Virtual Cell Generalization</div><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
@@ -195,11 +213,11 @@ redirect_from:
 
 <span class="venue">bioRxiv</span> 2026 &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench)
 
-**TL;DR**: Benchmarks molecular and gene representations for multimodal prediction of drug-induced cellular phenotypes at scale.
+**TL;DR**: Systematically evaluates which molecular and cellular representations support multimodal virtual-cell prediction and which gains remain useful across perturbations, cellular contexts, and experimental shifts.
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Phenotypic Representation</div><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Cellular Representation</div><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PhenoProfiler: Advancing Phenotypic Learning for Image-based Drug Discovery](https://www.nature.com/articles/s41467-025-67479-w)
@@ -208,11 +226,11 @@ redirect_from:
 
 <span class="venue">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Webserver](https://phenoprofiler.org/) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
 
-**TL;DR**: Learns cellular representations directly from high-content microscopy for image-based phenotypic drug discovery.
+**TL;DR**: Learns cellular representations directly from high-content microscopy to support image-based phenotypic profiling and drug discovery.
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Cross-modal Biology</div><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Multimodal Biology</div><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9)
@@ -221,7 +239,7 @@ redirect_from:
 
 <span class="venue">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028)
 
-**TL;DR**: Connects single-cell and spatial transcriptomics through a style-transfer formulation for cross-modal gene-expression inference.
+**TL;DR**: Connects single-cell and spatial transcriptomics through cross-modal modeling of gene-expression information across biological measurement spaces.
 
 </div></div>
 
@@ -235,13 +253,13 @@ Selected research software and community resources.
 
 | Project | What it is | Stars |
 | :--- | :--- | :--- |
-| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget intervention ranking and outcome-based evaluation for virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
-| [PertResolve](https://github.com/Boom5426/PertResolve) | Measurement-resolution framework and benchmark for perturbation prediction | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/PertResolve) |
-| [MVCBench](https://github.com/QSong-github/MVCBench) | Multimodal benchmark for drug-induced virtual cell phenotypes | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/MVCBench) |
-| [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Agent skills for drafting, revising, auditing, and resubmitting scientific manuscripts | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Nature-Paper-Skills?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Nature-Paper-Skills) |
-| [Awesome-Virtual-Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | Curated papers, datasets, benchmarks, and resources for AI virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Awesome-Virtual-Cell) |
-| [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | End-to-end phenotypic profiling for image-based drug discovery | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/PhenoProfiler) |
-| [SpaIM](https://github.com/QSong-github/SpaIM) | Cross-modal imputation for spatial transcriptomics | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/SpaIM?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/SpaIM) |
+| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget intervention ranking and decision-aligned evaluation for virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
+| [PertResolve](https://github.com/Boom5426/PertResolve) | Measurement-aware evaluation framework for interpreting perturbation-prediction performance | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/PertResolve) |
+| [MVCBench](https://github.com/QSong-github/MVCBench) | Multimodal benchmark for virtual-cell representation and generalization | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/MVCBench) |
+| [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | End-to-end phenotypic representation learning for high-content cell imaging | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/PhenoProfiler) |
+| [Awesome-Virtual-Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | Curated literature, datasets, benchmarks, and resources for virtual-cell research | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Awesome-Virtual-Cell) |
+| [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Agent skills for scientific manuscript drafting, revision, auditing, and resubmission | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Nature-Paper-Skills?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Nature-Paper-Skills) |
+| [SpaIM](https://github.com/QSong-github/SpaIM) | Cross-modal modeling for spatial transcriptomics imputation | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/SpaIM?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/SpaIM) |
 
 <span class='anchor' id='education'></span>
 
@@ -283,7 +301,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 ## 🧭 Research Interests & Technical Stack
 
-**Research**: AI for Biology · cellular perturbations · virtual cells · measurement-aware evaluation · multimodal cellular modeling · phenotypic profiling · spatial omics · intervention design · scientific agents  
+**Research**: AI for Biology · virtual cells · measurement-aware evaluation · multimodal biological modeling · cellular perturbations · intervention design · experimental decision making · scientific agents  
 **Technical**: Python · PyTorch · CUDA · Linux
 
 <div class="logo-row">
