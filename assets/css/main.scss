@@ -157,8 +157,8 @@ h2:before {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: .15;
-    filter: saturate(.92) contrast(1.02);
+    opacity: .48;
+    filter: saturate(1.05) contrast(1.04);
     pointer-events: none;
 }
 .hero-block::after {
@@ -166,7 +166,7 @@ h2:before {
     position: absolute;
     inset: 0;
     z-index: -1;
-    background: linear-gradient(90deg, rgba(255,255,255,.84) 0%, rgba(255,255,255,.72) 46%, rgba(255,255,255,.58) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,.58) 0%, rgba(255,255,255,.40) 48%, rgba(255,255,255,.25) 100%);
     pointer-events: none;
 }
 .hero-kicker {
@@ -682,13 +682,13 @@ h2:before {
         background: #14171d;
     }
     .hero-block::before {
-        background-color: #14171d;
-        background-blend-mode: multiply;
-        opacity: .68;
-        filter: saturate(.95) contrast(1.08) brightness(.78);
+        background-color: transparent;
+        background-blend-mode: normal;
+        opacity: .55;
+        filter: saturate(1.15) contrast(1.10) brightness(.82);
     }
     .hero-block::after {
-        background: linear-gradient(90deg, rgba(20,23,29,.82) 0%, rgba(20,23,29,.70) 48%, rgba(20,23,29,.58) 100%);
+        background: linear-gradient(90deg, rgba(20,23,29,.62) 0%, rgba(20,23,29,.52) 48%, rgba(20,23,29,.44) 100%);
     }
 
     .link-btn { background-color: #2a5bd7; }
