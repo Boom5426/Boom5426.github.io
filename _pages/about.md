@@ -295,7 +295,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 ## 💼 Academic Service
 
-**Journal reviewer**: *Science Advances*, **IEEE TPAMI**, IEEE TIP, IEEE TNNLS, Medical Image Analysis, Bioinformatics, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, and Expert Systems with Applications.
+**Journal reviewer**: *Science Advances*, **IEEE TPAMI**, Pattern Recognition, IEEE TIP, IEEE TNNLS, Medical Image Analysis, Bioinformatics, Briefings in Bioinformatics, BMC Biology, Engineering Applications of Artificial Intelligence, and Expert Systems with Applications.
 
 **Collaborations**: Purdue University, Cornell University, University of Florida, National University of Singapore, Sun Yat-sen University, Sichuan University, Beijing University of Technology, and Macao Polytechnic University.
 
