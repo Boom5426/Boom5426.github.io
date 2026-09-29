@@ -15,7 +15,7 @@ redirect_from:
 <div class="hero-block">
   <div class="hero-kicker"><i class="fas fa-dna" aria-hidden="true"></i><span>AI FOR BIOLOGY</span></div>
   <div class="hero-title">From Multimodal Virtual Cells to Experimental Decisions</div>
-  <p class="hero-copy">I develop decision-centric AI methods that connect multimodal biological measurements, virtual-cell modeling, and intervention design. My work asks what biological distinctions experiments can reliably resolve, what information generalizes across cellular contexts, and which interventions are worth testing under limited experimental budgets.</p>
+  <p class="hero-copy">I develop decision-centric AI methods that connect multimodal biological measurements, virtual-cell modeling, and intervention design. My work asks what biological distinctions experiments can reliably resolve, what response structures models actually recover and generalize across cellular contexts, and which interventions are worth testing under limited experimental budgets.</p>
   <div class="hero-vision"><span>Long-term vision</span><strong>AI-driven Experimental Intelligence for Biology</strong></div>
 
   <div class="hero-affiliations">
@@ -48,6 +48,10 @@ redirect_from:
   <div class="news-item">
     <span class="news-date">2026.09</span>
     <span>🧬 Released <strong>PertResolve</strong> for measurement-aware perturbation evaluation. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a></span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.09</span>
+    <span>💊 Released <strong>DrugDis</strong>, a component-resolved framework for interpreting general and context-specific drug-response prediction. <a href="https://boom5426.github.io/DrugDis/">Project</a> · <a href="https://github.com/Boom5426/DrugDis">Code</a> · <a href="https://huggingface.co/datasets/Boom5426/DrugDis">Data</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.09</span>
@@ -134,9 +138,10 @@ redirect_from:
       <span class="research-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
       <div class="research-num">02 · MODEL</div>
     </div>
-    <h3>What biological information transfers across modalities and contexts?</h3>
-    <p>Learn and evaluate cellular representations across transcriptomic, morphological, spatial, and perturbational measurements, with an emphasis on what information remains useful under biological and experimental shifts.</p>
+    <h3>What response structure do models recover, and what transfers across modalities and contexts?</h3>
+    <p>Learn and evaluate cellular representations and response predictors across transcriptomic, morphological, spatial, and perturbational measurements, separating general response structure from context-specific recovery and testing what remains useful under biological and experimental shifts.</p>
     <div class="research-work">
+      <a href="https://boom5426.github.io/DrugDis/">DrugDis</a>
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
       <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
@@ -164,7 +169,7 @@ redirect_from:
 
 <div class="vision-strip">
   <div class="vision-lead"><strong>AI systems should not only model cellular responses, but help decide what biological experiments are worth performing next.</strong></div>
-  <div class="vision-copy">My long-term goal is to connect reliable biological models, intervention-design algorithms, scientific workflow agents, and experimental feedback into progressively more capable experimental decision systems.</div>
+  <div class="vision-copy">My long-term goal is to connect reliable biological measurements, interpretable predictive models, intervention-design algorithms, scientific workflow agents, and experimental feedback into progressively more capable experimental decision systems.</div>
   <div class="vision-pipeline" aria-label="Research vision pipeline">
     <span>Reliable measurements</span><i class="fas fa-arrow-right" aria-hidden="true"></i>
     <span>Decision-centric virtual cells</span><i class="fas fa-arrow-right" aria-hidden="true"></i>
@@ -201,6 +206,19 @@ redirect_from:
 <span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)
 
 **TL;DR**: Separates measurement limits from modeling limits by asking whether an experiment can reproducibly resolve the biological distinctions that downstream prediction models are expected to recover.
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Component-resolved Evaluation</div><img src="https://boom5426.github.io/DrugDis/assets/fig1_overview.png" alt="DrugDis: disentangling general and context-specific effects in drug-response prediction" width="920" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DrugDis: Disentangling general and context-specific effects in drug-response prediction](https://boom5426.github.io/DrugDis/)
+
+**Bo Li**, Chengliang Liu, Yuzhong Peng, Bob Zhang, Qing Wang, Pinxian Zeng, Mengran Li, Shenghui Huang, Chuxia Deng, Yang Zhang
+
+<span class="venue">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/DrugDis/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_manuscript.pdf) &nbsp;·&nbsp; [Supplement](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_SI.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/DrugDis) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/DrugDis)
+
+**TL;DR**: Shows that strong aggregate drug-response accuracy can be dominated by general drug and sample effects. DrugDis separates additive effects from drug–sample interactions to reveal which response structures drive model performance, how conclusions change across representations and distribution shifts, and whether component-level improvements translate to an independently measured outcome.
 
 </div></div>
 
@@ -255,6 +273,7 @@ Selected research software and community resources.
 | :--- | :--- | :--- |
 | [VCDesign](https://github.com/Boom5426/VCDesign-CED) | Finite-budget intervention ranking and decision-aligned evaluation for virtual cells | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/VCDesign-CED) |
 | [PertResolve](https://github.com/Boom5426/PertResolve) | Measurement-aware evaluation framework for interpreting perturbation-prediction performance | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/PertResolve) |
+| [DrugDis](https://github.com/Boom5426/DrugDis) | Component-resolved evaluation of general and context-specific drug-response prediction | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/DrugDis?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/DrugDis) |
 | [MVCBench](https://github.com/QSong-github/MVCBench) | Multimodal benchmark for virtual-cell representation and generalization | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/MVCBench) |
 | [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | End-to-end phenotypic representation learning for high-content cell imaging | [![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat&label=%20&color=00369f)](https://github.com/QSong-github/PhenoProfiler) |
 | [Awesome-Virtual-Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | Curated literature, datasets, benchmarks, and resources for virtual-cell research | [![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat&label=%20&color=00369f)](https://github.com/Boom5426/Awesome-Virtual-Cell) |
@@ -301,7 +320,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 ## 🧭 Research Interests & Technical Stack
 
-**Research**: AI for Biology · virtual cells · measurement-aware evaluation · multimodal biological modeling · cellular perturbations · intervention design · experimental decision making · scientific agents  
+**Research**: AI for Biology · virtual cells · perturbation modeling · evaluation & generalization · multimodal biology · intervention design · experimental decision making · scientific agents  
 **Technical**: Python · PyTorch · CUDA · Linux
 
 <div class="logo-row">
