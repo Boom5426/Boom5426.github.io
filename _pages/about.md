@@ -125,10 +125,11 @@ redirect_from:
       <span class="research-icon"><i class="fas fa-microscope" aria-hidden="true"></i></span>
       <div class="research-num">01 · MEASURE</div>
     </div>
-    <h3>What biological distinctions can experiments reliably resolve?</h3>
-    <p>Determine whether experimental measurements contain reproducible information at the biological resolution required by downstream prediction and evaluation. Separate measurement limitations from model limitations before interpreting benchmark performance.</p>
+    <h3>What biological distinctions and predictive capabilities can we reliably evaluate?</h3>
+    <p>Determine what biological distinctions experiments can reproducibly resolve and what response structure predictive models actually recover. Separate measurement limits, aggregate performance, and context-specific recovery before interpreting benchmark results.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
+      <a href="https://boom5426.github.io/DrugDis/">DrugDis</a>
       <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>
     </div>
   </div>
@@ -138,10 +139,9 @@ redirect_from:
       <span class="research-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
       <div class="research-num">02 · MODEL</div>
     </div>
-    <h3>What response structure do models recover, and what transfers across modalities and contexts?</h3>
-    <p>Learn and evaluate cellular representations and response predictors across transcriptomic, morphological, spatial, and perturbational measurements, separating general response structure from context-specific recovery and testing what remains useful under biological and experimental shifts.</p>
+    <h3>What biological information transfers across modalities and contexts?</h3>
+    <p>Learn and evaluate cellular representations across transcriptomic, morphological, spatial, and perturbational measurements, with an emphasis on what information remains useful under biological and experimental shifts.</p>
     <div class="research-work">
-      <a href="https://boom5426.github.io/DrugDis/">DrugDis</a>
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
       <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
@@ -209,7 +209,7 @@ redirect_from:
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Component-resolved Evaluation</div><img src="https://boom5426.github.io/DrugDis/assets/fig1_overview.png" alt="DrugDis: disentangling general and context-specific effects in drug-response prediction" width="920" loading="lazy" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MEASURE · Component-resolved Evaluation</div><img src="https://boom5426.github.io/DrugDis/assets/fig1_overview.png" alt="DrugDis: disentangling general and context-specific effects in drug-response prediction" width="920" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DrugDis: Disentangling general and context-specific effects in drug-response prediction](https://boom5426.github.io/DrugDis/)
