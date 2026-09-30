@@ -320,7 +320,7 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 ## 🧭 Research Interests & Technical Stack
 
-**Research**: AI for Biology · virtual cells · perturbation modeling · evaluation & generalization · multimodal biology · intervention design · experimental decision making · scientific agents  
+**Research**: 🧬 **Multimodal Virtual Cells** · 🔬 **Perturbation Modeling** · 💊 **Intervention Design**  
 **Technical**: Python · PyTorch · CUDA · Linux
 
 <div class="logo-row">
