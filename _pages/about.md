@@ -15,6 +15,7 @@ redirect_from:
 <div class="hero-block">
   <div class="hero-kicker"><i class="fas fa-dna" aria-hidden="true"></i><span>AI FOR BIOLOGY</span></div>
   <div class="hero-title">From Multimodal Virtual Cells to Experimental Decisions</div>
+  <div class="hero-keywords">🧬 <strong>Multimodal Virtual Cells</strong> &nbsp;·&nbsp; 🔬 <strong>Perturbation Modeling</strong> &nbsp;·&nbsp; 💊 <strong>Intervention Design</strong></div>
   <p class="hero-copy">I develop decision-centric AI methods that connect multimodal biological measurements, virtual-cell modeling, and intervention design. My work asks what biological distinctions experiments can reliably resolve, what response structures models actually recover and generalize across cellular contexts, and which interventions are worth testing under limited experimental budgets.</p>
   <div class="hero-vision"><span>Long-term vision</span><strong>AI-driven Experimental Intelligence for Biology</strong></div>
 
@@ -320,7 +321,6 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 
 ## 🧭 Research Interests & Technical Stack
 
-**Research**: 🧬 **Multimodal Virtual Cells** · 🔬 **Perturbation Modeling** · 💊 **Intervention Design**  
 **Technical**: Python · PyTorch · CUDA · Linux
 
 <div class="logo-row">
