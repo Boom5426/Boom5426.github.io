@@ -74,6 +74,7 @@ include:
   - files
 exclude:
   - docs
+  - scripts
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

@@ -1,0 +1,6 @@
+{%- assign repo_stats = site.data.github_stars.repositories[include.repo] -%}
+{%- if repo_stats -%}
+<a class="repo-stars" href="{{ repo_stats.url }}/stargazers" aria-label="{{ repo_stats.stars }} GitHub stars for {{ include.repo }}"><span aria-hidden="true">☆</span>{{ repo_stats.stars }}</a>
+{%- else -%}
+<a href="https://github.com/{{ include.repo }}/stargazers">View ↗</a>
+{%- endif -%}
