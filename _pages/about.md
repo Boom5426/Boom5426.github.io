@@ -62,16 +62,8 @@ redirect_from:
     <span>💊 Released <strong>DrugDis</strong>, a component-resolved framework for interpreting general and context-specific drug-response prediction. <a href="https://boom5426.github.io/DrugDis/">Project</a> · <a href="https://github.com/Boom5426/DrugDis">Code</a> · <a href="https://huggingface.co/datasets/Boom5426/DrugDis">Data</a></span>
   </div>
   <div class="news-item">
-    <span class="news-date">2026.09</span>
-    <span>📘 Collaborative paper published in <a href="https://doi.org/10.1007/s11263-026-03025-5"><strong>IJCV</strong></a> on incomplete multi-view multi-label learning.</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2026.08</span>
-    <span>📘 Collaborative paper published in <a href="https://pubmed.ncbi.nlm.nih.gov/42672031/"><strong>IEEE TPAMI</strong></a> on incomplete multi-view multi-label learning.</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2026.08</span>
-    <span>🧬 Collaborative paper <strong>PSSD</strong> published in <a href="https://academic.oup.com/bioinformatics/article/42/8/btag598/8757724"><em>Bioinformatics</em></a> for histology-to-gene-expression prediction.</span>
+    <span class="news-date">2026.08–09</span>
+    <span>📘 Three collaborative papers published: incomplete multi-view multi-label learning in <a href="https://doi.org/10.1007/s11263-026-03025-5"><strong>IJCV</strong></a> and <a href="https://pubmed.ncbi.nlm.nih.gov/42672031/"><strong>IEEE TPAMI</strong></a>, and <strong>PSSD</strong> for histology-to-gene-expression prediction in <a href="https://academic.oup.com/bioinformatics/article/42/8/btag598/8757724"><em>Bioinformatics</em></a>.</span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.06</span>
@@ -101,6 +93,10 @@ redirect_from:
     <span class="news-date">2025.08</span>
     <span>🧬 <strong>SpaIM</strong> published in <a href="https://www.nature.com/articles/s41467-025-63185-9"><em>Nature Communications</em></a>.</span>
   </div>
+</div>
+
+<details class="news-earlier">
+  <summary>Earlier news (2024)</summary>
   <div class="news-item">
     <span class="news-date">2024.10</span>
     <span>📄 <strong>HGGEP</strong> published in <a href="https://academic.oup.com/bib/article/25/6/bbae500/7821151"><em>Briefings in Bioinformatics</em></a>.</span>
@@ -121,7 +117,7 @@ redirect_from:
     <span class="news-date">2024.03–06</span>
     <span>🔬 Published MHFAN, Lite-UNet, and EDTM across <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324000116"><em>Pattern Recognition</em></a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623018183"><em>EAAI</em></a>.</span>
   </div>
-</div>
+</details>
 
 <span class='anchor' id='research'></span>
 
@@ -180,6 +176,36 @@ redirect_from:
 
 ## 📝 Selected Publications
 
+<h3 class="pub-group">Published</h3>
+
+<div class='paper-box' id='phenoprofiler'><div class='paper-box-image'><div><div class="badge">MODEL · Cellular Representation</div><a class="paper-figure-link" href="{{ '/images/PhenoProfiler.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PhenoProfiler: Advancing Phenotypic Learning for Image-based Drug Discovery](https://www.nature.com/articles/s41467-025-67479-w)
+
+**Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
+
+<span class="venue venue-published">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Webserver](https://phenoprofiler.org/) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
+
+**TL;DR**: Learns cellular representations directly from high-content microscopy for phenotypic profiling and drug discovery, connecting image-derived features to biological differences between diverse cellular perturbations.
+
+</div></div>
+
+<div class='paper-box' id='spaim'><div class='paper-box-image'><div><div class="badge">MODEL · Multimodal Biology</div><a class="paper-figure-link" href="{{ '/images/SpaIM.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9)
+
+**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
+
+<span class="venue venue-published">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028)
+
+**TL;DR**: Integrates single-cell and spatial transcriptomics through style-transfer imputation, predicting spatial gene-expression patterns to connect complementary measurements of cellular identity and tissue organization.
+
+</div></div>
+
+<h3 class="pub-group">Current work · preprints and manuscripts</h3>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">DESIGN · Intervention Design</div><a class="paper-figure-link" href="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/vcdesign.webp' | relative_url }}" alt="VCDesign: finite-budget intervention design for virtual cells" loading="lazy" decoding="async" width="800" height="498"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -232,32 +258,6 @@ redirect_from:
 
 </div></div>
 
-<div class='paper-box' id='phenoprofiler'><div class='paper-box-image'><div><div class="badge">MODEL · Cellular Representation</div><a class="paper-figure-link" href="{{ '/images/PhenoProfiler.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PhenoProfiler: Advancing Phenotypic Learning for Image-based Drug Discovery](https://www.nature.com/articles/s41467-025-67479-w)
-
-**Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
-
-<span class="venue venue-published">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Webserver](https://phenoprofiler.org/) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
-
-**TL;DR**: Learns cellular representations directly from high-content microscopy for phenotypic profiling and drug discovery, connecting image-derived features to biological differences between diverse cellular perturbations.
-
-</div></div>
-
-<div class='paper-box' id='spaim'><div class='paper-box-image'><div><div class="badge">MODEL · Multimodal Biology</div><a class="paper-figure-link" href="{{ '/images/SpaIM.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9)
-
-**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
-
-<span class="venue venue-published">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028)
-
-**TL;DR**: Integrates single-cell and spatial transcriptomics through style-transfer imputation, predicting spatial gene-expression patterns to connect complementary measurements of cellular identity and tissue organization.
-
-</div></div>
-
 <div class="pub-record">Full publication record on <a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"><strong>Google Scholar ↗</strong></a></div>
 
 <span class='anchor' id='software'></span>
@@ -298,6 +298,8 @@ Selected research software and community resources.
 
   *- B.Eng. in Robotics Engineering. Advisor: [Prof. Hongbo Huang](https://jsjxy.bistu.edu.cn/docs/2025-02/8d1313acd5814afd9f5d15f4b7b9403a.pdf)*
 
+<span class='anchor' id='honors'></span>
+
 ## 🎖 Selected Honors & Awards
 - *2024*: Ph.D. Scholarship, University of Macau
 - *2024.07*: Top 100 Graduates of BJUT (Top 100 / 6331)
@@ -316,10 +318,6 @@ Co-inventor of three Chinese invention patents on cell image density map generat
 **Journal reviewer**: *Science Advances*, **IEEE TPAMI**, IEEE TIP, IEEE TNNLS, Medical Image Analysis, Bioinformatics, Briefings in Bioinformatics, Pattern Recognition, BMC Biology, Engineering Applications of Artificial Intelligence, and Expert Systems with Applications.
 
 **Collaborations**: Purdue University, Cornell University, University of Florida, National University of Singapore, Sun Yat-sen University, Sichuan University, Beijing University of Technology, and Macao Polytechnic University.
-
-## 🧭 Research Interests & Technical Stack
-
-**Technical**: Python · PyTorch · CUDA · Linux
 
 <div class="logo-row">
   <img src="{{ '/images/Bistu-logo.png' | relative_url }}" alt="Beijing Information Science &amp; Technology University" width="121" height="120" loading="lazy" decoding="async">

@@ -1,19 +1,22 @@
-# main links
+# main links (same order as the sections on the page)
 main:
+  - title: "News"
+    url: "/#news"
+
   - title: "Research"
     url: "/#research"
 
   - title: "Publications"
     url: "/#publications"
 
-  - title: "News"
-    url: "/#news"
-
   - title: "Software"
     url: "/#software"
 
   - title: "Education"
     url: "/#education"
+
+  - title: "Honors"
+    url: "/#honors"
 
   - title: "Service"
     url: "/#service"
