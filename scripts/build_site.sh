@@ -4,4 +4,7 @@ cd "$(dirname "$0")/.."
 if ! python3 scripts/refresh_github_stars.py; then
   echo "Building with the last saved GitHub star counts." >&2
 fi
+if ! python3 scripts/refresh_scholar_stats.py; then
+  echo "Building with the last saved Google Scholar counts." >&2
+fi
 bundle exec jekyll build "$@"

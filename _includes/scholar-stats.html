@@ -1,0 +1,4 @@
+{%- assign gs = site.data.scholar_stats -%}
+{%- if gs and gs.citations -%}
+<a class="hero-metric" href="{{ gs.profile_url }}" title="Google Scholar, as of {{ gs.updated_at | date: '%b %-d, %Y' }}"><strong>{{ gs.citations }}</strong> citations · h-index <strong>{{ gs.h_index }}</strong> <span class="hero-metric-src">Google Scholar ↗</span></a>
+{%- endif -%}

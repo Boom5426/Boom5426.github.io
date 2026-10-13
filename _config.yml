@@ -12,7 +12,6 @@ description              : "Ph.D. student at the University of Macau and visitin
 url                      : "https://boom5426.github.io"
 baseurl                  : ""
 repository               : "Boom5426/Boom5426.github.io"
-google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

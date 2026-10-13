@@ -40,20 +40,16 @@ For local builds, `bash scripts/build_site.sh` refreshes the counts and runs Jek
 to the previous snapshot if the network is unavailable.
 
 ## Google Scholar citation count
+The hero shows the total citation count and h-index from a committed snapshot,
+[`_data/scholar_stats.json`](_data/scholar_stats.json), with a link to the profile. Google Scholar
+blocks requests from GitHub Actions runners, so refresh it from your own machine before publishing:
 
-The homepage shows the live total next to the "Selected Publications" intro. The number comes from
-`gs_data.json` on the `google-scholar-stats` branch, which
-[`.github/workflows/google_scholar_crawler.yaml`](.github/workflows/google_scholar_crawler.yaml)
-refreshes daily via [`scholarly`](https://github.com/scholarly-python-package/scholarly).
+```bash
+python3 scripts/refresh_scholar_stats.py
+```
 
-The profile id defaults to the one in the workflow; override it with a repository secret named
-`GOOGLE_SCHOLAR_ID` (Settings > Secrets and variables > Actions).
-
-The branch does not exist until the workflow has succeeded once. Run it manually from the Actions
-tab to create it. Until then the page simply hides the citation clause: `#gs-cit-wrap` starts with
-the `hidden` attribute and `_includes/fetch_google_scholar_stats.html` only unhides it after a
-successful fetch. Google throttles scraping from shared CI addresses, so runs can fail; the
-workflow fails loudly rather than publishing a wrong number.
+A failed or blocked request leaves the previous snapshot intact. `bash scripts/build_site.sh`
+runs this refresh too. The profile id is set at the top of the script.
 
 ## Images
 

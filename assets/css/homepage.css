@@ -15,6 +15,9 @@
 .hero-evidence strong { color: #00369f; }
 .hero-evidence-links { display: inline-flex; flex-wrap: wrap; gap: .75rem; }
 .hero-evidence-links a { font-weight: 600; text-decoration: none; }
+.hero-metric { color: inherit; text-decoration: none; }
+.hero-metric:hover .hero-metric-src { text-decoration: underline; }
+.hero-metric-src { margin-left: .2rem; color: #00369f; font-weight: 600; }
 .hero-affiliations { margin-top: .75rem; margin-bottom: .15rem; }
 .avail { align-items: center; flex-wrap: wrap; }
 .avail > i { align-self: flex-start; margin-top: .3rem; }
@@ -163,7 +166,7 @@
 }
 @media (prefers-color-scheme: dark) {
   .hero-evidence { border-color: rgba(143, 178, 255, .22); color: #bcc7d6; }
-  .hero-evidence strong, .research-next-label { color: #9bbcfc; }
+  .hero-evidence strong, .hero-metric-src, .research-next-label { color: #9bbcfc; }
   .research-next { color: #a6b0bf; }
   .paper-box .badge { background: #1c2636; border-color: #354967; color: #a8c4ff; }
   .paper-figure-link { border-color: #3c4655; }
