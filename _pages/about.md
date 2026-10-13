@@ -20,6 +20,7 @@ redirect_from:
   <div class="hero-evidence">
     <span><strong>2 first-author papers</strong> in <em>Nature Communications</em></span>
     <span class="hero-evidence-links"><a href="#phenoprofiler">PhenoProfiler ↗</a><a href="#spaim">SpaIM ↗</a></span>
+    {% include scholar-stats.html %}
   </div>
 
   <div class="hero-affiliations">
@@ -213,7 +214,7 @@ redirect_from:
 
 [VCDesign: Finite-Budget Intervention Design for Virtual Cells](https://boom5426.github.io/VCDesign-CED/)
 
-**Bo Li**, Lin Wang, Bob Zhang, Mengran Li, Zhenchao Tang, Chengyang Zhang, Minghao Sun, Chengliang Liu, Zhiyuan Liu, Yang Zhang
+**Bo Li**<sup>†</sup>, Lin Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Mengran Li, Zhenchao Tang, Chengyang Zhang, Minghao Sun, Chengliang Liu, Zhiyuan Liu, Yang Zhang<sup>&#42;</sup>
 
 <span class="venue venue-manuscript">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign)
 
