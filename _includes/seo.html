@@ -33,7 +33,7 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="{% if page.lang == "zh" %}zh_CN{% else %}en{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ site.title }}">
 

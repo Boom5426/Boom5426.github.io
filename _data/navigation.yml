@@ -23,3 +23,29 @@ main:
 
   - title: "CV"
     url: "/files/CV_Bo_Li.pdf"
+
+# Chinese page (/zh/), same sections
+main_zh:
+  - title: "动态"
+    url: "/zh/#news"
+
+  - title: "研究"
+    url: "/zh/#research"
+
+  - title: "论文"
+    url: "/zh/#publications"
+
+  - title: "软件"
+    url: "/zh/#software"
+
+  - title: "教育"
+    url: "/zh/#education"
+
+  - title: "荣誉"
+    url: "/zh/#honors"
+
+  - title: "服务"
+    url: "/zh/#service"
+
+  - title: "简历"
+    url: "/files/CV_Bo_Li.pdf"

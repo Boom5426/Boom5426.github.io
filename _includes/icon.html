@@ -1,0 +1,8 @@
+{%- comment -%}
+  Inline SVG icon from _data/icons.yml. Usage: {% include icon.html name="envelope" %}
+  Renders nothing for an unknown name, so a missing icon never breaks a link.
+{%- endcomment -%}
+{%- assign icon = site.data.icons[include.name] -%}
+{%- if icon -%}
+<svg class="icon{% if include.class %} {{ include.class }}{% endif %}" viewBox="{{ icon.viewBox }}" aria-hidden="true" focusable="false"><path d="{{ icon.path }}"/></svg>
+{%- endif -%}

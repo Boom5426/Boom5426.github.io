@@ -29,7 +29,9 @@ author:
   name             : "Bo Li 李波"
   avatar           : "images/CV_me.jpg"
   bio              : "Ph.D. student · University of Macau<br>Visiting student · National University of Singapore"
+  bio_zh           : "澳门大学 博士生<br>新加坡国立大学 访问学生"
   location         : "Singapore / Macau"
+  location_zh      : "新加坡 / 澳门"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"
@@ -90,9 +92,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log

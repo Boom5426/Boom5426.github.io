@@ -4,9 +4,15 @@
       <nav id="site-nav" class="greedy-nav">
         <button type="button" aria-label="Toggle navigation menu"><div class="navicon"></div></button>
         <ul class="visible-links">
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% if page.lang == "zh" %}{% assign nav_links = site.data.navigation.main_zh %}{% else %}{% assign nav_links = site.data.navigation.main %}{% endif %}
+          {% for link in nav_links %}
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
           {% endfor %}
+          {% if page.lang == "zh" %}
+            <li class="masthead__menu-item masthead__lang"><a href="{{ '/' | relative_url }}" lang="en" hreflang="en">English</a></li>
+          {% else %}
+            <li class="masthead__menu-item masthead__lang"><a href="{{ '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN">中文</a></li>
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

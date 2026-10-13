@@ -1,0 +1,60 @@
+# BibTeX for the "BibTeX" copy buttons in _includes/publications.md, keyed by data-key.
+# Published entries follow the DOI registry record (doi.org, application/x-bibtex).
+
+phenoprofiler: |-
+  @article{li2026phenoprofiler,
+    title     = {PhenoProfiler: advancing phenotypic learning for image-based drug discovery},
+    author    = {Li, Bo and Zhang, Bob and Zhang, Chengyang and Zhou, Minghao and Huang, Weiliang and Wang, Shihang and Wang, Qing and Li, Mengran and Zhang, Yong and Song, Qianqian},
+    journal   = {Nature Communications},
+    volume    = {17},
+    pages     = {793},
+    year      = {2026},
+    doi       = {10.1038/s41467-025-67479-w}
+  }
+
+spaim: |-
+  @article{li2025spaim,
+    title     = {SpaIM: single-cell spatial transcriptomics imputation via style transfer},
+    author    = {Li, Bo and Tang, Ziyang and Budhkar, Aishwarya and Liu, Xiang and Zhang, Tonglin and Yang, Baijian and Su, Jing and Song, Qianqian},
+    journal   = {Nature Communications},
+    volume    = {16},
+    pages     = {7861},
+    year      = {2025},
+    doi       = {10.1038/s41467-025-63185-9}
+  }
+
+mvcbench: |-
+  @article{li2026mvcbench,
+    title     = {MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes},
+    author    = {Li, Bo and Wang, Qing and Wang, Shihang and Zhang, Bob and Peng, Yuzhong and Zeng, Pinxian and Liu, Chengliang and Li, Mengran and Tang, Ziyang and Yao, Xiaojun and Deng, Chuxia and Song, Qianqian},
+    journal   = {bioRxiv},
+    year      = {2026},
+    doi       = {10.64898/2026.04.22.720110}
+  }
+
+vcdesign: |-
+  @unpublished{li2026vcdesign,
+    title     = {VCDesign: Finite-Budget Intervention Design for Virtual Cells},
+    author    = {Li, Bo and Wang, Lin and Zhang, Bob and Li, Mengran and Tang, Zhenchao and Zhang, Chengyang and Sun, Minghao and Liu, Chengliang and Liu, Zhiyuan and Zhang, Yang},
+    note      = {Manuscript},
+    year      = {2026},
+    url       = {https://boom5426.github.io/VCDesign-CED/}
+  }
+
+pertresolve: |-
+  @unpublished{li2026pertresolve,
+    title     = {Measurement resolution constrains fine-grained perturbation prediction},
+    author    = {Li, Bo and Zhang, Chengyang and Li, Mengran and Zhang, Bob and Wang, Lin and Tang, Zhenchao and Liu, Jun and Liu, Chengliang and Wei, Chen and Yi, Yuhao and Lv, Jiancheng and Zhang, Yang},
+    note      = {Manuscript},
+    year      = {2026},
+    url       = {https://boom5426.github.io/PertResolve/}
+  }
+
+drugdis: |-
+  @unpublished{li2026drugdis,
+    title     = {DrugDis: Disentangling general and context-specific effects in drug-response prediction},
+    author    = {Li, Bo and Liu, Chengliang and Peng, Yuzhong and Zhang, Bob and Wang, Qing and Zeng, Pinxian and Li, Mengran and Huang, Shenghui and Deng, Chuxia and Zhang, Yang},
+    note      = {Manuscript},
+    year      = {2026},
+    url       = {https://boom5426.github.io/DrugDis/}
+  }

@@ -4,22 +4,32 @@ Source for <https://boom5426.github.io>. Built with Jekyll and served by GitHub 
 
 ## Editing
 
-Almost everything lives in two files:
+The site has an English page and a Chinese page that share their data-heavy sections:
 
 | File | What it controls |
 | :--- | :--- |
-| [`_pages/about.md`](_pages/about.md) | The entire page: bio, news, publications, open source, education, experience, honors, patents, service, skills |
-| [`_config.yml`](_config.yml) | Site title, tagline, SEO description, sidebar profile, social links |
+| [`_pages/about.md`](_pages/about.md) | English page (`/`): hero, research, education, honors, patents, service |
+| [`_pages/zh.md`](_pages/zh.md) | Chinese page (`/zh/`): the same sections, translated |
+| [`_data/news.yml`](_data/news.yml) | News for both pages: one entry per item with `en` and `zh` text; `earlier: true` folds it |
+| [`_includes/publications.md`](_includes/publications.md) | Selected publications for both pages (Chinese labels and summaries via `lang="zh"`) |
+| [`_includes/software.md`](_includes/software.md) | Software table for both pages |
+| [`_data/bibtex.yml`](_data/bibtex.yml) | BibTeX behind each paper's copy button, keyed by the button's `data-key` |
+| [`_config.yml`](_config.yml) | Site title, SEO description, sidebar profile (`bio`/`bio_zh`, `location`/`location_zh`), social links |
 
 Other things worth knowing:
 
-- [`_data/navigation.yml`](_data/navigation.yml): the top nav. Anchors are the kramdown-generated
-  ids of the `##` section headings in `about.md`, so renaming a heading means updating its nav entry.
-  The page keeps one `<h1>`, the visually hidden name at the top, so sections are `##`.
+- [`_data/navigation.yml`](_data/navigation.yml): the top nav (`main` for English, `main_zh` for Chinese).
+  Section headings set their anchor explicitly, e.g. `## ...News {#news}`, so renaming a heading
+  does not break the nav. Each page keeps one `<h1>`, the visually hidden name at the top.
+- Icons are inline SVG: `{% include icon.html name="envelope" %}` reads
+  [`_data/icons.yml`](_data/icons.yml) (Font Awesome Free 5 paths). No icon font is loaded; to add an
+  icon, copy its `viewBox` and path from the Font Awesome SVG named in that file's header.
+- [`assets/js/site.js`](assets/js/site.js): all page behaviour, no jQuery (overflow nav menu, image
+  lightbox, new-tab external links, collapsible author lists on phones, BibTeX copy).
 - [`files/CV_Bo_Li.pdf`](files/): the CV served at `/files/CV_Bo_Li.pdf`. Replace the file to update it.
 - [`images/`](images/): teaser images for the publication entries.
-- [`assets/css/homepage.css`](assets/css/homepage.css): compact hero, evidence strip,
-  publication cards, and their dark/mobile styles. Full author lists remain visible.
+- [`assets/css/homepage.css`](assets/css/homepage.css): hero, publication cards, icons, lightbox,
+  and their dark and mobile styles. Loaded after `main.css`, so it overrides it.
 
 ## GitHub star counts
 
@@ -71,9 +81,10 @@ in dark mode), and export both formats.
 
 ## Dark mode
 
-The page follows the reader's system setting through a single `@media (prefers-color-scheme: dark)`
-block at the end of [`assets/css/main.scss`](assets/css/main.scss). It only overrides colors. Any new
-component needs its dark colors added there; the institution logo strip, for example, keeps a light
+The page follows the reader's system setting through `@media (prefers-color-scheme: dark)` blocks at
+the end of [`assets/css/main.scss`](assets/css/main.scss) and
+[`assets/css/homepage.css`](assets/css/homepage.css). They only override colors. Any new component
+needs its dark colors added there; the institution logo strip, for example, keeps a light
 card behind it because the logos are drawn for a white page.
 
 ## Local preview

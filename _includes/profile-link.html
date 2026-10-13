@@ -1,0 +1,28 @@
+{%- comment -%}
+  Sets link_href, link_label, link_icon and link_title for one profile key
+  from _config.yml (author.*). Used by author-profile.html.
+{%- endcomment -%}
+{%- assign link_title = nil -%}
+{%- case include.key -%}
+  {%- when "uri" -%}{%- assign link_href = include.value -%}{%- assign link_label = "Website" -%}{%- assign link_icon = "link" -%}
+  {%- when "email" -%}{%- assign link_href = include.value | prepend: "mailto:" -%}{%- assign link_label = "Email" -%}{%- assign link_icon = "envelope" -%}
+  {%- when "linkedin" -%}{%- assign link_href = include.value | prepend: "https://www.linkedin.com/in/" -%}{%- assign link_label = "LinkedIn" -%}{%- assign link_icon = "linkedin" -%}
+  {%- when "twitter" -%}{%- assign link_href = include.value | prepend: "https://x.com/" -%}{%- assign link_label = "X / Twitter" -%}{%- assign link_icon = "twitter" -%}
+  {%- when "researchgate" -%}{%- assign link_href = include.value -%}{%- assign link_label = "ResearchGate" -%}{%- assign link_icon = "researchgate" -%}
+  {%- when "dblp" -%}{%- assign link_href = include.value -%}{%- assign link_label = "DBLP" -%}{%- assign link_icon = "file-alt" -%}
+  {%- when "github" -%}{%- assign link_href = include.value | prepend: "https://github.com/" -%}{%- assign link_label = "GitHub" -%}{%- assign link_icon = "github" -%}
+  {%- when "googlescholar" -%}{%- assign link_href = include.value -%}{%- assign link_label = "Google Scholar" -%}{%- assign link_icon = "graduation-cap" -%}
+  {%- when "orcid" -%}{%- assign link_href = include.value -%}{%- assign link_label = "ORCID" -%}{%- assign link_icon = "orcid" -%}
+  {%- when "cv" -%}{%- assign link_href = include.value | relative_url -%}{%- assign link_label = "CV (PDF)" -%}{%- assign link_icon = "file-pdf" -%}
+  {%- when "wechat" -%}{%- assign link_href = include.value | relative_url -%}{%- assign link_label = "WeChat" -%}{%- assign link_icon = "comments" -%}{%- assign link_title = "WeChat ID: BoomLi5426" -%}
+  {%- when "xiaohongshu" -%}{%- assign link_href = include.value -%}{%- assign link_label = "小红书" -%}{%- assign link_icon = "book" -%}
+{%- endcase -%}
+{%- if page.lang == "zh" -%}
+  {%- case include.key -%}
+    {%- when "uri" -%}{%- assign link_label = "个人网站" -%}
+    {%- when "email" -%}{%- assign link_label = "邮箱" -%}
+    {%- when "googlescholar" -%}{%- assign link_label = "谷歌学术" -%}
+    {%- when "cv" -%}{%- assign link_label = "简历 (PDF)" -%}
+    {%- when "wechat" -%}{%- assign link_label = "微信" -%}{%- assign link_title = "微信号：BoomLi5426" -%}
+  {%- endcase -%}
+{%- endif -%}

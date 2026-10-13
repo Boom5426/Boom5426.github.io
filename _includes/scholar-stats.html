@@ -1,4 +1,8 @@
 {%- assign gs = site.data.scholar_stats -%}
 {%- if gs and gs.citations -%}
+{%- if page.lang == "zh" -%}
+<a class="hero-metric" href="{{ gs.profile_url }}" title="谷歌学术，数据截至 {{ gs.updated_at }}">引用 <strong>{{ gs.citations }}</strong> 次 · h-index <strong>{{ gs.h_index }}</strong> <span class="hero-metric-src">谷歌学术 ↗</span></a>
+{%- else -%}
 <a class="hero-metric" href="{{ gs.profile_url }}" title="Google Scholar, as of {{ gs.updated_at | date: '%b %-d, %Y' }}"><strong>{{ gs.citations }}</strong> citations · h-index <strong>{{ gs.h_index }}</strong> <span class="hero-metric-src">Google Scholar ↗</span></a>
+{%- endif -%}
 {%- endif -%}

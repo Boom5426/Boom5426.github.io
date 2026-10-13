@@ -1,0 +1,88 @@
+# Homepage news, newest first. `en` feeds the English page and `zh` the Chinese page.
+# Items with `earlier: true` are folded under "Earlier news". Values are inline HTML.
+
+- date: "2026.09"
+  en: >-
+    🎯 Released <strong>VCDesign</strong>, a framework for finite-budget intervention design in virtual cells. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a>
+  zh: >-
+    🎯 发布 <strong>VCDesign</strong>：面向虚拟细胞的有限预算干预设计框架。<a href="https://boom5426.github.io/VCDesign-CED/">项目</a> · <a href="https://github.com/Boom5426/VCDesign-CED">代码</a>
+- date: "2026.09"
+  en: >-
+    🧬 Released <strong>PertResolve</strong> for measurement-aware perturbation evaluation. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a>
+  zh: >-
+    🧬 发布 <strong>PertResolve</strong>：考虑测量分辨率的扰动预测评估框架。<a href="https://boom5426.github.io/PertResolve/">项目</a> · <a href="https://github.com/Boom5426/PertResolve">代码</a>
+- date: "2026.09"
+  en: >-
+    💊 Released <strong>DrugDis</strong>, a component-resolved framework for interpreting general and context-specific drug-response prediction. <a href="https://boom5426.github.io/DrugDis/">Project</a> · <a href="https://github.com/Boom5426/DrugDis">Code</a> · <a href="https://huggingface.co/datasets/Boom5426/DrugDis">Data</a>
+  zh: >-
+    💊 发布 <strong>DrugDis</strong>：拆分通用效应与情境特异效应、用于解释药物响应预测的框架。<a href="https://boom5426.github.io/DrugDis/">项目</a> · <a href="https://github.com/Boom5426/DrugDis">代码</a> · <a href="https://huggingface.co/datasets/Boom5426/DrugDis">数据</a>
+- date: "2026.08–09"
+  en: >-
+    📘 Three collaborative papers published: incomplete multi-view multi-label learning in <a href="https://doi.org/10.1007/s11263-026-03025-5"><strong>IJCV</strong></a> and <a href="https://pubmed.ncbi.nlm.nih.gov/42672031/"><strong>IEEE TPAMI</strong></a>, and <strong>PSSD</strong> for histology-to-gene-expression prediction in <a href="https://academic.oup.com/bioinformatics/article/42/8/btag598/8757724"><em>Bioinformatics</em></a>.
+  zh: >-
+    📘 三篇合作论文发表：不完整多视图多标签学习的两项工作分别发表于 <a href="https://doi.org/10.1007/s11263-026-03025-5"><strong>IJCV</strong></a> 和 <a href="https://pubmed.ncbi.nlm.nih.gov/42672031/"><strong>IEEE TPAMI</strong></a>；从组织切片预测基因表达的 <strong>PSSD</strong> 发表于 <a href="https://academic.oup.com/bioinformatics/article/42/8/btag598/8757724"><em>Bioinformatics</em></a>。
+- date: "2026.06"
+  en: >-
+    🇸🇬 Started a one-year visit to the <strong>National University of Singapore</strong>, hosted by <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Prof. Yang Zhang</a>.
+  zh: >-
+    🇸🇬 开始在<strong>新加坡国立大学</strong>进行为期一年的访问，合作导师为 <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang 教授</a>。
+- date: "2026.05"
+  en: >-
+    🤖 <strong>CellScientist</strong> preprint released on <a href="https://arxiv.org/abs/2605.07335">arXiv</a> (co-author).
+  zh: >-
+    🤖 <strong>CellScientist</strong> 预印本发布于 <a href="https://arxiv.org/abs/2605.07335">arXiv</a>（合作作者）。
+- date: "2026.04"
+  en: >-
+    🧫 <strong>MVCBench</strong> preprint released on <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">bioRxiv</a>.
+  zh: >-
+    🧫 <strong>MVCBench</strong> 预印本发布于 <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">bioRxiv</a>。
+- date: "2026.01"
+  en: >-
+    🎉 One paper accepted at <strong>ICLR 2026</strong> (co-author).
+  zh: >-
+    🎉 一篇论文被 <strong>ICLR 2026</strong> 接收（合作作者）。
+- date: "2025.12"
+  en: >-
+    🎉 <strong>PhenoProfiler</strong> published in <a href="https://www.nature.com/articles/s41467-025-67479-w"><em>Nature Communications</em></a>.
+  zh: >-
+    🎉 <strong>PhenoProfiler</strong> 发表于 <a href="https://www.nature.com/articles/s41467-025-67479-w"><em>Nature Communications</em></a>。
+- date: "2025.12"
+  en: >-
+    🧬 Collaborative spatial-omics paper <strong>HAST</strong> published in <a href="https://www.nature.com/articles/s42003-025-09312-0"><em>Communications Biology</em></a>.
+  zh: >-
+    🧬 合作的空间组学论文 <strong>HAST</strong> 发表于 <a href="https://www.nature.com/articles/s42003-025-09312-0"><em>Communications Biology</em></a>。
+- date: "2025.08"
+  en: >-
+    🧬 <strong>SpaIM</strong> published in <a href="https://www.nature.com/articles/s41467-025-63185-9"><em>Nature Communications</em></a>.
+  zh: >-
+    🧬 <strong>SpaIM</strong> 发表于 <a href="https://www.nature.com/articles/s41467-025-63185-9"><em>Nature Communications</em></a>。
+- date: "2024.10"
+  earlier: true
+  en: >-
+    📄 <strong>HGGEP</strong> published in <a href="https://academic.oup.com/bib/article/25/6/bbae500/7821151"><em>Briefings in Bioinformatics</em></a>.
+  zh: >-
+    📄 <strong>HGGEP</strong> 发表于 <a href="https://academic.oup.com/bib/article/25/6/bbae500/7821151"><em>Briefings in Bioinformatics</em></a>。
+- date: "2024.08"
+  earlier: true
+  en: >-
+    🧬 Collaborative paper <strong>AntiFormer</strong> published in <a href="https://academic.oup.com/bib/article/25/5/bbae403/7736247"><em>Briefings in Bioinformatics</em></a> for antibody binding-affinity prediction.
+  zh: >-
+    🧬 合作论文 <strong>AntiFormer</strong>（抗体结合亲和力预测）发表于 <a href="https://academic.oup.com/bib/article/25/5/bbae403/7736247"><em>Briefings in Bioinformatics</em></a>。
+- date: "2024.08"
+  earlier: true
+  en: >-
+    🎓 Started my Ph.D. at the <strong>University of Macau</strong>.
+  zh: >-
+    🎓 进入<strong>澳门大学</strong>攻读博士学位。
+- date: "2024.07"
+  earlier: true
+  en: >-
+    🏅 Graduated from <strong>Beijing University of Technology</strong> as a Top 100 Graduate and Beijing Outstanding Graduate.
+  zh: >-
+    🏅 毕业于<strong>北京工业大学</strong>，获评北京工业大学 Top 100 毕业生、北京市优秀毕业生。
+- date: "2024.03–06"
+  earlier: true
+  en: >-
+    🔬 Published MHFAN, Lite-UNet, and EDTM across <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324000116"><em>Pattern Recognition</em></a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623018183"><em>EAAI</em></a>.
+  zh: >-
+    🔬 MHFAN、Lite-UNet 和 EDTM 发表于 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324000116"><em>Pattern Recognition</em></a> 和 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623018183"><em>EAAI</em></a>。

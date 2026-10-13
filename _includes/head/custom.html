@@ -8,10 +8,14 @@
   assets/css/main.scss. color-scheme also switches native scrollbars and form controls.
 {% endcomment %}
 <meta name="color-scheme" content="light dark">
+{% if page.url == "/" or page.url == "/zh/" %}
+<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+<link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{% endif %}
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14171d" media="(prefers-color-scheme: dark)">
 
-<link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
 
 <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}?v={{ site.time | date: '%s' }}">

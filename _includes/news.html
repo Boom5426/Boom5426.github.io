@@ -1,0 +1,24 @@
+{%- comment -%}
+  News from _data/news.yml. Pass lang="zh" for the Chinese text.
+  Recent items sit in the scroll window; `earlier: true` items fold below it.
+{%- endcomment -%}
+{%- if include.lang == "zh" -%}{%- assign news_label = "近期动态" -%}{%- assign earlier_label = "更早动态（2024）" -%}
+{%- else -%}{%- assign news_label = "Recent news" -%}{%- assign earlier_label = "Earlier news (2024)" -%}{%- endif -%}
+<div class="news-window" role="region" aria-label="{{ news_label }}" tabindex="0">
+{%- for item in site.data.news -%}{%- unless item.earlier %}
+  <div class="news-item">
+    <span class="news-date">{{ item.date }}</span>
+    <span>{% if include.lang == "zh" %}{{ item.zh }}{% else %}{{ item.en }}{% endif %}</span>
+  </div>
+{%- endunless -%}{%- endfor %}
+</div>
+
+<details class="news-earlier">
+  <summary>{{ earlier_label }}</summary>
+{%- for item in site.data.news -%}{%- if item.earlier %}
+  <div class="news-item">
+    <span class="news-date">{{ item.date }}</span>
+    <span>{% if include.lang == "zh" %}{{ item.zh }}{% else %}{{ item.en }}{% endif %}</span>
+  </div>
+{%- endif -%}{%- endfor %}
+</details>
