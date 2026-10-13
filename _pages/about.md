@@ -176,6 +176,8 @@ redirect_from:
 
 ## 📝 Selected Publications
 
+<p class="pub-legend"><sup>†</sup> Equal contribution &nbsp;·&nbsp; <sup>&#42;</sup> Corresponding author</p>
+
 <h3 class="pub-group">Published</h3>
 
 <div class='paper-box' id='phenoprofiler'><div class='paper-box-image'><div><div class="badge">MODEL · Cellular Representation</div><a class="paper-figure-link" href="{{ '/images/PhenoProfiler.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></a></div></div>
@@ -183,7 +185,7 @@ redirect_from:
 
 [PhenoProfiler: Advancing Phenotypic Learning for Image-based Drug Discovery](https://www.nature.com/articles/s41467-025-67479-w)
 
-**Bo Li**, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song
+**Bo Li**, Bob Zhang<sup>&#42;</sup>, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang, Mengran Li, Yong Zhang, Qianqian Song<sup>&#42;</sup>
 
 <span class="venue venue-published">Nature Communications</span> **17**, 793 (2026) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-67479-w) &nbsp;·&nbsp; [Webserver](https://phenoprofiler.org/) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/PhenoProfiler) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/2502.19568)
 
@@ -196,7 +198,7 @@ redirect_from:
 
 [SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9)
 
-**Bo Li**, Ziyang Tang, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang, Jing Su, Qianqian Song
+**Bo Li**<sup>†</sup>, Ziyang Tang<sup>†</sup>, Aishwarya Budhkar, Xiang Liu, Tonglin Zhang, Baijian Yang<sup>&#42;</sup>, Jing Su<sup>&#42;</sup>, Qianqian Song<sup>&#42;</sup>
 
 <span class="venue venue-published">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028)
 
@@ -224,7 +226,7 @@ redirect_from:
 
 [Measurement resolution constrains fine-grained perturbation prediction](https://boom5426.github.io/PertResolve/)
 
-**Bo Li**, Chengyang Zhang, Mengran Li, Bob Zhang, Lin Wang, Zhenchao Tang, Jun Liu, Chengliang Liu, Chen Wei, Yuhao Yi, Jiancheng Lv, Yang Zhang
+**Bo Li**<sup>†</sup>, Chengyang Zhang<sup>†</sup>, Mengran Li<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Lin Wang, Zhenchao Tang, Jun Liu, Chengliang Liu, Chen Wei, Yuhao Yi<sup>&#42;</sup>, Jiancheng Lv, Yang Zhang<sup>&#42;</sup>
 
 <span class="venue venue-manuscript">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)
 
@@ -237,7 +239,7 @@ redirect_from:
 
 [DrugDis: Disentangling general and context-specific effects in drug-response prediction](https://boom5426.github.io/DrugDis/)
 
-**Bo Li**, Chengliang Liu, Yuzhong Peng, Bob Zhang, Qing Wang, Pinxian Zeng, Mengran Li, Shenghui Huang, Chuxia Deng, Yang Zhang
+**Bo Li**<sup>†</sup>, Chengliang Liu<sup>†</sup>, Yuzhong Peng<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Qing Wang, Pinxian Zeng, Mengran Li, Shenghui Huang, Chuxia Deng<sup>&#42;</sup>, Yang Zhang<sup>&#42;</sup>
 
 <span class="venue venue-manuscript">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/DrugDis/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_manuscript.pdf) &nbsp;·&nbsp; [Supplement](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_SI.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/DrugDis) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/DrugDis)
 
@@ -250,7 +252,7 @@ redirect_from:
 
 [MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
 
-**Bo Li**, Qing Wang, Shihang Wang, Bob Zhang, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song
+**Bo Li**<sup>†</sup>, Qing Wang<sup>†</sup>, Shihang Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song<sup>&#42;</sup>
 
 <span class="venue venue-preprint">bioRxiv</span> 2026 &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench)
 

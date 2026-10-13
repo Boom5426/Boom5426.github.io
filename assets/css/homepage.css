@@ -141,6 +141,8 @@
   letter-spacing: .06em;
   text-transform: uppercase;
 }
+.pub-legend { margin: .2rem 0 -.3rem; color: #748091; font-size: .7em; }
+.paper-box-text sup { line-height: 0; }
 .news-earlier { margin: -.4rem 0 1rem; font-size: .77em; }
 .news-earlier summary {
   width: max-content;
@@ -173,7 +175,7 @@
   .venue-preprint { background: #272739; border-color: #454661; color: #c0c1e2; }
   .venue-published { background: #19392f; border-color: #345e50; color: #a8dbca; }
   .repo-stars span { color: #d3b47e; }
-  .stats-note { color: #939fac; }
+  .stats-note, .pub-legend { color: #939fac; }
   .pub-group, .news-earlier summary { color: #9bbcfc; }
 }
 @media (prefers-reduced-motion: reduce) {
