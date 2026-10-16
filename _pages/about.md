@@ -57,7 +57,7 @@ redirect_from:
       <span class="research-icon">{% include icon.html name="microscope" %}</span>
       <div class="research-num">(a) · CELLULAR STATE</div>
     </div>
-    <h3>How can heterogeneous measurements reveal cellular phenotypes and states?</h3>
+    <h3>What representations of cellular state can be learned from imaging and omics measurements?</h3>
     <p>Learn cellular representations from microscopy, single-cell and spatial omics, and histology, so that different measurements describe the same cell state.</p>
     <div class="research-work">
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
@@ -71,7 +71,7 @@ redirect_from:
       <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
       <div class="research-num">(b) · RESPONSE PREDICTION</div>
     </div>
-    <h3>What information transfers across perturbations, modalities, and cellular contexts?</h3>
+    <h3>How well do predicted perturbation responses transfer across modalities, compounds and cellular contexts?</h3>
     <p>Predict how cells respond to drug and genetic perturbations in both image and expression readouts, and test what generalizes across compounds, cell lines, plates, and datasets.</p>
     <div class="research-work">
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
@@ -83,7 +83,7 @@ redirect_from:
       <span class="research-icon">{% include icon.html name="search" %}</span>
       <div class="research-num">(c) · EVALUATION &amp; RESOLUTION</div>
     </div>
-    <h3>When does predictive performance reflect reproducible, biologically useful response information?</h3>
+    <h3>When does a predicted gain reflect biology that the assay can reproducibly resolve?</h3>
     <p>Determine which biological distinctions experiments can reproducibly resolve and what response structure models actually recover, separating measurement limits from model limits before interpreting benchmark results.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
@@ -98,7 +98,7 @@ redirect_from:
       <div class="research-num">(d) · EXPERIMENTAL CHOICE</div>
       <span class="research-focus">Current focus</span>
     </div>
-    <h3>Which interventions are worth testing under a finite experimental budget?</h3>
+    <h3>Given a target cellular state and a finite budget, which interventions are worth testing next?</h3>
     <p>Rank candidate interventions by their predicted shift from a source state toward a target state, test the top-K within budget B, and evaluate the choices against independently measured outcomes.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>

@@ -55,7 +55,7 @@ author_profile: true
       <span class="research-icon">{% include icon.html name="microscope" %}</span>
       <div class="research-num">(a) · 细胞状态</div>
     </div>
-    <h3>异质的生物测量如何揭示细胞表型与状态？</h3>
+    <h3>从成像与组学测量中能学到怎样的细胞状态表征？</h3>
     <p>从显微图像、单细胞与空间组学以及病理切片中学习细胞表征，让不同的测量描述同一个细胞状态。</p>
     <div class="research-work">
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
@@ -69,7 +69,7 @@ author_profile: true
       <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
       <div class="research-num">(b) · 响应预测</div>
     </div>
-    <h3>哪些信息能跨扰动、跨模态、跨细胞情境迁移？</h3>
+    <h3>预测的扰动响应在模态、化合物与细胞情境之间迁移得如何？</h3>
     <p>预测细胞在药物和基因扰动下的图像与表达响应，并检验模型在化合物、细胞系、实验板和数据集变化下能否泛化。</p>
     <div class="research-work">
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
@@ -81,7 +81,7 @@ author_profile: true
       <span class="research-icon">{% include icon.html name="search" %}</span>
       <div class="research-num">(c) · 评估与分辨</div>
     </div>
-    <h3>预测性能何时反映可重复、对生物学有用的响应信息？</h3>
+    <h3>预测增益何时反映的是实验能够可重复分辨的生物学？</h3>
     <p>弄清实验能够可重复地分辨哪些生物学差异、模型真正恢复了哪些响应结构，在解读基准结果之前先把测量局限和模型局限区分开。</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
@@ -96,7 +96,7 @@ author_profile: true
       <div class="research-num">(d) · 实验选择</div>
       <span class="research-focus">当前重点</span>
     </div>
-    <h3>有限实验预算下，哪些干预最值得做？</h3>
+    <h3>给定目标细胞状态和有限预算，下一步最值得测试哪些干预？</h3>
     <p>按从起始状态到目标状态的预测迁移对候选干预排序，在预算 B 内测试排名前 K 的候选，并用独立测得的结果评估这些选择。</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
