@@ -40,11 +40,36 @@ author_profile: true
 
 ## {% include icon.html name="flask" class="h-icon" %}研究方向 {#research}
 
+<figure class="research-figure">
+  <a href="{{ '/images/research_loop.webp' | relative_url }}" title="查看高清原图">
+    <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
+         srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
+         sizes="(max-width: 57.8em) 100vw, 900px"
+         alt="研究闭环示意图，共四个面板：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个。所选干预的实验产生新的测量，形成闭环。" width="1200" height="385" loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>从测量到决策。</strong>(a) 从多模态测量中学习细胞状态。(b) 预测细胞对药物和基因扰动的响应。(c) 检验实验真正能分辨哪些预测差异。(d) 针对从起始状态到目标状态的迁移对干预排序，在有限预算内测试排名最前的候选。这些实验得到的新测量再回到起点，形成闭环。</figcaption>
+</figure>
+
 <div class="research-grid">
   <div class="research-card">
     <div class="research-card-head">
+      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
+      <div class="research-num">01 · MODEL 建模</div><span class="research-panel">图 a–b</span>
+    </div>
+    <h3>哪些生物学信息能够跨模态、跨情境迁移？</h3>
+    <p>在转录组、形态学、空间和扰动测量之间学习并评估细胞表征，重点关注哪些信息在生物学和实验条件发生变化时依然有用。</p>
+    <div class="research-work">
+      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
+      <a href="https://phenoprofiler.org/">PhenoProfiler</a>
+      <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
+      <a href="https://doi.org/10.1093/bib/bbae500">HGGEP</a>
+    </div>
+  </div>
+
+  <div class="research-card">
+    <div class="research-card-head">
       <span class="research-icon">{% include icon.html name="microscope" %}</span>
-      <div class="research-num">01 · MEASURE 测量</div>
+      <div class="research-num">02 · MEASURE 测量</div><span class="research-panel">图 c</span>
     </div>
     <h3>哪些生物学差异和预测能力能够被可靠地评估？</h3>
     <p>弄清实验能够可重复地分辨哪些生物学差异，以及预测模型真正恢复了哪些响应结构。在解读基准结果之前，先把测量局限、整体性能和情境特异的恢复能力区分开。</p>
@@ -55,24 +80,10 @@ author_profile: true
     </div>
   </div>
 
-  <div class="research-card">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
-      <div class="research-num">02 · MODEL 建模</div>
-    </div>
-    <h3>哪些生物学信息能够跨模态、跨情境迁移？</h3>
-    <p>在转录组、形态学、空间和扰动测量之间学习并评估细胞表征，重点关注哪些信息在生物学和实验条件发生变化时依然有用。</p>
-    <div class="research-work">
-      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
-      <a href="https://phenoprofiler.org/">PhenoProfiler</a>
-      <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
-    </div>
-  </div>
-
   <div class="research-card research-card-current">
     <div class="research-card-head">
       <span class="research-icon">{% include icon.html name="bullseye" %}</span>
-      <div class="research-num">03 · DESIGN 设计</div>
+      <div class="research-num">03 · DESIGN 设计</div><span class="research-panel">图 d</span>
       <span class="research-focus">当前重点</span>
     </div>
     <h3>下一步最值得做哪些实验？</h3>
@@ -102,7 +113,7 @@ author_profile: true
 
   *- 访问学生，合作导师：[Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
 
-- *2024.08 – 至今*：**澳门大学**
+- *2024.08 – 至今（预计 2027.06 毕业）*：**澳门大学**
 
   *- 计算机科学博士（人工智能系），全额奖学金。导师：[Prof. Bob Zhang](https://fic.um.edu.mo/zh-hant/people/bobzhang/)；联合导师：[Prof. Qianqian Song](https://polytechnic.purdue.edu/profile/song1081)（普渡大学）*
 
@@ -123,9 +134,11 @@ author_profile: true
 - *2021*：北京信息科技大学科技创新奖学金一等奖
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}专利 {#patents}
-三项中国发明专利的共同发明人，内容涉及细胞图像密度图生成与细胞定位：**CN115457546A**、**CN115810046A**、**CN115457547A**。
+两项已授权中国发明专利的共同发明人，内容涉及细胞定位：[**CN115457547B**](https://patents.google.com/patent/CN115457547B/en)（2026）、[**CN115810046B**](https://patents.google.com/patent/CN115810046B/en)（2026）。
 
 ## {% include icon.html name="hands-helping" class="h-icon" %}学术服务 {#service}
+
+**会议审稿人**：ICLR 2027。
 
 **期刊审稿人**：*Science Advances*、**IEEE TPAMI**、IEEE TIP、IEEE TNNLS、Medical Image Analysis、Bioinformatics、Briefings in Bioinformatics、Pattern Recognition、BMC Biology、Engineering Applications of Artificial Intelligence、Expert Systems with Applications。
 

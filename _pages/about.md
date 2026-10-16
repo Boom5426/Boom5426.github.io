@@ -42,11 +42,36 @@ redirect_from:
 
 ## {% include icon.html name="flask" class="h-icon" %}Research {#research}
 
+<figure class="research-figure">
+  <a href="{{ '/images/research_loop.webp' | relative_url }}" title="Open the full-resolution figure">
+    <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
+         srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
+         sizes="(max-width: 57.8em) 100vw, 900px"
+         alt="Research loop in four panels: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B. Experiments on the selected candidates produce new measurements that close the loop." width="1200" height="385" loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>From measurements to decisions.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict how cells respond to drug and genetic perturbations. (c) Test which predicted differences experiments can actually resolve. (d) Rank interventions that move a source state toward a target state, and test the top-K within a finite budget. New measurements from those experiments close the loop.</figcaption>
+</figure>
+
 <div class="research-grid">
   <div class="research-card">
     <div class="research-card-head">
+      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
+      <div class="research-num">01 · MODEL</div><span class="research-panel">panels a–b</span>
+    </div>
+    <h3>What biological information transfers across modalities and contexts?</h3>
+    <p>Learn and evaluate cellular representations across transcriptomic, morphological, spatial, and perturbational measurements, with an emphasis on what information remains useful under biological and experimental shifts.</p>
+    <div class="research-work">
+      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
+      <a href="https://phenoprofiler.org/">PhenoProfiler</a>
+      <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
+      <a href="https://doi.org/10.1093/bib/bbae500">HGGEP</a>
+    </div>
+  </div>
+
+  <div class="research-card">
+    <div class="research-card-head">
       <span class="research-icon">{% include icon.html name="microscope" %}</span>
-      <div class="research-num">01 · MEASURE</div>
+      <div class="research-num">02 · MEASURE</div><span class="research-panel">panel c</span>
     </div>
     <h3>What biological distinctions and predictive capabilities can we reliably evaluate?</h3>
     <p>Determine what biological distinctions experiments can reproducibly resolve and what response structure predictive models actually recover. Separate measurement limits, aggregate performance, and context-specific recovery before interpreting benchmark results.</p>
@@ -57,24 +82,10 @@ redirect_from:
     </div>
   </div>
 
-  <div class="research-card">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
-      <div class="research-num">02 · MODEL</div>
-    </div>
-    <h3>What biological information transfers across modalities and contexts?</h3>
-    <p>Learn and evaluate cellular representations across transcriptomic, morphological, spatial, and perturbational measurements, with an emphasis on what information remains useful under biological and experimental shifts.</p>
-    <div class="research-work">
-      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
-      <a href="https://phenoprofiler.org/">PhenoProfiler</a>
-      <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
-    </div>
-  </div>
-
   <div class="research-card research-card-current">
     <div class="research-card-head">
       <span class="research-icon">{% include icon.html name="bullseye" %}</span>
-      <div class="research-num">03 · DESIGN</div>
+      <div class="research-num">03 · DESIGN</div><span class="research-panel">panel d</span>
       <span class="research-focus">Current focus</span>
     </div>
     <h3>Which experiments are worth performing next?</h3>
@@ -104,7 +115,7 @@ redirect_from:
 
   *- Visiting Student. Host: [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
 
-- *2024.08 – Present*: **University of Macau**
+- *2024.08 – Present (expected 2027.06)*: **University of Macau**
 
   *- Ph.D. in Computer Science, Department of Artificial Intelligence, Full Scholarship. Advisor: [Prof. Bob Zhang](https://fic.um.edu.mo/zh-hant/people/bobzhang/); Co-advisor: [Prof. Qianqian Song](https://polytechnic.purdue.edu/profile/song1081), Purdue University*
 
@@ -125,9 +136,11 @@ redirect_from:
 - *2021*: First Prize, Science & Technology Innovation Scholarship, BISTU
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}Patents {#patents}
-Co-inventor of three Chinese invention patents on cell image density map generation and cell localization: **CN115457546A**, **CN115810046A**, **CN115457547A**.
+Co-inventor of two granted Chinese invention patents on cell localization: [**CN115457547B**](https://patents.google.com/patent/CN115457547B/en) (2026) and [**CN115810046B**](https://patents.google.com/patent/CN115810046B/en) (2026).
 
 ## {% include icon.html name="hands-helping" class="h-icon" %}Academic Service {#service}
+
+**Conference reviewer**: ICLR 2027.
 
 **Journal reviewer**: *Science Advances*, **IEEE TPAMI**, IEEE TIP, IEEE TNNLS, Medical Image Analysis, Bioinformatics, Briefings in Bioinformatics, Pattern Recognition, BMC Biology, Engineering Applications of Artificial Intelligence, and Expert Systems with Applications.
 

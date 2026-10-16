@@ -29,7 +29,7 @@
 
 </div></div>
 
-<h3 class="pub-group">{% if include.lang == "zh" %}在研工作 · 预印本与稿件{% else %}Current work · preprints and manuscripts{% endif %}</h3>
+<h3 class="pub-group">{% if include.lang == "zh" %}在研工作 · 在审稿件与预印本{% else %}Current work · under review and preprints{% endif %}</h3>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">DESIGN · Intervention Design</div><a class="paper-figure-link" href="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/vcdesign.webp' | relative_url }}" alt="VCDesign: finite-budget intervention design for virtual cells" loading="lazy" decoding="async" width="800" height="498"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -38,7 +38,7 @@
 
 **Bo Li**<sup>†</sup>, Lin Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Mengran Li, Zhenchao Tang, Chengyang Zhang, Minghao Sun, Chengliang Liu, Zhiyuan Liu, Yang Zhang<sup>&#42;</sup>
 
-<span class="venue venue-manuscript">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="vcdesign">BibTeX</button>
+<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="vcdesign">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：在有限的实验预算下对可行干预进行排序，利用历史扰动数据和生物学知识，为尚未测得响应的候选干预确定优先级，并用独立测得的实验结果评估所选干预。{% else %}**TL;DR**: Ranks feasible interventions under a limited experimental budget, using historical perturbation data and biological knowledge to prioritize response-unseen candidates. Evaluates the selected experiments against independently measured outcomes.{% endif %}
 
@@ -51,7 +51,7 @@
 
 **Bo Li**<sup>†</sup>, Chengyang Zhang<sup>†</sup>, Mengran Li<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Lin Wang, Zhenchao Tang, Jun Liu, Chengliang Liu, Chen Wei, Yuhao Yi<sup>&#42;</sup>, Jiancheng Lv, Yang Zhang<sup>&#42;</sup>
 
-<span class="venue venue-manuscript">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="pertresolve">BibTeX</button>
+<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="pertresolve">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：把测量本身的局限和模型的局限分开：先检验实验能否可重复地区分细粒度的扰动效应，再检验预测模型能否恢复这些差异，而不只是学到共有的响应模式。{% else %}**TL;DR**: Separates measurement limits from modeling limits by testing whether experiments can reproducibly distinguish fine-grained perturbation effects, and whether predictive models recover those distinctions rather than only shared response patterns.{% endif %}
 
@@ -64,7 +64,7 @@
 
 **Bo Li**<sup>†</sup>, Chengliang Liu<sup>†</sup>, Yuzhong Peng<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Qing Wang, Pinxian Zeng, Mengran Li, Shenghui Huang, Chuxia Deng<sup>&#42;</sup>, Yang Zhang<sup>&#42;</sup>
 
-<span class="venue venue-manuscript">Manuscript</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/DrugDis/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_manuscript.pdf) &nbsp;·&nbsp; [Supplement](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_SI.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/DrugDis) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/DrugDis) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="drugdis">BibTeX</button>
+<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/DrugDis/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_manuscript.pdf) &nbsp;·&nbsp; [Supplement](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_SI.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/DrugDis) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/DrugDis) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="drugdis">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：把药物和样本的通用效应与情境特异的交互效应分开，揭示整体预测精度由什么驱动，以及模型改进是否真正恢复了生物学解释所需的响应成分。{% else %}**TL;DR**: Separates general drug and sample effects from context-specific interactions, revealing what drives aggregate prediction accuracy and whether model improvements recover the response components needed for biological interpretation.{% endif %}
 

@@ -420,6 +420,37 @@ h2:before {
     line-height: 1.45;
 }
 
+/* --- research loop figure (sits above the research cards) --- */
+.research-figure {
+    margin: .9rem 0 .2rem;
+}
+.research-figure a {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #e3e7ee;
+    border-radius: 9px;
+    background: #fff;
+}
+.research-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.research-figure figcaption {
+    margin-top: .5rem;
+    color: #56606d;
+    font-size: .78em;
+    line-height: 1.55;
+}
+.research-figure figcaption strong { color: #293241; }
+.research-panel {
+    color: #8a94a3;
+    font-size: .68em;
+    font-weight: 700;
+    letter-spacing: .02em;
+    white-space: nowrap;
+}
+
 /* --- research vision: current foundation -> prospective feedback --- */
 .vision-strip {
     margin: .95rem 0 1.9rem;
@@ -698,6 +729,10 @@ h2:before {
         box-shadow: 0 8px 22px rgba(0, 0, 0, .22);
     }
     .research-card-current { border-top-color: #d49a57; }
+    .research-figure a { border-color: #2d3440; }
+    .research-figure figcaption { color: #9ea8b6; }
+    .research-figure figcaption strong { color: #d6dce5; }
+    .research-panel { color: #7f8a99; }
     .research-focus {
         border-color: #5e4930;
         background: #241f18;
