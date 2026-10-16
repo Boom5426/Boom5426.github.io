@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Bo Li 李波"
-tagline                  : "AI for Biology — Measuring, Modeling, and Designing Cellular Perturbations"
-description              : "Ph.D. student at the University of Macau and visiting student at the National University of Singapore. I develop computational methods for virtual cells and biological decision-making, spanning measurement-aware and component-resolved evaluation, multimodal perturbation modeling, and intervention design."
+tagline                  : "AI for Biology — From Multimodal Virtual Cells to Experimental Decisions"
+description              : "Ph.D. student at the University of Macau and visiting student at the National University of Singapore. I develop AI methods that turn multimodal cellular measurements into experimental decisions: cellular-state representation, perturbation-response prediction, measurement-aware evaluation, and finite-budget intervention design."
 url                      : "https://boom5426.github.io"
 baseurl                  : ""
 repository               : "Boom5426/Boom5426.github.io"

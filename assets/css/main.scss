@@ -143,28 +143,10 @@ h2:before {
     padding: .85rem 1rem .7rem;
     border: 1px solid #edf0f4;
     border-radius: 10px;
+    background: linear-gradient(120deg, #f2f6fd 0%, #f8fafe 45%, #ffffff 100%);
 }
-.hero-block::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background-image: url("{{ '/images/research_program_hero.webp' | relative_url }}");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: .48;
-    filter: saturate(1.05) contrast(1.04);
-    pointer-events: none;
-}
-.hero-block::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background: linear-gradient(90deg, rgba(255,255,255,.58) 0%, rgba(255,255,255,.40) 48%, rgba(255,255,255,.25) 100%);
-    pointer-events: none;
-}
+.hero-block::before,
+.hero-block::after { content: none; }
 .hero-kicker {
     display: inline-flex;
     align-items: center;
@@ -313,10 +295,10 @@ h2:before {
     }
 }
 
-/* --- research agenda: Measure / Model / Design --- */
+/* --- research agenda: the four stages of the research-loop figure --- */
 .research-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: .85rem;
     align-items: stretch;
     margin: 1rem 0 1.8rem;
@@ -420,6 +402,23 @@ h2:before {
     line-height: 1.45;
 }
 
+/* stage colours, shared with the figure panels (a)–(d) and the publication badges */
+.research-card.stage-a { border-top-color: #2f6db5; }
+.research-card.stage-b { border-top-color: #1e8a7a; }
+.research-card.stage-c { border-top-color: #b7791f; }
+.research-card.stage-d { border-top-color: #c0392b; }
+.stage-a .research-num, .stage-a .research-icon { color: #2f6db5; }
+.stage-b .research-num, .stage-b .research-icon { color: #1e8a7a; }
+.stage-c .research-num, .stage-c .research-icon { color: #9a6514; }
+.stage-d .research-num, .stage-d .research-icon { color: #c0392b; }
+.stage-b .research-icon { background: #e8f5f2; }
+.stage-c .research-icon { background: #fbf3e3; }
+.stage-d .research-icon { background: #fcebe9; }
+.badge.stage-a { background-color: #2f6db5; }
+.badge.stage-b { background-color: #1e8a7a; }
+.badge.stage-c { background-color: #9a6514; }
+.badge.stage-d { background-color: #c0392b; }
+
 /* --- research loop figure (sits above the research cards) --- */
 .research-figure {
     margin: .9rem 0 .2rem;
@@ -443,13 +442,6 @@ h2:before {
     line-height: 1.55;
 }
 .research-figure figcaption strong { color: #293241; }
-.research-panel {
-    color: #8a94a3;
-    font-size: .68em;
-    font-weight: 700;
-    letter-spacing: .02em;
-    white-space: nowrap;
-}
 
 /* --- research vision: current foundation -> prospective feedback --- */
 .vision-strip {
@@ -730,9 +722,17 @@ h2:before {
     }
     .research-card-current { border-top-color: #d49a57; }
     .research-figure a { border-color: #2d3440; }
+    .research-card.stage-a { border-top-color: #6f9be0; }
+    .research-card.stage-b { border-top-color: #4fb8a5; }
+    .research-card.stage-c { border-top-color: #d9a85a; }
+    .research-card.stage-d { border-top-color: #e57d70; }
+    .stage-a .research-num, .stage-a .research-icon { color: #8fb2ff; }
+    .stage-b .research-num, .stage-b .research-icon { color: #6fd0bd; }
+    .stage-c .research-num, .stage-c .research-icon { color: #e0b46a; }
+    .stage-d .research-num, .stage-d .research-icon { color: #f09184; }
+    .stage-b .research-icon, .stage-c .research-icon, .stage-d .research-icon { background: #1d2634; }
     .research-figure figcaption { color: #9ea8b6; }
     .research-figure figcaption strong { color: #d6dce5; }
-    .research-panel { color: #7f8a99; }
     .research-focus {
         border-color: #5e4930;
         background: #241f18;

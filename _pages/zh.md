@@ -13,7 +13,7 @@ author_profile: true
 <div class="hero-block">
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>AI for Biology</span><span class="hero-topics">多模态虚拟细胞 · 扰动建模 · 干预设计</span></div>
   <div class="hero-title">从多模态虚拟细胞到实验决策</div>
-  <p class="hero-copy">我研究如何用 AI 方法把多模态扰动数据转化为更好的实验决策。我的工作把可靠测量、细胞响应建模和干预设计连接起来，回答两个问题：哪些生物学效应可以预测，哪些干预值得去做实验。</p>
+  <p class="hero-copy">我研究如何用 AI 把多模态细胞测量转化为实验决策。我的研究围绕一个闭环：从多模态数据中学习细胞状态，预测细胞对扰动的响应，检验实验能分辨哪些预测差异，再在有限预算下选择下一步最值得做的干预。</p>
   <div class="hero-evidence">
     <span><strong>2 篇第一作者论文</strong>发表于 <em>Nature Communications</em></span>
     <span class="hero-evidence-links"><a href="#phenoprofiler">PhenoProfiler ↗</a><a href="#spaim">SpaIM ↗</a></span>
@@ -42,37 +42,52 @@ author_profile: true
 
 <figure class="research-figure">
   <a href="{{ '/images/research_loop.webp' | relative_url }}" title="查看高清原图">
-    <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
-         srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
-         sizes="(max-width: 57.8em) 100vw, 900px"
-         alt="研究闭环示意图，共四个面板：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个。所选干预的实验产生新的测量，形成闭环。" width="1200" height="385" loading="lazy" decoding="async">
+    <picture>
+      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="3924">
+      <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
+           srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
+           sizes="(max-width: 57.8em) 100vw, 900px"
+           alt="研究闭环示意图，共四个面板：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个。所选干预的实验产生新的测量，形成闭环。" width="1200" height="385" loading="lazy" decoding="async">
+    </picture>
   </a>
   <figcaption><strong>从测量到决策。</strong>(a) 从多模态测量中学习细胞状态。(b) 预测细胞对药物和基因扰动的响应。(c) 检验实验真正能分辨哪些预测差异。(d) 针对从起始状态到目标状态的迁移对干预排序，在有限预算内测试排名最前的候选。这些实验得到的新测量再回到起点，形成闭环。</figcaption>
 </figure>
 
 <div class="research-grid">
-  <div class="research-card">
+
+  <div class="research-card stage-a">
     <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
-      <div class="research-num">01 · MODEL 建模</div><span class="research-panel">图 a–b</span>
+      <span class="research-icon">{% include icon.html name="microscope" %}</span>
+      <div class="research-num">(a) · 细胞状态</div>
     </div>
-    <h3>哪些生物学信息能够跨模态、跨情境迁移？</h3>
-    <p>在转录组、形态学、空间和扰动测量之间学习并评估细胞表征，重点关注哪些信息在生物学和实验条件发生变化时依然有用。</p>
+    <h3>异质的生物测量如何揭示细胞表型与状态？</h3>
+    <p>从显微图像、单细胞与空间组学以及病理切片中学习细胞表征，让不同的测量描述同一个细胞状态。</p>
     <div class="research-work">
-      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
       <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
       <a href="https://doi.org/10.1093/bib/bbae500">HGGEP</a>
     </div>
   </div>
 
-  <div class="research-card">
+  <div class="research-card stage-b">
     <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="microscope" %}</span>
-      <div class="research-num">02 · MEASURE 测量</div><span class="research-panel">图 c</span>
+      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
+      <div class="research-num">(b) · 响应预测</div>
     </div>
-    <h3>哪些生物学差异和预测能力能够被可靠地评估？</h3>
-    <p>弄清实验能够可重复地分辨哪些生物学差异，以及预测模型真正恢复了哪些响应结构。在解读基准结果之前，先把测量局限、整体性能和情境特异的恢复能力区分开。</p>
+    <h3>哪些信息能跨扰动、跨模态、跨细胞情境迁移？</h3>
+    <p>预测细胞在药物和基因扰动下的图像与表达响应，并检验模型在化合物、细胞系、实验板和数据集变化下能否泛化。</p>
+    <div class="research-work">
+      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
+    </div>
+  </div>
+
+  <div class="research-card stage-c">
+    <div class="research-card-head">
+      <span class="research-icon">{% include icon.html name="search" %}</span>
+      <div class="research-num">(c) · 评估与分辨</div>
+    </div>
+    <h3>预测性能何时反映可重复、对生物学有用的响应信息？</h3>
+    <p>弄清实验能够可重复地分辨哪些生物学差异、模型真正恢复了哪些响应结构，在解读基准结果之前先把测量局限和模型局限区分开。</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
       <a href="https://boom5426.github.io/DrugDis/">DrugDis</a>
@@ -80,15 +95,14 @@ author_profile: true
     </div>
   </div>
 
-  <div class="research-card research-card-current">
+  <div class="research-card stage-d">
     <div class="research-card-head">
       <span class="research-icon">{% include icon.html name="bullseye" %}</span>
-      <div class="research-num">03 · DESIGN 设计</div><span class="research-panel">图 d</span>
+      <div class="research-num">(d) · 实验选择</div>
       <span class="research-focus">当前重点</span>
     </div>
-    <h3>下一步最值得做哪些实验？</h3>
-    <p>把干预设计表述为有限预算下的决策问题：针对生物学目标对可行的干预排序，并用独立测得的结果评估所选的实验。</p>
-    <div class="research-direction">迈向自适应的干预选择和前瞻性的实验反馈。</div>
+    <h3>有限实验预算下，哪些干预最值得做？</h3>
+    <p>按从起始状态到目标状态的预测迁移对候选干预排序，在预算 B 内测试排名前 K 的候选，并用独立测得的结果评估这些选择。</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
     </div>

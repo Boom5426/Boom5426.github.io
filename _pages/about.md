@@ -15,7 +15,7 @@ redirect_from:
 <div class="hero-block">
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>AI for Biology</span><span class="hero-topics">Multimodal Virtual Cells · Perturbation Modeling · Intervention Design</span></div>
   <div class="hero-title">From Multimodal Virtual Cells to Experimental Decisions</div>
-  <p class="hero-copy">I build AI methods that turn multimodal perturbation data into better experimental decisions. My research connects reliable measurement, cellular response modeling, and intervention design to identify which biological effects we can predict and which interventions are worth testing.</p>
+  <p class="hero-copy">I build AI methods that turn multimodal cellular measurements into experimental decisions. My research follows one loop: learn cellular state from multimodal data, predict how cells respond to perturbations, test which predicted differences experiments can resolve, and choose which interventions to test next under a finite budget.</p>
   <div class="hero-evidence">
     <span><strong>2 first-author papers</strong> in <em>Nature Communications</em></span>
     <span class="hero-evidence-links"><a href="#phenoprofiler">PhenoProfiler ↗</a><a href="#spaim">SpaIM ↗</a></span>
@@ -44,37 +44,52 @@ redirect_from:
 
 <figure class="research-figure">
   <a href="{{ '/images/research_loop.webp' | relative_url }}" title="Open the full-resolution figure">
-    <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
-         srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
-         sizes="(max-width: 57.8em) 100vw, 900px"
-         alt="Research loop in four panels: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B. Experiments on the selected candidates produce new measurements that close the loop." width="1200" height="385" loading="lazy" decoding="async">
+    <picture>
+      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="3924">
+      <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
+           srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
+           sizes="(max-width: 57.8em) 100vw, 900px"
+           alt="Research loop in four panels: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B. Experiments on the selected candidates produce new measurements that close the loop." width="1200" height="385" loading="lazy" decoding="async">
+    </picture>
   </a>
   <figcaption><strong>From measurements to decisions.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict how cells respond to drug and genetic perturbations. (c) Test which predicted differences experiments can actually resolve. (d) Rank interventions that move a source state toward a target state, and test the top-K within a finite budget. New measurements from those experiments close the loop.</figcaption>
 </figure>
 
 <div class="research-grid">
-  <div class="research-card">
+
+  <div class="research-card stage-a">
     <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
-      <div class="research-num">01 · MODEL</div><span class="research-panel">panels a–b</span>
+      <span class="research-icon">{% include icon.html name="microscope" %}</span>
+      <div class="research-num">(a) · CELLULAR STATE</div>
     </div>
-    <h3>What biological information transfers across modalities and contexts?</h3>
-    <p>Learn and evaluate cellular representations across transcriptomic, morphological, spatial, and perturbational measurements, with an emphasis on what information remains useful under biological and experimental shifts.</p>
+    <h3>How can heterogeneous measurements reveal cellular phenotypes and states?</h3>
+    <p>Learn cellular representations from microscopy, single-cell and spatial omics, and histology, so that different measurements describe the same cell state.</p>
     <div class="research-work">
-      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
       <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
       <a href="https://doi.org/10.1093/bib/bbae500">HGGEP</a>
     </div>
   </div>
 
-  <div class="research-card">
+  <div class="research-card stage-b">
     <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="microscope" %}</span>
-      <div class="research-num">02 · MEASURE</div><span class="research-panel">panel c</span>
+      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
+      <div class="research-num">(b) · RESPONSE PREDICTION</div>
     </div>
-    <h3>What biological distinctions and predictive capabilities can we reliably evaluate?</h3>
-    <p>Determine what biological distinctions experiments can reproducibly resolve and what response structure predictive models actually recover. Separate measurement limits, aggregate performance, and context-specific recovery before interpreting benchmark results.</p>
+    <h3>What information transfers across perturbations, modalities, and cellular contexts?</h3>
+    <p>Predict how cells respond to drug and genetic perturbations in both image and expression readouts, and test what generalizes across compounds, cell lines, plates, and datasets.</p>
+    <div class="research-work">
+      <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
+    </div>
+  </div>
+
+  <div class="research-card stage-c">
+    <div class="research-card-head">
+      <span class="research-icon">{% include icon.html name="search" %}</span>
+      <div class="research-num">(c) · EVALUATION &amp; RESOLUTION</div>
+    </div>
+    <h3>When does predictive performance reflect reproducible, biologically useful response information?</h3>
+    <p>Determine which biological distinctions experiments can reproducibly resolve and what response structure models actually recover, separating measurement limits from model limits before interpreting benchmark results.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
       <a href="https://boom5426.github.io/DrugDis/">DrugDis</a>
@@ -82,15 +97,14 @@ redirect_from:
     </div>
   </div>
 
-  <div class="research-card research-card-current">
+  <div class="research-card stage-d">
     <div class="research-card-head">
       <span class="research-icon">{% include icon.html name="bullseye" %}</span>
-      <div class="research-num">03 · DESIGN</div><span class="research-panel">panel d</span>
+      <div class="research-num">(d) · EXPERIMENTAL CHOICE</div>
       <span class="research-focus">Current focus</span>
     </div>
-    <h3>Which experiments are worth performing next?</h3>
-    <p>Formulate intervention design as a finite-budget decision problem: rank feasible interventions toward a biological objective and evaluate the selected experiments using independently measured outcomes.</p>
-    <div class="research-direction">Toward adaptive intervention selection and prospective experimental feedback.</div>
+    <h3>Which interventions are worth testing under a finite experimental budget?</h3>
+    <p>Rank candidate interventions by their predicted shift from a source state toward a target state, test the top-K within budget B, and evaluate the choices against independently measured outcomes.</p>
     <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
     </div>

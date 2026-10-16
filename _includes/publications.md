@@ -3,7 +3,7 @@
 
 <h3 class="pub-group">{% if include.lang == "zh" %}已发表{% else %}Published{% endif %}</h3>
 
-<div class='paper-box' id='phenoprofiler'><div class='paper-box-image'><div><div class="badge">MODEL · Cellular Representation</div><a class="paper-figure-link" href="{{ '/images/PhenoProfiler.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></a></div></div>
+<div class='paper-box' id='phenoprofiler'><div class='paper-box-image'><div><div class="badge stage-a">(a) Cellular State · Image-based Profiling</div><a class="paper-figure-link" href="{{ '/images/PhenoProfiler.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PhenoProfiler: Advancing Phenotypic Learning for Image-based Drug Discovery](https://www.nature.com/articles/s41467-025-67479-w)
@@ -16,7 +16,7 @@
 
 </div></div>
 
-<div class='paper-box' id='spaim'><div class='paper-box-image'><div><div class="badge">MODEL · Multimodal Biology</div><a class="paper-figure-link" href="{{ '/images/SpaIM.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></a></div></div>
+<div class='paper-box' id='spaim'><div class='paper-box-image'><div><div class="badge stage-a">(a) Cellular State · Spatial Omics</div><a class="paper-figure-link" href="{{ '/images/SpaIM.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/SpaIM.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/SpaIM.png' | relative_url }}" alt="SpaIM: style-transfer imputation for single-cell spatial transcriptomics" width="800" height="680" loading="lazy" decoding="async"></picture></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SpaIM: Single-cell Spatial Transcriptomics Imputation via Style Transfer](https://www.nature.com/articles/s41467-025-63185-9)
@@ -31,7 +31,7 @@
 
 <h3 class="pub-group">{% if include.lang == "zh" %}在研工作 · 在审稿件与预印本{% else %}Current work · under review and preprints{% endif %}</h3>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DESIGN · Intervention Design</div><a class="paper-figure-link" href="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/vcdesign.webp' | relative_url }}" alt="VCDesign: finite-budget intervention design for virtual cells" loading="lazy" decoding="async" width="800" height="498"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-d">(d) Experimental Choice · Intervention Design</div><a class="paper-figure-link" href="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/vcdesign.webp' | relative_url }}" alt="VCDesign: finite-budget intervention design for virtual cells" loading="lazy" decoding="async" width="800" height="498"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [VCDesign: Finite-Budget Intervention Design for Virtual Cells](https://boom5426.github.io/VCDesign-CED/)
@@ -44,7 +44,7 @@
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MEASURE · Measurement-aware Evaluation</div><a class="paper-figure-link" href="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/pertresolve.webp' | relative_url }}" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" loading="lazy" decoding="async" width="800" height="710"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-c">(c) Evaluation &amp; Resolution · Measurement Limits</div><a class="paper-figure-link" href="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/pertresolve.webp' | relative_url }}" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" loading="lazy" decoding="async" width="800" height="710"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Measurement resolution constrains fine-grained perturbation prediction](https://boom5426.github.io/PertResolve/)
@@ -57,7 +57,7 @@
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MEASURE · Component-resolved Evaluation</div><a class="paper-figure-link" href="https://boom5426.github.io/DrugDis/assets/fig1_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/drugdis.webp' | relative_url }}" alt="DrugDis: disentangling general and context-specific effects in drug-response prediction" loading="lazy" decoding="async" width="800" height="516"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-c">(c) Evaluation &amp; Resolution · Drug-response Components</div><a class="paper-figure-link" href="https://boom5426.github.io/DrugDis/assets/fig1_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/drugdis.webp' | relative_url }}" alt="DrugDis: disentangling general and context-specific effects in drug-response prediction" loading="lazy" decoding="async" width="800" height="516"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DrugDis: Disentangling general and context-specific effects in drug-response prediction](https://boom5426.github.io/DrugDis/)
@@ -70,7 +70,7 @@
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MODEL · Virtual Cell Generalization</div><a class="paper-figure-link" href="{{ '/images/MVCBench.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-b">(b) Response Prediction · Multimodal Benchmark</div><a class="paper-figure-link" href="{{ '/images/MVCBench.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
