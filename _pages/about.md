@@ -24,7 +24,7 @@ redirect_from:
 
 <div class="avail">
   {% include icon.html name="search" %}
-  <div class="avail-copy"><strong>Seeking Fall 2027 postdoctoral opportunities</strong> in AI for Biology, virtual cells, measurement-aware evaluation, and intervention design.</div>
+  <div class="avail-copy"><strong>Seeking postdoctoral and faculty positions starting 2027</strong> in AI for Biology, virtual cells, measurement-aware evaluation, and intervention design.</div>
   <div class="avail-actions">
     <a class="link-btn" href="{{ site.author.cv | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
     <a class="link-btn ghost" href="mailto:{{ site.author.email }}">Email</a>
@@ -137,12 +137,12 @@ redirect_from:
   *- B.Eng. in Robotics Engineering. Advisor: [Prof. Hongbo Huang](https://jsjxy.bistu.edu.cn/docs/2025-02/8d1313acd5814afd9f5d15f4b7b9403a.pdf)*
 
 ## {% include icon.html name="award" class="h-icon" %}Selected Honors & Awards {#honors}
-- *2024*: Ph.D. Scholarship, University of Macau
-- *2024.07*: Top 100 Graduates of BJUT (Top 100 / 6331)
+- *2024*: Ph.D. Full Scholarship, University of Macau
+- *2024.07*: Top 100 Graduates, Beijing University of Technology (top 100 of 6,331)
 - *2024.07 & 2021.07*: Beijing Outstanding Graduate
 - *2023.10*: Xiaomi Scholarship
-- *2022.10*: National Scholarship
-- *2021*: First Prize, Science & Technology Innovation Scholarship, BISTU
+- *2022.10*: National Scholarship, Ministry of Education of China
+- *2021*: First Prize, Science & Technology Innovation Scholarship, Beijing Information Science & Technology University
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}Patents {#patents}
 Co-inventor of two granted Chinese invention patents on cell localization: [**CN115457547B**](https://patents.google.com/patent/CN115457547B/en) (2026) and [**CN115810046B**](https://patents.google.com/patent/CN115810046B/en) (2026).

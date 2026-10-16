@@ -22,7 +22,7 @@ author_profile: true
 
 <div class="avail">
   {% include icon.html name="search" %}
-  <div class="avail-copy"><strong>正在寻找 2027 年秋季开始的博士后职位</strong>，方向包括 AI for Biology、虚拟细胞、测量感知的模型评估与干预设计。</div>
+  <div class="avail-copy"><strong>正在寻找 2027 年起的博士后与教职岗位</strong>，方向包括 AI for Biology、虚拟细胞、测量感知的模型评估与干预设计。</div>
   <div class="avail-actions">
     <a class="link-btn" href="{{ site.author.cv | relative_url }}">查看简历 <span aria-hidden="true">↗</span></a>
     <a class="link-btn ghost" href="mailto:{{ site.author.email }}">邮件联系</a>
@@ -135,11 +135,11 @@ author_profile: true
   *- 机器人工程学士。导师：[Prof. Hongbo Huang](https://jsjxy.bistu.edu.cn/docs/2025-02/8d1313acd5814afd9f5d15f4b7b9403a.pdf)*
 
 ## {% include icon.html name="award" class="h-icon" %}荣誉奖励 {#honors}
-- *2024*：澳门大学博士奖学金
+- *2024*：澳门大学博士全额奖学金
 - *2024.07*：北京工业大学 Top 100 毕业生（前 100 / 6331）
 - *2024.07 & 2021.07*：北京市优秀毕业生
 - *2023.10*：小米奖学金
-- *2022.10*：国家奖学金
+- *2022.10*：国家奖学金（教育部）
 - *2021*：北京信息科技大学科技创新奖学金一等奖
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}专利 {#patents}
