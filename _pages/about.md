@@ -16,11 +16,6 @@ redirect_from:
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>AI for Biology</span><span class="hero-topics">Multimodal Virtual Cells · Perturbation Modeling · Intervention Design</span></div>
   <div class="hero-title">From Multimodal Virtual Cells to Experimental Decisions</div>
   <p class="hero-copy">I build AI methods that turn multimodal cellular measurements into experimental decisions. My research follows one loop: learn cellular state from multimodal data, predict how cells respond to perturbations, test which predicted differences experiments can resolve, and choose which interventions to test next under a finite budget.</p>
-  <div class="hero-evidence">
-    <span><strong>2 first-author papers</strong> in <em>Nature Communications</em></span>
-    <span class="hero-evidence-links"><a href="#phenoprofiler">PhenoProfiler ↗</a><a href="#spaim">SpaIM ↗</a></span>
-    {% include scholar-stats.html %}
-  </div>
   <div class="hero-affiliations">
     <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>University of Macau</strong></a> (advisor <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; co-advisor <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>, <a href="https://www.purdue.edu/">Purdue</a>)</span>
     <span>{% include icon.html name="globe-asia" %}Visiting <a href="https://www.nus.edu.sg/"><strong>NUS</strong></a> (host <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
@@ -52,7 +47,7 @@ redirect_from:
            alt="Research loop in four panels: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B. Experiments on the selected candidates produce new measurements that close the loop." width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>From measurements to decisions.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict how cells respond to drug and genetic perturbations. (c) Test which predicted differences experiments can actually resolve. (d) Rank interventions that move a source state toward a target state, and test the top-K within a finite budget. New measurements from those experiments close the loop.</figcaption>
+  <figcaption><strong>From Multimodal Virtual Cells to Experimental Decisions.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict how cells respond to drug and genetic perturbations. (c) Test which predicted differences experiments can actually resolve. (d) Rank interventions that move a source state toward a target state, and test the top-K within a finite budget. New measurements from those experiments close the loop.</figcaption>
 </figure>
 
 <div class="research-grid">

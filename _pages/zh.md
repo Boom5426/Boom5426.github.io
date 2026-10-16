@@ -14,11 +14,6 @@ author_profile: true
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>AI for Biology</span><span class="hero-topics">多模态虚拟细胞 · 扰动建模 · 干预设计</span></div>
   <div class="hero-title">从多模态虚拟细胞到实验决策</div>
   <p class="hero-copy">我研究如何用 AI 把多模态细胞测量转化为实验决策。我的研究围绕一个闭环：从多模态数据中学习细胞状态，预测细胞对扰动的响应，检验实验能分辨哪些预测差异，再在有限预算下选择下一步最值得做的干预。</p>
-  <div class="hero-evidence">
-    <span><strong>2 篇第一作者论文</strong>发表于 <em>Nature Communications</em></span>
-    <span class="hero-evidence-links"><a href="#phenoprofiler">PhenoProfiler ↗</a><a href="#spaim">SpaIM ↗</a></span>
-    {% include scholar-stats.html %}
-  </div>
   <div class="hero-affiliations">
     <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>澳门大学</strong></a>（导师 <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>；联合导师 <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>，<a href="https://www.purdue.edu/">普渡大学</a>）</span>
     <span>{% include icon.html name="globe-asia" %}访问 <a href="https://www.nus.edu.sg/"><strong>新加坡国立大学</strong></a>（合作导师 <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>）</span>
@@ -50,7 +45,7 @@ author_profile: true
            alt="研究闭环示意图，共四个面板：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个。所选干预的实验产生新的测量，形成闭环。" width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>从测量到决策。</strong>(a) 从多模态测量中学习细胞状态。(b) 预测细胞对药物和基因扰动的响应。(c) 检验实验真正能分辨哪些预测差异。(d) 针对从起始状态到目标状态的迁移对干预排序，在有限预算内测试排名最前的候选。这些实验得到的新测量再回到起点，形成闭环。</figcaption>
+  <figcaption><strong>从多模态虚拟细胞到实验决策。</strong>(a) 从多模态测量中学习细胞状态。(b) 预测细胞对药物和基因扰动的响应。(c) 检验实验真正能分辨哪些预测差异。(d) 针对从起始状态到目标状态的迁移对干预排序，在有限预算内测试排名最前的候选。这些实验得到的新测量再回到起点，形成闭环。</figcaption>
 </figure>
 
 <div class="research-grid">

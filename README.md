@@ -50,7 +50,7 @@ For local builds, `bash scripts/build_site.sh` refreshes the counts and runs Jek
 to the previous snapshot if the network is unavailable.
 
 ## Google Scholar citation count
-The hero shows the total citation count and h-index from a committed snapshot,
+The homepage no longer displays these numbers; the citation count and h-index are kept in a committed snapshot,
 [`_data/scholar_stats.json`](_data/scholar_stats.json), with a link to the profile. Google Scholar
 blocks requests from GitHub Actions runners, so refresh it from your own machine before publishing:
 
