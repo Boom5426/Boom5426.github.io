@@ -3,6 +3,19 @@
 
 <h3 class="pub-group">{% if include.lang == "zh" %}已发表{% else %}Published{% endif %}</h3>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-b">(b) Response Prediction · Multimodal Benchmark</div><a class="paper-figure-link" href="{{ '/images/MVCBench.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MVCBench: A multimodal benchmark for drug-induced virtual cell phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
+
+**Bo Li**<sup>†</sup>, Qing Wang<sup>†</sup>, Shihang Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song<sup>&#42;</sup>
+
+<span class="venue venue-manuscript">Nature Communications</span> {% if include.lang == "zh" %}**原则性接收**{% else %}**Accepted in Principle**{% endif %} (2026) &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="mvcbench">BibTeX</button>
+
+{% if include.lang == "zh" %}**简介**：在化合物、细胞系、实验板和数据集四种分布偏移下，评测基于图像与基于表达的扰动预测。{% else %}**TL;DR**: Benchmarks image- and expression-based perturbation prediction under compound, cell-line, plate and dataset shifts.{% endif %}
+
+</div></div>
+
 <div class='paper-box' id='phenoprofiler'><div class='paper-box-image'><div><div class="badge stage-a">(a) Cellular State · Image-based Profiling</div><a class="paper-figure-link" href="{{ '/images/PhenoProfiler.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/PhenoProfiler.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/PhenoProfiler.png' | relative_url }}" alt="PhenoProfiler: end-to-end phenotypic profiling of high-content cell images" width="800" height="372" loading="lazy" decoding="async"></picture></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -26,21 +39,6 @@
 <span class="venue venue-published">Nature Communications</span> **16**, 7861 (2025) &nbsp;·&nbsp; [Paper](https://www.nature.com/articles/s41467-025-63185-9) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/SpaIM) &nbsp;·&nbsp; [Data](https://zenodo.org/records/14741028) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="spaim">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：把空间转录组中未测基因的插补视为从单细胞参考到空间数据的风格迁移。{% else %}**TL;DR**: Treats imputation of unmeasured genes in spatial transcriptomics as style transfer from single-cell references.{% endif %}
-
-</div></div>
-
-<h3 class="pub-group">{% if include.lang == "zh" %}原则性接收{% else %}Accepted in principle{% endif %}</h3>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-b">(b) Response Prediction · Multimodal Benchmark</div><a class="paper-figure-link" href="{{ '/images/MVCBench.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MVCBench: A multimodal benchmark for drug-induced virtual cell phenotypes](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)
-
-**Bo Li**<sup>†</sup>, Qing Wang<sup>†</sup>, Shihang Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song<sup>&#42;</sup>
-
-<span class="venue venue-manuscript">Nature Communications</span> {% if include.lang == "zh" %}**原则性接收**{% else %}**Accepted in Principle**{% endif %} (2026) &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="mvcbench">BibTeX</button>
-
-{% if include.lang == "zh" %}**简介**：在化合物、细胞系、实验板和数据集四种分布偏移下，评测基于图像与基于表达的扰动预测。{% else %}**TL;DR**: Benchmarks image- and expression-based perturbation prediction under compound, cell-line, plate and dataset shifts.{% endif %}
 
 </div></div>
 
