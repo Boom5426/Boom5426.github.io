@@ -29,7 +29,7 @@
 
 </div></div>
 
-<h3 class="pub-group">{% if include.lang == "zh" %}在研工作 · 在审稿件与预印本{% else %}Current work · under review and preprints{% endif %}</h3>
+<h3 class="pub-group">{% if include.lang == "zh" %}原则性接收{% else %}Accepted in principle{% endif %}</h3>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-b">(b) Response Prediction · Multimodal Benchmark</div><a class="paper-figure-link" href="{{ '/images/MVCBench.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -38,11 +38,13 @@
 
 **Bo Li**<sup>†</sup>, Qing Wang<sup>†</sup>, Shihang Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song<sup>&#42;</sup>
 
-<span class="venue venue-preprint">bioRxiv</span> 2026 &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="mvcbench">BibTeX</button>
+<span class="venue venue-manuscript">Nature Communications</span> {% if include.lang == "zh" %}**原则性接收**{% else %}**Accepted in Principle**{% endif %} (2026) &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="mvcbench">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：在化合物、细胞系、实验板和数据集四种分布偏移下，评测基于图像与基于表达的扰动预测。{% else %}**TL;DR**: Benchmarks image- and expression-based perturbation prediction under compound, cell-line, plate and dataset shifts.{% endif %}
 
 </div></div>
+
+<h3 class="pub-group">{% if include.lang == "zh" %}在研工作 · 在审稿件与预印本{% else %}Current work · under review and preprints{% endif %}</h3>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-c">(c) Evaluation &amp; Resolution · Measurement Limits</div><a class="paper-figure-link" href="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/pertresolve.webp' | relative_url }}" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" loading="lazy" decoding="async" width="800" height="710"></a></div></div>
 <div class='paper-box-text' markdown="1">
