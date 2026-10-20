@@ -44,6 +44,19 @@
 
 <h3 class="pub-group">{% if include.lang == "zh" %}在研工作 · 在审稿件与预印本{% else %}Current work · under review and preprints{% endif %}</h3>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-d">(d) Experimental Choice · Intervention Design</div><a class="paper-figure-link" href="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/vcdesign.webp' | relative_url }}" alt="VCDesign: finite-budget intervention design for virtual cells" loading="lazy" decoding="async" width="800" height="498"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[VCDesign: Finite-budget intervention design for virtual cells](https://boom5426.github.io/VCDesign-CED/)
+
+**Bo Li**<sup>†</sup>, Lin Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Mengran Li, Zhenchao Tang, Chengyang Zhang, Minghao Sun, Chengliang Liu, Zhiyuan Liu, Yang Zhang<sup>&#42;</sup>
+
+<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="vcdesign">BibTeX</button>
+
+{% if include.lang == "zh" %}**简介**：在固定预算下，按朝向目标状态的预测迁移对候选干预排序；用独立测得的留出结果给所选集合打分，并把证据迁移到尚无测量响应的候选上。{% else %}**TL;DR**: Ranks candidate interventions toward a target state under a fixed budget, scores the selected set against independently measured held-out outcomes, and transfers evidence to candidates with no measured response.{% endif %}
+
+</div></div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-c">(c) Evaluation &amp; Resolution · Measurement Limits</div><a class="paper-figure-link" href="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/pertresolve.webp' | relative_url }}" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" loading="lazy" decoding="async" width="800" height="710"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -67,19 +80,6 @@
 <span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/DrugDis/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_manuscript.pdf) &nbsp;·&nbsp; [Supplement](https://github.com/Boom5426/DrugDis/blob/main/manuscript/DrugDis_SI.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/DrugDis) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/DrugDis) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="drugdis">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：把药物响应预测拆成药物通用效应、样本通用效应和药物–样本交互效应三部分，说明整体精度可能掩盖情境特异部分的弱恢复。{% else %}**TL;DR**: Decomposes drug-response prediction into general drug, general sample and drug–sample interaction effects, showing that aggregate accuracy can hide weak recovery of the context-specific part.{% endif %}
-
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-d">(d) Experimental Choice · Intervention Design</div><a class="paper-figure-link" href="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/vcdesign.webp' | relative_url }}" alt="VCDesign: finite-budget intervention design for virtual cells" loading="lazy" decoding="async" width="800" height="498"></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-[VCDesign: Finite-budget intervention design for virtual cells](https://boom5426.github.io/VCDesign-CED/)
-
-**Bo Li**<sup>†</sup>, Lin Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Mengran Li, Zhenchao Tang, Chengyang Zhang, Minghao Sun, Chengliang Liu, Zhiyuan Liu, Yang Zhang<sup>&#42;</sup>
-
-<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/VCDesign-CED/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/VCDesign-CED) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/VCDesign) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="vcdesign">BibTeX</button>
-
-{% if include.lang == "zh" %}**简介**：在固定预算下，按朝向目标状态的预测迁移对候选干预排序；用独立测得的留出结果给所选集合打分，并把证据迁移到尚无测量响应的候选上。{% else %}**TL;DR**: Ranks candidate interventions toward a target state under a fixed budget, scores the selected set against independently measured held-out outcomes, and transfers evidence to candidates with no measured response.{% endif %}
 
 </div></div>
 
