@@ -1,6 +1,11 @@
 # Homepage news, newest first. `en` feeds the English page and `zh` the Chinese page.
 # Items with `earlier: true` are folded under "Earlier news". Values are inline HTML.
 
+- date: "2026.10"
+  en: >-
+    🎉 <strong>MVCBench</strong> was <strong>accepted in principle</strong> by <em>Nature Communications</em>. <a href="https://qsong-github.github.io/MVCBench/">Project</a> · <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">Preprint</a>
+  zh: >-
+    🎉 <strong>MVCBench</strong> 获 <em>Nature Communications</em> <strong>原则性接收</strong>。<a href="https://qsong-github.github.io/MVCBench/">项目</a> · <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">预印本</a>
 - date: "2026.09"
   en: >-
     🎯 Released <strong>VCDesign</strong>, a framework for finite-budget intervention design in virtual cells. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a>
