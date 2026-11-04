@@ -13,9 +13,9 @@
     🎯 发布 <strong>VCDesign</strong>：面向虚拟细胞的有限预算干预设计框架。<a href="https://boom5426.github.io/VCDesign-CED/">项目</a> · <a href="https://github.com/Boom5426/VCDesign-CED">代码</a>
 - date: "2026.09"
   en: >-
-    🧬 Released <strong>PertResolve</strong> for measurement-aware perturbation evaluation. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a>
+    🧬 Released <strong>PertResolve</strong>, using split-half reproducibility to distinguish measurement and model limitations in perturbation prediction. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a>
   zh: >-
-    🧬 发布 <strong>PertResolve</strong>：考虑测量分辨率的扰动预测评估框架。<a href="https://boom5426.github.io/PertResolve/">项目</a> · <a href="https://github.com/Boom5426/PertResolve">代码</a>
+    🧬 发布 <strong>PertResolve</strong>：借助独立半样本可重复性参照，区分扰动预测中的测量局限与模型局限。<a href="https://boom5426.github.io/PertResolve/">项目</a> · <a href="https://github.com/Boom5426/PertResolve">代码</a>
 - date: "2026.09"
   en: >-
     💊 Released <strong>DrugDis</strong>, a component-resolved framework for interpreting general and context-specific drug-response prediction. <a href="https://boom5426.github.io/DrugDis/">Project</a> · <a href="https://github.com/Boom5426/DrugDis">Code</a> · <a href="https://huggingface.co/datasets/Boom5426/DrugDis">Data</a>
