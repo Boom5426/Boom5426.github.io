@@ -60,13 +60,13 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-c">(c) Evaluation &amp; Resolution · Measurement Limits</div><a class="paper-figure-link" href="https://boom5426.github.io/PertResolve/assets/fig1_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/pertresolve.webp' | relative_url }}" alt="PertResolve: measurement resolution for fine-grained perturbation prediction" loading="lazy" decoding="async" width="800" height="710"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Measurement resolution constrains fine-grained perturbation prediction](https://boom5426.github.io/PertResolve/)
+[Distinguishing measurement and model limitations in perturbation prediction](https://boom5426.github.io/PertResolve/)
 
 **Bo Li**<sup>†</sup>, Chengyang Zhang<sup>†</sup>, Mengran Li<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Lin Wang, Zhenchao Tang, Jun Liu, Chengliang Liu, Chen Wei, Yuhao Yi<sup>&#42;</sup>, Jiancheng Lv, Yang Zhang<sup>&#42;</sup>
 
 <span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://boom5426.github.io/PertResolve/) &nbsp;·&nbsp; [Manuscript](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) &nbsp;·&nbsp; [Code](https://github.com/Boom5426/PertResolve) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/PertResolve_Bench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="pertresolve">BibTeX</button>
 
-{% if include.lang == "zh" %}**简介**：追问实验能够可重复分辨哪些细粒度的扰动差异，从而把模型的局限和测量的局限分开。{% else %}**TL;DR**: Asks which fine-grained perturbation distinctions an assay can reproducibly resolve, separating model limits from measurement limits.{% endif %}
+{% if include.lang == "zh" %}**简介**：基于 470 个编码变体条件和 31 个公开扰动配置，以独立细胞半样本的可重复性参照分别评估扰动检测、变体识别与留出响应预测，揭示 TP53/KRAS 的测量局限和 JAK1 的模型局限。{% else %}**TL;DR**: Uses split-half reproducibility across 470 coding-variant conditions and 31 public perturbation configurations to separate detection, identification and held-out response prediction, exposing measurement limits in TP53/KRAS and a model gap in JAK1.{% endif %}
 
 </div></div>
 
