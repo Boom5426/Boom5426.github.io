@@ -44,7 +44,7 @@ vcdesign: |-
 
 pertresolve: |-
   @unpublished{li2026pertresolve,
-    title     = {Measurement resolution constrains fine-grained perturbation prediction},
+    title     = {Distinguishing measurement and model limitations in perturbation prediction},
     author    = {Li, Bo and Zhang, Chengyang and Li, Mengran and Zhang, Bob and Wang, Lin and Tang, Zhenchao and Liu, Jun and Liu, Chengliang and Wei, Chen and Yi, Yuhao and Lv, Jiancheng and Zhang, Yang},
     note      = {Manuscript},
     year      = {2026},
