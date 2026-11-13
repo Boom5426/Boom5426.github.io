@@ -17,14 +17,6 @@ author_profile: true
     <span>{% include icon.html name="globe-asia" %}访问 <a href="https://www.nus.edu.sg/"><strong>新加坡国立大学</strong></a> (合作导师 <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
   </div>
 </div>
-<div class="research-stats" aria-label="学术成果概览">
-  <div><strong>10</strong><span>第一作者期刊论文</span></div>
-  <div><strong>3</strong><span>第一作者 Nature Communications（含在印）</span></div>
-  <div><strong>590</strong><span>引用 · h-index 15</span></div>
-  <div><strong>1,200+</strong><span>开源项目 GitHub Stars</span></div>
-</div>
-<p class="research-stats-date">统计截至 2026 年 11 月；引用指标来自 Google Scholar。</p>
-
 <div class="avail">
   {% include icon.html name="search" %}
   <div class="avail-copy"><strong>开放 2027 年起的博士后与教职合作机会</strong>，方向包括虚拟细胞世界模型、科学干预设计和可持续更新的 AI 模型。</div>
@@ -109,14 +101,10 @@ author_profile: true
   </div>
 </div>
 
-<section class="capability-section" id="vision" aria-labelledby="capability-title">
-  <div class="capability-eyebrow">相互连接的独立研究方向 · 自我改进模型</div>
-  <h3 id="capability-title">让新知识成为神经网络持久的新能力</h3>
-  <p>生物学研究需要的不只是一次准确预测，还需要能根据新证据不断改善的模型。我研究如何借助可执行权重程序，在不反复依赖梯度训练的情况下，为已训练神经网络安装、复用并累积新能力。</p>
-  <div class="capability-proof"><div><strong>WeightCode</strong><span>将规则、演示和少量标注转化为持久的权重修改；更新后的网络独立运行。</span></div><a href="https://github.com/Gen-Verse/WeightCode">项目与代码</a></div>
-  <p class="capability-related">合作探索还有 <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a>（实验反馈驱动的模型更新）及 <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>（从执行反馈形成可审计的模型修订过程）。</p>
-  <p class="capability-goal">长期问题：能力的积累能否转化为下一轮实验中更好的干预决策？</p>
-</section>
+<div class="research-next" id="vision">
+  <span class="research-next-label">下一步方向</span>
+  <p>将虚拟细胞、干预设计与实验反馈连接起来，让新实验结果不仅改善科学决策，也能持续提升模型能力。<a href="https://github.com/Gen-Verse/WeightCode">WeightCode</a> 探索可执行权重程序；相关合作研究包括 <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a> 和 <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>。</p>
+</div>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}代表性论文 {#publications}
 
@@ -154,11 +142,6 @@ author_profile: true
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}专利 {#patents}
 两项已授权中国发明专利的共同发明人，内容涉及细胞定位：[**CN115457547B**](https://patents.google.com/patent/CN115457547B/en)（2026）、[**CN115810046B**](https://patents.google.com/patent/CN115810046B/en)（2026）。
-
-## {% include icon.html name="microphone" class="h-icon" %}学术报告与学生指导 {#mentoring}
-**受邀报告**：2025 年 2 月，在 Weill Cornell Medicine & Houston Methodist 的 Guangyu Wang 教授团队介绍 PhenoProfiler。
-
-**学生指导**：联合指导 4 名北京工业大学研究生，相关工作产生 6 篇第一作者论文，包括 *New Phytologist*、*IEEE JBHI* 和 *ACM TOMM*。
 
 ## {% include icon.html name="hands-helping" class="h-icon" %}学术服务 {#service}
 
