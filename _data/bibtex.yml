@@ -62,7 +62,7 @@ drugdis: |-
 
 weightcode: |-
   @unpublished{li2026weightcode,
-    title     = {WeightCode: Installing New Capabilities into Neural Networks via Weight Programming},
+    title     = {WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming},
     author    = {Li, Bo and Cui, Taoyong and Zhang, Bob and Li, Mengran and Zhang, Chengyang and Zhang, Yang and Heng, Pheng Ann and Ouyang, Wanli and Yin, Zhenfei and Wu, Yingcheng and Yang, Ling},
     note      = {Manuscript under review},
     year      = {2026},
