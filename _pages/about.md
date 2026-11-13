@@ -167,12 +167,6 @@ Co-inventor of two granted Chinese invention patents on cell localization: [**CN
 
 ## {% include icon.html name="hands-helping" class="h-icon" %}Academic Service {#service}
 
-**Conference service**: AAAI 2027 Senior Program Committee; ICLR 2027 reviewer.
-
-**Invited talk**: PhenoProfiler, Prof. Guangyu Wang's group (Weill Cornell Medicine & Houston Methodist, February 2025).
-
-**Mentoring**: Co-mentored four BJUT graduate students; their work led to six first-author papers.
-
 **Journal reviewer**: *Science Advances*, **IEEE TPAMI**, IEEE TIP, IEEE TNNLS, Medical Image Analysis, Bioinformatics, Briefings in Bioinformatics, Pattern Recognition, BMC Biology, Engineering Applications of Artificial Intelligence, and Expert Systems with Applications.
 
 **Collaborations**: Purdue University, Cornell University, University of Florida, National University of Singapore, Sun Yat-sen University, Sichuan University, Beijing University of Technology, and Macao Polytechnic University.
