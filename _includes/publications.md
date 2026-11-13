@@ -98,7 +98,7 @@
 
 </div></div>
 
-<div class="pub-additional">{% if include.lang == "zh" %}<strong>其他合作工作：</strong> PopRetrieve（单细胞群体信息与药物检索，已投稿 Small）和 <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>（无标注形态信息的适用边界，预印本）。{% else %}<strong>Additional collaborative work:</strong> PopRetrieve (single-cell population information for drug retrieval, submitted to Small) and <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a> (when label-free morphology suffices for targeted measurement, preprint).{% endif %}</div>
+<div class="pub-additional">{% if include.lang == "zh" %}<strong>其他合作工作：</strong> PopRetrieve（单细胞群体信息与药物检索，在审）和 <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>（无标注形态信息的适用边界，预印本）。{% else %}<strong>Additional collaborative work:</strong> PopRetrieve (single-cell population information for drug retrieval, under review) and <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a> (when label-free morphology suffices for targeted measurement, preprint).{% endif %}</div>
 
 <div class="pub-record">{% if include.lang == "zh" %}完整论文列表见 {% else %}Full publication record on {% endif %}<a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"><strong>Google Scholar ↗</strong></a></div>
 
