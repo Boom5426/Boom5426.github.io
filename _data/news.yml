@@ -1,6 +1,21 @@
 # Homepage news, newest first. `en` feeds the English page and `zh` the Chinese page.
 # Items with `earlier: true` are folded under "Earlier news". Values are inline HTML.
 
+- date: "2026.11"
+  en: >-
+    <strong>WeightCode</strong> released its paper, code, data and executable weight programs. <a href="https://gen-verse.github.io/WeightCode/">Project</a> · <a href="https://github.com/Gen-Verse/WeightCode">Code</a>
+  zh: >-
+    <strong>WeightCode</strong> 已公开论文、代码、数据和可重执行权重程序。<a href="https://gen-verse.github.io/WeightCode/">项目</a> · <a href="https://github.com/Gen-Verse/WeightCode">代码</a>
+- date: "2026.11"
+  en: >-
+    <strong>PertResolve</strong> submitted to <em>Nature Communications</em>, investigating measurement versus model limits in perturbation prediction. <a href="https://boom5426.github.io/PertResolve/">Project</a>
+  zh: >-
+    <strong>PertResolve</strong> 已投稿 <em>Nature Communications</em>，研究扰动预测中的测量与模型局限。<a href="https://boom5426.github.io/PertResolve/">项目</a>
+- date: "2026.11"
+  en: >-
+    <strong>PopRetrieve</strong>, on the value of single-cell response distributions for drug retrieval, submitted to <em>Small</em>.
+  zh: >-
+    <strong>PopRetrieve</strong> 已投稿 <em>Small</em>，研究单细胞响应分布对药物检索的价值。
 - date: "2026.10"
   en: >-
     🎉 <strong>MVCBench</strong> was <strong>accepted in principle</strong> by <em>Nature Communications</em>. <a href="https://qsong-github.github.io/MVCBench/">Project</a> · <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">Preprint</a>
