@@ -6,23 +6,28 @@ description: "李波，澳门大学博士生、新加坡国立大学访问学生
 author_profile: true
 ---
 
-<h1 class="screen-reader-text">李波 Bo Li — AI for Biology：从多模态虚拟细胞到实验决策</h1>
-
+<h1 class="screen-reader-text">李波 Bo Li — 虚拟细胞、干预设计与模型能力进化</h1>
 <span class='anchor' id='about-me'></span>
-
 <div class="hero-block">
-  <div class="hero-kicker">{% include icon.html name="dna" %}<span>AI for Biology</span><span class="hero-topics">多模态虚拟细胞 · 扰动建模 · 干预设计</span></div>
-  <div class="hero-title">从多模态虚拟细胞到实验决策</div>
-  <p class="hero-copy">我研究如何用 AI 把多模态细胞测量转化为实验决策。我的研究围绕一个闭环：从多模态数据中学习细胞状态，预测细胞对扰动的响应，检验实验能分辨哪些预测差异，再在有限预算下选择下一步最值得做的干预。</p>
+  <div class="hero-kicker">{% include icon.html name="dna" %}<span>科学人工智能</span><span class="hero-topics">虚拟细胞世界模型 · 闭环干预设计 · 模型能力进化</span></div>
+  <div class="hero-title">从虚拟细胞到持续进化的科学 AI</div>
+  <p class="hero-copy">我研究 AI 系统如何从观测中学习、支持科学干预，并通过新证据持续改进。研究涵盖多模态细胞建模、基因与药物扰动预测、测量感知评估和有限预算干预设计；同时探索如何为预训练模型安装、保留并积累新能力。长期目标是让实验获得的新知识不仅改善对生物系统的理解，也能持续提升模型自身的能力与后续决策质量。</p>
   <div class="hero-affiliations">
-    <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>澳门大学</strong></a>（导师 <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>；联合导师 <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>，<a href="https://www.purdue.edu/">普渡大学</a>）</span>
-    <span>{% include icon.html name="globe-asia" %}访问 <a href="https://www.nus.edu.sg/"><strong>新加坡国立大学</strong></a>（合作导师 <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>）</span>
+    <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>澳门大学</strong></a> (导师 <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; 联合导师 <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>)</span>
+    <span>{% include icon.html name="globe-asia" %}访问 <a href="https://www.nus.edu.sg/"><strong>新加坡国立大学</strong></a> (合作导师 <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
   </div>
 </div>
+<div class="research-stats" aria-label="学术成果概览">
+  <div><strong>10</strong><span>第一作者期刊论文</span></div>
+  <div><strong>3</strong><span>第一作者 Nature Communications（含在印）</span></div>
+  <div><strong>590</strong><span>引用 · h-index 15</span></div>
+  <div><strong>1,200+</strong><span>开源项目 GitHub Stars</span></div>
+</div>
+<p class="research-stats-date">统计截至 2026 年 11 月；引用指标来自 Google Scholar。</p>
 
 <div class="avail">
   {% include icon.html name="search" %}
-  <div class="avail-copy"><strong>正在寻找 2027 年起的博士后与教职岗位</strong>，方向包括 AI for Biology、虚拟细胞、测量感知的模型评估与干预设计。</div>
+  <div class="avail-copy"><strong>开放 2027 年起的博士后与教职合作机会</strong>，方向包括虚拟细胞世界模型、科学干预设计和可持续更新的 AI 模型。</div>
   <div class="avail-actions">
     <a class="link-btn" href="{{ site.author.cv | relative_url }}">查看简历 <span aria-hidden="true">↗</span></a>
     <a class="link-btn ghost" href="mailto:{{ site.author.email }}">邮件联系</a>
@@ -45,7 +50,7 @@ author_profile: true
            alt="研究闭环示意图，共四个面板：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个。所选干预的实验产生新的测量，形成闭环。" width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>从多模态虚拟细胞到实验决策。</strong>(a) 从多模态测量中学习细胞状态。(b) 预测细胞对药物和基因扰动的响应。(c) 检验实验真正能分辨哪些预测差异。(d) 针对从起始状态到目标状态的迁移对干预排序，在有限预算内测试排名最前的候选。这些实验得到的新测量再回到起点，形成闭环。</figcaption>
+  <figcaption><strong>虚拟细胞研究的决策闭环。</strong>通过多模态表征、扰动响应预测、测量分辨率评估和有限预算干预选择，将观测与实验决策连接起来。如何进一步把新实验结果变成持久的模型能力，是下一步科学问题。</figcaption>
 </figure>
 
 <div class="research-grid">
@@ -104,10 +109,14 @@ author_profile: true
   </div>
 </div>
 
-<div class="research-next" id="vision">
-  <span class="research-next-label">下一步方向</span>
-  <p>自适应干预设计：把虚拟细胞模型、科研智能体和独立的实验反馈连接起来，让每一轮实验都为下一轮提供信息。</p>
-</div>
+<section class="capability-section" id="vision" aria-labelledby="capability-title">
+  <div class="capability-eyebrow">相互连接的独立研究方向 · 自我改进模型</div>
+  <h3 id="capability-title">让新知识成为神经网络持久的新能力</h3>
+  <p>生物学研究需要的不只是一次准确预测，还需要能根据新证据不断改善的模型。我研究如何借助可执行权重程序，在不反复依赖梯度训练的情况下，为已训练神经网络安装、复用并累积新能力。</p>
+  <div class="capability-proof"><div><strong>WeightCode</strong><span>将规则、演示和少量标注转化为持久的权重修改；更新后的网络独立运行。</span></div><a href="https://github.com/Gen-Verse/WeightCode">项目与代码</a></div>
+  <p class="capability-related">合作探索还有 <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a>（实验反馈驱动的模型更新）及 <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>（从执行反馈形成可审计的模型修订过程）。</p>
+  <p class="capability-goal">长期问题：能力的积累能否转化为下一轮实验中更好的干预决策？</p>
+</section>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}代表性论文 {#publications}
 
@@ -140,14 +149,20 @@ author_profile: true
 - *2024.07 & 2021.07*：北京市优秀毕业生
 - *2023.10*：小米奖学金
 - *2022.10*：国家奖学金（教育部）
+- *2022、2023*：北京工业大学学业一等奖学金
 - *2021*：北京信息科技大学科技创新奖学金一等奖
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}专利 {#patents}
 两项已授权中国发明专利的共同发明人，内容涉及细胞定位：[**CN115457547B**](https://patents.google.com/patent/CN115457547B/en)（2026）、[**CN115810046B**](https://patents.google.com/patent/CN115810046B/en)（2026）。
 
+## {% include icon.html name="microphone" class="h-icon" %}学术报告与学生指导 {#mentoring}
+**受邀报告**：2025 年 2 月，在 Weill Cornell Medicine & Houston Methodist 的 Guangyu Wang 教授团队介绍 PhenoProfiler。
+
+**学生指导**：联合指导 4 名北京工业大学研究生，相关工作产生 6 篇第一作者论文，包括 *New Phytologist*、*IEEE JBHI* 和 *ACM TOMM*。
+
 ## {% include icon.html name="hands-helping" class="h-icon" %}学术服务 {#service}
 
-**会议审稿人**：ICLR 2027。
+**会议服务**：AAAI 2027 Senior Program Committee；ICLR 2027 审稿人。
 
 **期刊审稿人**：*Science Advances*、**IEEE TPAMI**、IEEE TIP、IEEE TNNLS、Medical Image Analysis、Bioinformatics、Briefings in Bioinformatics、Pattern Recognition、BMC Biology、Engineering Applications of Artificial Intelligence、Expert Systems with Applications。
 
