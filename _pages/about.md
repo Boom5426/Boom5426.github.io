@@ -13,7 +13,7 @@ redirect_from:
 <div class="hero-block">
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>Scientific AI</span><span class="hero-topics">Virtual-Cell World Models · Closed-Loop Design · Self-Improving Models</span></div>
   <div class="hero-title">From Virtual Cells to Self-Improving Scientific AI</div>
-  <p class="hero-copy">I study how AI systems learn from observations, guide scientific interventions, and improve through new evidence. My research spans multimodal cellular modeling, genetic and drug perturbation prediction, measurement-aware evaluation, and finite-budget intervention design. In parallel, I develop methods for pretrained models to acquire, retain, and accumulate new capabilities. My long-term goal is adaptive scientific AI that turns experimental evidence into lasting model improvements and better decisions.</p>
+  <p class="hero-copy">I study how AI systems learn from observations, guide scientific interventions, and improve through new evidence. My research spans multimodal cellular modeling, genetic and drug perturbation prediction, measurement-aware evaluation, and intervention design. In parallel, I investigate how pretrained models can acquire, retain, and accumulate new capabilities through weight-space programming. My long-term goal is to develop adaptive scientific AI systems that connect observation, experimentation, and continual learning to support better scientific decisions.</p>
   <div class="hero-affiliations">
     <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>University of Macau</strong></a> (advisor <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; co-advisor <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>)</span>
     <span>{% include icon.html name="globe-asia" %}Visiting <a href="https://www.nus.edu.sg/"><strong>National University of Singapore</strong></a> (host <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
@@ -44,7 +44,7 @@ redirect_from:
            alt="Research loop in four panels: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B. Experiments on the selected candidates produce new measurements that close the loop." width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>The virtual-cell decision loop.</strong> Multimodal representation, perturbation-response prediction, measurement-aware evaluation, and finite-budget intervention selection connect observations to experimental choices. Turning future experimental feedback into durable model capabilities is the next research challenge.</figcaption>
+  <figcaption><strong>From Multimodal Virtual Cells to Experimental Decisions.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict responses to genetic and drug perturbations. (c) Assess which distinctions the measurements can reproducibly resolve. (d) Select interventions within a finite budget. New experimental measurements provide evidence for the next round in this conceptual loop.</figcaption>
 </figure>
 
 <div class="research-grid">
@@ -103,9 +103,29 @@ redirect_from:
   </div>
 </div>
 
+
+<div class="research-card research-capability">
+  <a class="research-capability-figure" href="https://github.com/Gen-Verse/WeightCode/blob/main/assets/fig1.png" title="View WeightCode Figure 1" target="_blank" rel="noopener">
+    <img src="https://raw.githubusercontent.com/Gen-Verse/WeightCode/main/assets/fig1.png" alt="WeightCode: executable weight programs install new capabilities into trained networks, can be reused across networks and support successive updates" loading="lazy" decoding="async" width="1100" height="620">
+  </a>
+  <div class="research-capability-content">
+    <div class="research-card-head">
+      <span class="research-icon">{% include icon.html name="code" %}</span>
+      <div class="research-num">SELF-IMPROVING MODELS</div>
+    </div>
+    <h3>Can trained neural networks acquire, retain, and accumulate new capabilities?</h3>
+    <p>Develop methods that turn new knowledge into lasting model capabilities. WeightCode uses executable weight programs to install capabilities without gradient training; the programs can be reused across independently trained networks and applied successively to extend existing capabilities.</p>
+    <div class="research-work">
+      <a href="https://gen-verse.github.io/WeightCode/">WeightCode</a>
+      <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a>
+      <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>
+    </div>
+  </div>
+</div>
+
 <div class="research-next" id="vision">
   <span class="research-next-label">Next direction</span>
-  <p>Connect virtual-cell models and intervention design with experimental feedback, so new evidence improves both future decisions and lasting model capabilities. <a href="https://github.com/Gen-Verse/WeightCode">WeightCode</a> explores executable weight programs; related collaborative work includes <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a> and <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>.</p>
+  <p>Toward self-improving scientific AI: connect virtual-cell world models, independent experimental feedback, and lasting model updates to test whether accumulated capabilities improve future intervention decisions.</p>
 </div>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}Selected Publications {#publications}
@@ -119,7 +139,7 @@ redirect_from:
 ## {% include icon.html name="graduation-cap" class="h-icon" %}Education {#education}
 - *2026.06 – 2027.06*: **National University of Singapore**
 
-  *- Visiting Student. Host: [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
+  *- Visiting Ph.D. Student. Host: [Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
 
 - *2024.08 – Present (expected 2027.06)*: **University of Macau**
 
@@ -148,6 +168,10 @@ Co-inventor of two granted Chinese invention patents on cell localization: [**CN
 ## {% include icon.html name="hands-helping" class="h-icon" %}Academic Service {#service}
 
 **Conference service**: AAAI 2027 Senior Program Committee; ICLR 2027 reviewer.
+
+**Invited talk**: PhenoProfiler, Prof. Guangyu Wang's group (Weill Cornell Medicine & Houston Methodist, February 2025).
+
+**Mentoring**: Co-mentored four BJUT graduate students; their work led to six first-author papers.
 
 **Journal reviewer**: *Science Advances*, **IEEE TPAMI**, IEEE TIP, IEEE TNNLS, Medical Image Analysis, Bioinformatics, Briefings in Bioinformatics, Pattern Recognition, BMC Biology, Engineering Applications of Artificial Intelligence, and Expert Systems with Applications.
 
