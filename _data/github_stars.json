@@ -5,14 +5,6 @@
       "stars": 5,
       "url": "https://github.com/Boom5426/VCDesign-CED"
     },
-    "Boom5426/PertResolve": {
-      "stars": 3,
-      "url": "https://github.com/Boom5426/PertResolve"
-    },
-    "Boom5426/DrugDis": {
-      "stars": 2,
-      "url": "https://github.com/Boom5426/DrugDis"
-    },
     "QSong-github/MVCBench": {
       "stars": 10,
       "url": "https://github.com/QSong-github/MVCBench"
@@ -38,8 +30,12 @@
       "url": "https://github.com/Gen-Verse/WeightCode"
     },
     "Boom5426/Awesome-Weight-Space-Programming": {
-      "stars": 7,
+      "stars": 8,
       "url": "https://github.com/Boom5426/Awesome-Weight-Space-Programming"
+    },
+    "QSong-github/DrugClaw": {
+      "stars": 118,
+      "url": "https://github.com/QSong-github/DrugClaw"
     }
   }
 }
