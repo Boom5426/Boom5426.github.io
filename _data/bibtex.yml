@@ -59,3 +59,12 @@ drugdis: |-
     year      = {2026},
     url       = {https://boom5426.github.io/DrugDis/}
   }
+
+weightcode: |-
+  @unpublished{li2026weightcode,
+    title     = {WeightCode: Installing New Capabilities into Neural Networks via Weight Programming},
+    author    = {Li, Bo and Cui, Taoyong and Zhang, Bob and Li, Mengran and Zhang, Chengyang and Zhang, Yang and Heng, Pheng Ann and Ouyang, Wanli and Yin, Zhenfei and Wu, Yingcheng and Yang, Ling},
+    note      = {Manuscript under review},
+    year      = {2026},
+    url       = {https://github.com/Gen-Verse/WeightCode}
+  }
