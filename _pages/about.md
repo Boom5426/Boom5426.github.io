@@ -8,23 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="screen-reader-text">Bo Li 李波 — AI for Biology: from multimodal virtual cells to experimental decisions</h1>
-
+<h1 class="screen-reader-text">Bo Li 李波 — Virtual Cells, Intervention Design & Self-Improving Models</h1>
 <span class='anchor' id='about-me'></span>
-
 <div class="hero-block">
-  <div class="hero-kicker">{% include icon.html name="dna" %}<span>AI for Biology</span><span class="hero-topics">Multimodal Virtual Cells · Perturbation Modeling · Intervention Design</span></div>
-  <div class="hero-title">From Multimodal Virtual Cells to Experimental Decisions</div>
-  <p class="hero-copy">I build AI methods that turn multimodal cellular measurements into experimental decisions. My research follows one loop: learn cellular state from multimodal data, predict how cells respond to perturbations, test which predicted differences experiments can resolve, and choose which interventions to test next under a finite budget.</p>
+  <div class="hero-kicker">{% include icon.html name="dna" %}<span>Scientific AI</span><span class="hero-topics">Virtual-Cell World Models · Closed-Loop Design · Self-Improving Models</span></div>
+  <div class="hero-title">From Virtual Cells to Self-Improving Scientific AI</div>
+  <p class="hero-copy">I study how AI systems learn from observations, guide scientific interventions, and improve through new evidence. My research spans multimodal cellular modeling, genetic and drug perturbation prediction, measurement-aware evaluation, and finite-budget intervention design. In parallel, I develop methods for pretrained models to acquire, retain, and accumulate new capabilities. My long-term goal is adaptive scientific AI that turns experimental evidence into lasting model improvements and better decisions.</p>
   <div class="hero-affiliations">
-    <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>University of Macau</strong></a> (advisor <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; co-advisor <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>, <a href="https://www.purdue.edu/">Purdue</a>)</span>
-    <span>{% include icon.html name="globe-asia" %}Visiting <a href="https://www.nus.edu.sg/"><strong>NUS</strong></a> (host <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
+    <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>University of Macau</strong></a> (advisor <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; co-advisor <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>)</span>
+    <span>{% include icon.html name="globe-asia" %}Visiting <a href="https://www.nus.edu.sg/"><strong>National University of Singapore</strong></a> (host <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
   </div>
 </div>
+<div class="research-stats" aria-label="Research at a glance">
+  <div><strong>10</strong><span>First-author journal articles</span></div>
+  <div><strong>3</strong><span>First-author Nature Communications (incl. in press)</span></div>
+  <div><strong>590</strong><span>Citations · h-index 15</span></div>
+  <div><strong>1,200+</strong><span>GitHub stars across projects</span></div>
+</div>
+<p class="research-stats-date">CV snapshot: November 2026; citation metrics from Google Scholar.</p>
 
 <div class="avail">
   {% include icon.html name="search" %}
-  <div class="avail-copy"><strong>Seeking postdoctoral and faculty positions starting 2027</strong> in AI for Biology, virtual cells, measurement-aware evaluation, and intervention design.</div>
+  <div class="avail-copy"><strong>Open to postdoctoral and faculty opportunities starting in 2027</strong>, spanning virtual-cell world models, scientific intervention design, and adaptive AI.</div>
   <div class="avail-actions">
     <a class="link-btn" href="{{ site.author.cv | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
     <a class="link-btn ghost" href="mailto:{{ site.author.email }}">Email</a>
@@ -47,7 +52,7 @@ redirect_from:
            alt="Research loop in four panels: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B. Experiments on the selected candidates produce new measurements that close the loop." width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>From Multimodal Virtual Cells to Experimental Decisions.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict how cells respond to drug and genetic perturbations. (c) Test which predicted differences experiments can actually resolve. (d) Rank interventions that move a source state toward a target state, and test the top-K within a finite budget. New measurements from those experiments close the loop.</figcaption>
+  <figcaption><strong>The virtual-cell decision loop.</strong> Multimodal representation, perturbation-response prediction, measurement-aware evaluation, and finite-budget intervention selection connect observations to experimental choices. Turning future experimental feedback into durable model capabilities is the next research challenge.</figcaption>
 </figure>
 
 <div class="research-grid">
@@ -106,10 +111,14 @@ redirect_from:
   </div>
 </div>
 
-<div class="research-next" id="vision">
-  <span class="research-next-label">Next direction</span>
-  <p>Adaptive intervention design: connect virtual-cell models and scientific agents with independent experimental feedback, so each round of experiments informs the next.</p>
-</div>
+<section class="capability-section" id="vision" aria-labelledby="capability-title">
+  <div class="capability-eyebrow">A connected, distinct research direction · Self-improving models</div>
+  <h3 id="capability-title">Turning New Knowledge into Lasting Model Capabilities</h3>
+  <p>Scientific AI needs more than one-off predictions. I study executable weight programs that install, reuse, and accumulate capabilities in trained neural networks without repeated gradient-based retraining.</p>
+  <div class="capability-proof"><div><strong>WeightCode</strong><span>Turns rules, demonstrations and few labeled examples into lasting weight updates; the edited network runs independently.</span></div><a href="https://github.com/Gen-Verse/WeightCode">Project &amp; code</a></div>
+  <p class="capability-related">Related collaborative explorations include <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a> (model updates from experimental feedback) and <a href="https://arxiv.org/abs/2605.07335">CellScientist</a> (auditable model revisions from execution feedback).</p>
+  <p class="capability-goal">The long-term question: does accumulating model capability improve the next round of intervention decisions?</p>
+</section>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}Selected Publications {#publications}
 
@@ -142,14 +151,20 @@ redirect_from:
 - *2024.07 & 2021.07*: Beijing Outstanding Graduate
 - *2023.10*: Xiaomi Scholarship
 - *2022.10*: National Scholarship, Ministry of Education of China
+- *2022, 2023*: First-Class Academic Scholarship, Beijing University of Technology
 - *2021*: First Prize, Science & Technology Innovation Scholarship, Beijing Information Science & Technology University
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}Patents {#patents}
 Co-inventor of two granted Chinese invention patents on cell localization: [**CN115457547B**](https://patents.google.com/patent/CN115457547B/en) (2026) and [**CN115810046B**](https://patents.google.com/patent/CN115810046B/en) (2026).
 
+## {% include icon.html name="microphone" class="h-icon" %}Talks & Mentoring {#mentoring}
+**Invited talk**: PhenoProfiler, Prof. Guangyu Wang's group, Weill Cornell Medicine & Houston Methodist (February 2025).
+
+**Mentoring**: Co-mentored four BJUT graduate students whose work led to six first-author papers, including *New Phytologist*, *IEEE JBHI*, and *ACM TOMM*.
+
 ## {% include icon.html name="hands-helping" class="h-icon" %}Academic Service {#service}
 
-**Conference reviewer**: ICLR 2027.
+**Conference service**: AAAI 2027 Senior Program Committee; ICLR 2027 reviewer.
 
 **Journal reviewer**: *Science Advances*, **IEEE TPAMI**, IEEE TIP, IEEE TNNLS, Medical Image Analysis, Bioinformatics, Briefings in Bioinformatics, Pattern Recognition, BMC Biology, Engineering Applications of Artificial Intelligence, and Expert Systems with Applications.
 
