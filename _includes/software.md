@@ -1,15 +1,25 @@
-{% comment %}Software table, shared by the English and Chinese pages. Pass lang="zh" for Chinese labels.{% endcomment %}
-{% if include.lang == "zh" %}代表性研究软件与社区资源。{% else %}Selected research software and community resources.{% endif %}
+{% comment %}Research software and open-source community resources, shared by English and Chinese pages.{% endcomment %}
+<h3 class="pub-group">{% if include.lang == "zh" %}研究软件与数据资源{% else %}Research software & datasets{% endif %}</h3>
 
 {% if include.lang == "zh" %}| 项目 | 简介 | Stars |{% else %}| Project | What it is | Stars |{% endif %}
 | :--- | :--- | :--- |
-| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | {% if include.lang == "zh" %}面向虚拟细胞的有限预算干预排序与决策对齐评估{% else %}Finite-budget intervention ranking and decision-aligned evaluation for virtual cells{% endif %} | {% include github-stars.html repo="Boom5426/VCDesign-CED" %} |
-| [PertResolve](https://github.com/Boom5426/PertResolve) | {% if include.lang == "zh" %}通过半样本可重复性评估区分扰动预测的测量局限与模型局限{% else %}Split-half diagnostics for measurement and model limits in perturbation prediction{% endif %} | {% include github-stars.html repo="Boom5426/PertResolve" %} |
-| [MVCBench](https://github.com/QSong-github/MVCBench) | {% if include.lang == "zh" %}虚拟细胞表征与泛化能力的多模态基准{% else %}Multimodal benchmark for virtual-cell representation and generalization{% endif %} | {% include github-stars.html repo="QSong-github/MVCBench" %} |
-| [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | {% if include.lang == "zh" %}面向高内涵细胞成像的端到端表型表征学习{% else %}End-to-end phenotypic representation learning for high-content cell imaging{% endif %} | {% include github-stars.html repo="QSong-github/PhenoProfiler" %} |
-| [Awesome-Virtual-Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | {% if include.lang == "zh" %}虚拟细胞研究的文献、数据集、基准与资源汇总{% else %}Curated literature, datasets, benchmarks, and resources for virtual-cell research{% endif %} | {% include github-stars.html repo="Boom5426/Awesome-Virtual-Cell" %} |
-| [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | {% if include.lang == "zh" %}用于科研论文撰写、修改、审查与重投的 Agent 技能{% else %}Agent skills for scientific manuscript drafting, revision, auditing, and resubmission{% endif %} | {% include github-stars.html repo="Boom5426/Nature-Paper-Skills" %} |
-| [SpaIM](https://github.com/QSong-github/SpaIM) | {% if include.lang == "zh" %}用于空间转录组插补的跨模态建模{% else %}Cross-modal modeling for spatial transcriptomics imputation{% endif %} | {% include github-stars.html repo="QSong-github/SpaIM" %} |
+| [WeightCode](https://github.com/Gen-Verse/WeightCode) | {% if include.lang == "zh" %}用可执行权重程序为模型安装、复用和叠加新能力{% else %}Install, reuse and accumulate capabilities with executable weight programs{% endif %} | {% include github-stars.html repo="Gen-Verse/WeightCode" %} |
+| [VCDesign](https://github.com/Boom5426/VCDesign-CED) | {% if include.lang == "zh" %}面向目标状态的有限预算干预排序与决策评估{% else %}Target-directed intervention ranking and decision-aligned evaluation{% endif %} | {% include github-stars.html repo="Boom5426/VCDesign-CED" %} |
+| [PertResolve](https://github.com/Boom5426/PertResolve) | {% if include.lang == "zh" %}区分扰动预测中的测量分辨率与模型能力局限{% else %}Distinguish measurement-resolution and model limitations{% endif %} | {% include github-stars.html repo="Boom5426/PertResolve" %} |
+| [DrugDis](https://github.com/Boom5426/DrugDis) | {% if include.lang == "zh" %}拆解药物响应预测中的通用效应与交互效应{% else %}Disentangle general and interaction effects in drug-response prediction{% endif %} | {% include github-stars.html repo="Boom5426/DrugDis" %} |
+| [MVCBench](https://github.com/QSong-github/MVCBench) | {% if include.lang == "zh" %}药物诱导多模态虚拟细胞表型的泛化基准{% else %}Multimodal virtual-cell response benchmark{% endif %} | {% include github-stars.html repo="QSong-github/MVCBench" %} |
+| [PhenoProfiler](https://github.com/QSong-github/PhenoProfiler) | {% if include.lang == "zh" %}高内涵显微图像表型特征学习{% else %}Phenotypic profiling from high-content microscopy{% endif %} | {% include github-stars.html repo="QSong-github/PhenoProfiler" %} |
+| [SpaIM](https://github.com/QSong-github/SpaIM) | {% if include.lang == "zh" %}空间转录组跨模态基因插补{% else %}Cross-modal spatial-transcriptomics imputation{% endif %} | {% include github-stars.html repo="QSong-github/SpaIM" %} |
 {: .software-table}
 
-<p class="stats-note">{% if include.lang == "zh" %}Star 数截至 {{ site.data.github_stars.updated_at | date: "%Y-%m-%d" }} · 点击查看 GitHub 实时数据。{% else %}Stars as of {{ site.data.github_stars.updated_at | date: "%b %-d, %Y" }} · Links open current GitHub counts.{% endif %}</p>
+<h3 class="pub-group">{% if include.lang == "zh" %}开放科学与社区资源{% else %}Open-science & community resources{% endif %}</h3>
+
+{% if include.lang == "zh" %}| 项目 | 简介 | Stars |{% else %}| Project | What it is | Stars |{% endif %}
+| :--- | :--- | :--- |
+| [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | {% if include.lang == "zh" %}科研论文撰写、修改、审查与投稿的 Agent 技能{% else %}Agent skills for scientific writing, revision and review{% endif %} | {% include github-stars.html repo="Boom5426/Nature-Paper-Skills" %} |
+| [Awesome Virtual Cell](https://github.com/Boom5426/Awesome-Virtual-Cell) | {% if include.lang == "zh" %}虚拟细胞领域论文、基准与交互研究地图{% else %}Virtual-cell literature, benchmarks and interactive research map{% endif %} | {% include github-stars.html repo="Boom5426/Awesome-Virtual-Cell" %} |
+| [Awesome Weight-Space Programming](https://github.com/Boom5426/Awesome-Weight-Space-Programming) | {% if include.lang == "zh" %}权重空间方法与可编程模型的研究图谱{% else %}Research landscape for weight-space methods and programmable models{% endif %} | {% include github-stars.html repo="Boom5426/Awesome-Weight-Space-Programming" %} |
+| [DrugClaw](https://github.com/Boom5426/DrugClaw) | {% if include.lang == "zh" %}面向药物研究的智能体检索与科研技能库{% else %}Agentic drug-research retrieval and skill library{% endif %} | {% include github-stars.html repo="Boom5426/DrugClaw" %} |
+{: .software-table}
+
+<p class="stats-note">{% if include.lang == "zh" %}Star 快照截至 {{ site.data.github_stars.updated_at | date: "%Y-%m-%d" }}；无快照项目可直接打开 GitHub 查看。{% else %}Star snapshot as of {{ site.data.github_stars.updated_at | date: "%b %-d, %Y" }}; open GitHub to see projects without a snapshot.{% endif %}</p>
