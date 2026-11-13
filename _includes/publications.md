@@ -1,7 +1,7 @@
 {% comment %}Selected publications, shared by the English and Chinese pages. Pass lang="zh" for Chinese labels.{% endcomment %}
 {% if include.lang == "zh" %}<p class="pub-legend"><sup>†</sup> 共同第一作者 &nbsp;·&nbsp; <sup>&#42;</sup> 通讯作者</p>{% else %}<p class="pub-legend"><sup>†</sup> Equal contribution &nbsp;·&nbsp; <sup>&#42;</sup> Corresponding author</p>{% endif %}
 
-<h3 class="pub-group">{% if include.lang == "zh" %}已发表{% else %}Published{% endif %}</h3>
+<h3 class="pub-group">{% if include.lang == "zh" %}已发表与即将发表{% else %}Published &amp; in press{% endif %}</h3>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-b">(b) Response Prediction · Multimodal Benchmark</div><a class="paper-figure-link" href="{{ '/images/MVCBench.png' | relative_url }}" target="_blank" rel="noopener" title="View full-size figure"><picture><source srcset="{{ '/images/MVCBench.webp' | relative_url }}" type="image/webp"><img src="{{ '/images/MVCBench.png' | relative_url }}" alt="MVCBench: benchmarking drug-molecular and gene representations for drug-induced virtual cell phenotypes" width="800" height="741" loading="lazy" decoding="async"></picture></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -10,7 +10,7 @@
 
 **Bo Li**<sup>†</sup>, Qing Wang<sup>†</sup>, Shihang Wang<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Yuzhong Peng, Pinxian Zeng, Chengliang Liu, Mengran Li, Ziyang Tang, Xiaojun Yao, Chuxia Deng, Qianqian Song<sup>&#42;</sup>
 
-<span class="venue venue-manuscript">Nature Communications</span> {% if include.lang == "zh" %}**原则性接收**{% else %}**Accepted in Principle**{% endif %} (2026) &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="mvcbench">BibTeX</button>
+<span class="venue venue-manuscript">Nature Communications</span> {% if include.lang == "zh" %}**即将发表**{% else %}**In press**{% endif %} (2026) &nbsp;·&nbsp; [Project](https://qsong-github.github.io/MVCBench/) &nbsp;·&nbsp; [Preprint](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1) &nbsp;·&nbsp; [Code](https://github.com/QSong-github/MVCBench) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/MVCBench) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="mvcbench">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：在化合物、细胞系、实验板和数据集四种分布偏移下，评测基于图像与基于表达的扰动预测。{% else %}**TL;DR**: Benchmarks image- and expression-based perturbation prediction under compound, cell-line, plate and dataset shifts.{% endif %}
 
@@ -98,7 +98,7 @@
 
 </div></div>
 
-<div class="pub-additional">{% if include.lang == "zh" %}<strong>其他合作工作：</strong> PopRetrieve（单细胞群体信息与药物检索，在审）和 <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>（无标注形态信息的适用边界，预印本）。{% else %}<strong>Additional collaborative work:</strong> PopRetrieve (single-cell population information for drug retrieval, under review) and <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a> (when label-free morphology suffices for targeted measurement, preprint).{% endif %}</div>
+<div class="pub-additional">{% if include.lang == "zh" %}<strong>其他合作工作：</strong> PopRetrieve（单细胞群体信息与药物检索，已投稿 Small）和 <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>（无标注形态信息的适用边界，预印本）。{% else %}<strong>Additional collaborative work:</strong> PopRetrieve (single-cell population information for drug retrieval, submitted to Small) and <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a> (when label-free morphology suffices for targeted measurement, preprint).{% endif %}</div>
 
 <div class="pub-record">{% if include.lang == "zh" %}完整论文列表见 {% else %}Full publication record on {% endif %}<a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"><strong>Google Scholar ↗</strong></a></div>
 
