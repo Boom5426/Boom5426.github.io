@@ -2,7 +2,7 @@
 permalink: /zh/
 lang: zh
 title: "中文主页"
-description: "李波，澳门大学博士生、新加坡国立大学访问学生，研究 AI for Biology：多模态虚拟细胞、扰动建模与干预设计。"
+description: "李波，澳门大学计算机科学博士生、新加坡国立大学访问博士生，研究多模态虚拟细胞、扰动建模、干预决策与权重空间编程。"
 author_profile: true
 ---
 
@@ -11,7 +11,7 @@ author_profile: true
 <div class="hero-block">
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>科学人工智能</span><span class="hero-topics">虚拟细胞世界模型 · 闭环干预设计 · 模型能力进化</span></div>
   <div class="hero-title">从虚拟细胞到持续进化的科学 AI</div>
-  <p class="hero-copy">我研究 AI 系统如何从观测中学习、支持科学干预，并通过新证据持续改进。研究涵盖多模态细胞建模、基因与药物扰动预测、测量感知评估和有限预算干预设计；同时探索如何为预训练模型安装、保留并积累新能力。长期目标是让实验获得的新知识不仅改善对生物系统的理解，也能持续提升模型自身的能力与后续决策质量。</p>
+  <p class="hero-copy">我研究 AI 系统如何从观测中学习、支持科学干预，并通过新证据持续改进。研究涵盖多模态细胞建模、基因与药物扰动预测、测量感知评估和干预设计。同时，我探索如何通过权重空间编程，使预训练模型获得、保留并积累新能力。长期目标是构建连接观测、实验与持续学习的自适应科学 AI 系统，支持更可靠的科学决策。</p>
   <div class="hero-affiliations">
     <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>澳门大学</strong></a> (导师 <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; 联合导师 <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>)</span>
     <span>{% include icon.html name="globe-asia" %}访问 <a href="https://www.nus.edu.sg/"><strong>新加坡国立大学</strong></a> (合作导师 <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
@@ -42,7 +42,7 @@ author_profile: true
            alt="研究闭环示意图，共四个面板：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个。所选干预的实验产生新的测量，形成闭环。" width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>虚拟细胞研究的决策闭环。</strong>通过多模态表征、扰动响应预测、测量分辨率评估和有限预算干预选择，将观测与实验决策连接起来。如何进一步把新实验结果变成持久的模型能力，是下一步科学问题。</figcaption>
+  <figcaption><strong>从多模态虚拟细胞到实验决策。</strong> (a) 学习多模态细胞状态；(b) 预测基因与药物扰动响应；(c) 检验测量能够可重复分辨哪些差异；(d) 在有限预算下选择下一步干预。实验提供新的测量证据，形成概念上的反馈闭环。</figcaption>
 </figure>
 
 <div class="research-grid">
@@ -101,9 +101,29 @@ author_profile: true
   </div>
 </div>
 
+
+<div class="research-card research-capability">
+  <a class="research-capability-figure" href="https://github.com/Gen-Verse/WeightCode/blob/main/assets/fig1.png" title="查看 WeightCode 论文图 1" target="_blank" rel="noopener">
+    <img src="https://raw.githubusercontent.com/Gen-Verse/WeightCode/main/assets/fig1.png" alt="WeightCode：通过可执行权重程序将新知识写入已训练网络，并实现跨网络复用与连续更新" loading="lazy" decoding="async" width="1100" height="620">
+  </a>
+  <div class="research-capability-content">
+    <div class="research-card-head">
+      <span class="research-icon">{% include icon.html name="code" %}</span>
+      <div class="research-num">SELF-IMPROVING MODELS · 模型能力进化</div>
+    </div>
+    <h3>如何让已训练的神经网络获得、保留并积累新能力？</h3>
+    <p>探索将新知识转化为持久模型能力的方法。WeightCode 通过可执行权重程序，在无需梯度训练的情况下安装新能力；这些程序能够跨独立训练的网络复用，并连续应用于已更新的模型。</p>
+    <div class="research-work">
+      <a href="https://gen-verse.github.io/WeightCode/">WeightCode</a>
+      <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a>
+      <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>
+    </div>
+  </div>
+</div>
+
 <div class="research-next" id="vision">
   <span class="research-next-label">下一步方向</span>
-  <p>将虚拟细胞、干预设计与实验反馈连接起来，让新实验结果不仅改善科学决策，也能持续提升模型能力。<a href="https://github.com/Gen-Verse/WeightCode">WeightCode</a> 探索可执行权重程序；相关合作研究包括 <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a> 和 <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>。</p>
+  <p>面向自我改进的科学 AI：连接虚拟细胞世界模型、独立实验反馈与持久模型更新，检验能力积累能否持续改善后续干预决策。</p>
 </div>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}代表性论文 {#publications}
@@ -117,7 +137,7 @@ author_profile: true
 ## {% include icon.html name="graduation-cap" class="h-icon" %}教育经历 {#education}
 - *2026.06 – 2027.06*：**新加坡国立大学**
 
-  *- 访问学生，合作导师：[Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
+  *- 访问博士生，合作导师：[Prof. Yang Zhang](https://www.comp.nus.edu.sg/cs/people/zhangy/)*
 
 - *2024.08 – 至今（预计 2027.06 毕业）*：**澳门大学**
 
@@ -146,6 +166,10 @@ author_profile: true
 ## {% include icon.html name="hands-helping" class="h-icon" %}学术服务 {#service}
 
 **会议服务**：AAAI 2027 Senior Program Committee；ICLR 2027 审稿人。
+
+**受邀报告**：PhenoProfiler，Guangyu Wang 教授团队（Weill Cornell Medicine & Houston Methodist，2025 年 2 月）。
+
+**学生指导**：联合指导 4 名北京工业大学研究生，相关工作产生 6 篇第一作者论文。
 
 **期刊审稿人**：*Science Advances*、**IEEE TPAMI**、IEEE TIP、IEEE TNNLS、Medical Image Analysis、Bioinformatics、Briefings in Bioinformatics、Pattern Recognition、BMC Biology、Engineering Applications of Artificial Intelligence、Expert Systems with Applications。
 
