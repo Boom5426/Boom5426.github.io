@@ -129,7 +129,7 @@ redirect_from:
 
 - *2021.09 – 2024.07*: **Beijing University of Technology**
 
-  *- M.Eng. in Electronic Information. Advisors: [Prof. Yong Zhang](https://yanzhao.bjut.edu.cn/info/1434/11510.htm), [Prof. Baocai Yin](https://www.bjut.edu.cn/info/1059/1568.htm)*
+  *- M.Eng. in Electronic Information. Advisors: [Prof. Yong Zhang](https://znxy.bjut.edu.cn/info/1599/1256.htm), [Prof. Baocai Yin](https://www.bjut.edu.cn/info/1059/1568.htm)*
 
 - *2017.09 – 2021.07*: **Beijing Information Science & Technology University**
 

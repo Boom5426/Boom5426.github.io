@@ -8,7 +8,7 @@ The site has an English page and a Chinese page that share their data-heavy sect
 
 | File | What it controls |
 | :--- | :--- |
-| [`_pages/about.md`](_pages/about.md) | English page (`/`): hero, research, education, honors, patents, service |
+| [`_pages/about.md`](_pages/about.md) | English page (`/`): hero, research figure and the five research strands (a)–(e), education, honors, patents, service |
 | [`_pages/zh.md`](_pages/zh.md) | Chinese page (`/zh/`): the same sections, translated |
 | [`_data/news.yml`](_data/news.yml) | News for both pages: one entry per item with `en` and `zh` text; `earlier: true` folds it |
 | [`_includes/publications.md`](_includes/publications.md) | Selected publications for both pages (Chinese labels and summaries via `lang="zh"`) |
@@ -64,7 +64,7 @@ runs this refresh too. The profile id is set at the top of the script.
 ## Images
 
 The VCDesign, PertResolve, and DrugDis cards use 800 px WebP thumbnails in
-`images/publications/`; clicking a figure opens its full-size source. All six cards keep the
+`images/publications/`; clicking a figure opens its full-size source. All seven cards keep the
 figure's aspect ratio within a consistent frame and declare intrinsic image dimensions.
 
 Teaser images are served at 800 px wide, which is twice the 400 px the layout uses, as WebP with a
@@ -78,6 +78,20 @@ Institution logos are 120 px tall, twice their 60 px display height. Keep the `w
 attributes in sync with the files: the browser uses them to reserve space before the image loads.
 To add a new teaser, resize to 800 px wide, flatten onto white (a transparent background disappears
 in dark mode), and export both formats.
+
+## Research figure
+
+`images/research_loop.webp` (2400 px), `research_loop_1200.webp` and `research_loop_vertical.webp` (phones)
+are generated; do not edit them by hand. Panels (a)–(d) come from the original four-panel artwork kept in
+[`docs/figure-src/`](docs/figure-src/), and the loop band with strand (e) is drawn by the script:
+
+```bash
+python3 scripts/build_research_figure.py --chrome /usr/bin/google-chrome
+```
+
+It needs Pillow, Playwright and a Chrome/Chromium (omit `--chrome` to use Playwright's bundled browser), and
+network access for the Kalam / Noto Sans fonts and rough.js. When the image heights change, update the
+`width`/`height` attributes of the figure in `_pages/about.md` and `_pages/zh.md`.
 
 ## Dark mode
 
