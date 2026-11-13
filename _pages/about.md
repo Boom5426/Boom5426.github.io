@@ -19,14 +19,6 @@ redirect_from:
     <span>{% include icon.html name="globe-asia" %}Visiting <a href="https://www.nus.edu.sg/"><strong>National University of Singapore</strong></a> (host <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang</a>)</span>
   </div>
 </div>
-<div class="research-stats" aria-label="Research at a glance">
-  <div><strong>10</strong><span>First-author journal articles</span></div>
-  <div><strong>3</strong><span>First-author Nature Communications (incl. in press)</span></div>
-  <div><strong>590</strong><span>Citations · h-index 15</span></div>
-  <div><strong>1,200+</strong><span>GitHub stars across projects</span></div>
-</div>
-<p class="research-stats-date">CV snapshot: November 2026; citation metrics from Google Scholar.</p>
-
 <div class="avail">
   {% include icon.html name="search" %}
   <div class="avail-copy"><strong>Open to postdoctoral and faculty opportunities starting in 2027</strong>, spanning virtual-cell world models, scientific intervention design, and adaptive AI.</div>
@@ -111,14 +103,10 @@ redirect_from:
   </div>
 </div>
 
-<section class="capability-section" id="vision" aria-labelledby="capability-title">
-  <div class="capability-eyebrow">A connected, distinct research direction · Self-improving models</div>
-  <h3 id="capability-title">Turning New Knowledge into Lasting Model Capabilities</h3>
-  <p>Scientific AI needs more than one-off predictions. I study executable weight programs that install, reuse, and accumulate capabilities in trained neural networks without repeated gradient-based retraining.</p>
-  <div class="capability-proof"><div><strong>WeightCode</strong><span>Turns rules, demonstrations and few labeled examples into lasting weight updates; the edited network runs independently.</span></div><a href="https://github.com/Gen-Verse/WeightCode">Project &amp; code</a></div>
-  <p class="capability-related">Related collaborative explorations include <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a> (model updates from experimental feedback) and <a href="https://arxiv.org/abs/2605.07335">CellScientist</a> (auditable model revisions from execution feedback).</p>
-  <p class="capability-goal">The long-term question: does accumulating model capability improve the next round of intervention decisions?</p>
-</section>
+<div class="research-next" id="vision">
+  <span class="research-next-label">Next direction</span>
+  <p>Connect virtual-cell models and intervention design with experimental feedback, so new evidence improves both future decisions and lasting model capabilities. <a href="https://github.com/Gen-Verse/WeightCode">WeightCode</a> explores executable weight programs; related collaborative work includes <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a> and <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>.</p>
+</div>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}Selected Publications {#publications}
 
@@ -156,11 +144,6 @@ redirect_from:
 
 ## {% include icon.html name="lightbulb" class="h-icon" %}Patents {#patents}
 Co-inventor of two granted Chinese invention patents on cell localization: [**CN115457547B**](https://patents.google.com/patent/CN115457547B/en) (2026) and [**CN115810046B**](https://patents.google.com/patent/CN115810046B/en) (2026).
-
-## {% include icon.html name="microphone" class="h-icon" %}Talks & Mentoring {#mentoring}
-**Invited talk**: PhenoProfiler, Prof. Guangyu Wang's group, Weill Cornell Medicine & Houston Methodist (February 2025).
-
-**Mentoring**: Co-mentored four BJUT graduate students whose work led to six first-author papers, including *New Phytologist*, *IEEE JBHI*, and *ACM TOMM*.
 
 ## {% include icon.html name="hands-helping" class="h-icon" %}Academic Service {#service}
 
