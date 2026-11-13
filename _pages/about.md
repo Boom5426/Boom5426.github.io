@@ -37,95 +37,77 @@ redirect_from:
 <figure class="research-figure">
   <a href="{{ '/images/research_loop.webp' | relative_url }}" title="Open the full-resolution figure">
     <picture>
-      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="3924">
+      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="4413">
       <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
            srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
            sizes="(max-width: 57.8em) 100vw, 900px"
-           alt="Research loop in four panels: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B. Experiments on the selected candidates produce new measurements that close the loop." width="1200" height="385" loading="lazy" decoding="async">
+           alt="Research loop in five parts: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B; experiments on the selected candidates give measured outcomes, and (e) self-improving models (WeightCode, WeightLoop, CellScientist) turn them into lasting model updates that return to the virtual cell." width="1200" height="524" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>From Multimodal Virtual Cells to Experimental Decisions.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict responses to genetic and drug perturbations. (c) Assess which distinctions the measurements can reproducibly resolve. (d) Select interventions within a finite budget. New experimental measurements provide evidence for the next round in this conceptual loop.</figcaption>
+  <figcaption><strong>From Multimodal Virtual Cells to Self-Improving Models.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict responses to genetic and drug perturbations. (c) Assess which distinctions the measurements can reproducibly resolve. (d) Select interventions within a finite budget. (e) Turn measured outcomes into lasting model updates that feed the next round of prediction.</figcaption>
 </figure>
 
-<div class="research-grid">
-
-  <div class="research-card stage-a">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="microscope" %}</span>
-      <div class="research-num">(a) · CELLULAR STATE</div>
-    </div>
-    <h3>What representations of cellular state can be learned from imaging and omics measurements?</h3>
-    <p>Learn cellular representations from microscopy, single-cell and spatial omics, and histology, so that different measurements describe the same cell state.</p>
-    <div class="research-work">
+<ol class="research-strands">
+  <li class="strand stage-a">
+    <div class="strand-label">{% include icon.html name="microscope" %}<span>(a) · CELLULAR STATE</span></div>
+    <div class="strand-body">
+      <h3>What representations of cellular state can be learned from imaging and omics measurements?</h3>
+      <div class="research-work">
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
       <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
       <a href="https://doi.org/10.1093/bib/bbae500">HGGEP</a>
+      </div>
     </div>
-  </div>
-
-  <div class="research-card stage-b">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
-      <div class="research-num">(b) · RESPONSE PREDICTION</div>
-    </div>
-    <h3>How well do predicted perturbation responses transfer across modalities, compounds and cellular contexts?</h3>
-    <p>Predict how cells respond to drug and genetic perturbations in both image and expression readouts, and test what generalizes across compounds, cell lines, plates, and datasets.</p>
-    <div class="research-work">
+  </li>
+  <li class="strand stage-b">
+    <div class="strand-label">{% include icon.html name="project-diagram" %}<span>(b) · RESPONSE PREDICTION</span></div>
+    <div class="strand-body">
+      <h3>Do learned cell-state transitions under intervention generalize across modalities, compounds and contexts?</h3>
+      <div class="research-work">
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
+      </div>
     </div>
-  </div>
-
-  <div class="research-card stage-c">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="search" %}</span>
-      <div class="research-num">(c) · EVALUATION &amp; RESOLUTION</div>
-    </div>
-    <h3>When does a predicted gain reflect biology that the assay can reproducibly resolve?</h3>
-    <p>Determine which biological distinctions experiments can reproducibly resolve and what response structure models actually recover, separating measurement limits from model limits before interpreting benchmark results.</p>
-    <div class="research-work">
+  </li>
+  <li class="strand stage-c">
+    <div class="strand-label">{% include icon.html name="search" %}<span>(c) · EVALUATION &amp; RESOLUTION</span></div>
+    <div class="strand-body">
+      <h3>When does a predicted gain reflect biology that the assay can reproducibly resolve?</h3>
+      <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
       <a href="https://boom5426.github.io/DrugDis/">DrugDis</a>
-      <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>
+      <a href="https://www.biorxiv.org/content/10.64898/2026.09.22.753654v2">MorphoSuff</a>
+      </div>
     </div>
-  </div>
-
-  <div class="research-card stage-d">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="bullseye" %}</span>
-      <div class="research-num">(d) · EXPERIMENTAL CHOICE</div>
-      <span class="research-focus">Current focus</span>
-    </div>
-    <h3>Given a target cellular state and a finite budget, which interventions are worth testing next?</h3>
-    <p>Rank candidate interventions by their predicted shift from a source state toward a target state, test the top-K within budget B, and evaluate the choices against independently measured outcomes.</p>
-    <div class="research-work">
+  </li>
+  <li class="strand stage-d">
+    <div class="strand-label">{% include icon.html name="bullseye" %}<span>(d) · EXPERIMENTAL CHOICE</span><span class="research-focus">Current focus</span></div>
+    <div class="strand-body">
+      <h3>Planning with the model: given a target cellular state and a finite budget, which interventions are worth testing next?</h3>
+      <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
+      </div>
     </div>
-  </div>
-</div>
-
-
-<div class="research-card research-capability">
-  <a class="research-capability-figure" href="https://github.com/Gen-Verse/WeightCode/blob/main/assets/fig1.png" title="View WeightCode Figure 1" target="_blank" rel="noopener">
-    <img src="https://raw.githubusercontent.com/Gen-Verse/WeightCode/main/assets/fig1.png" alt="WeightCode: executable weight programs install new capabilities into trained networks, can be reused across networks and support successive updates" loading="lazy" decoding="async" width="1100" height="620">
-  </a>
-  <div class="research-capability-content">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="code" %}</span>
-      <div class="research-num">SELF-IMPROVING MODELS</div>
-    </div>
-    <h3>Can trained neural networks acquire, retain, and accumulate new capabilities?</h3>
-    <p>Develop methods that turn new knowledge into lasting model capabilities. WeightCode uses executable weight programs to install capabilities without gradient training; the programs can be reused across independently trained networks and applied successively to extend existing capabilities.</p>
-    <div class="research-work">
-      <a href="https://gen-verse.github.io/WeightCode/">WeightCode</a>
+  </li>
+  <li class="strand stage-e">
+    <div class="strand-label">{% include icon.html name="code" %}<span>(e) · SELF-IMPROVING MODELS</span></div>
+    <div class="strand-body">
+      <h3>Closing the loop: can measured outcomes keep adding capabilities to a model, and do the gains improve its next decisions?</h3>
+      <div class="research-work">
+      <a href="https://github.com/Gen-Verse/WeightCode">WeightCode</a>
       <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a>
       <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>
+      </div>
     </div>
-  </div>
-</div>
+  </li>
+</ol>
 
 <div class="research-next" id="vision">
-  <span class="research-next-label">Next direction</span>
-  <p>Toward self-improving scientific AI: connect virtual-cell world models, independent experimental feedback, and lasting model updates to test whether accumulated capabilities improve future intervention decisions.</p>
+  <span class="research-next-label">Next directions</span>
+  <ul>
+    <li><strong>Updatable cell world models.</strong> Turn new assay results into persistent, transferable model updates, not retraining.</li>
+    <li><strong>Does capability growth pay off?</strong> Test whether each update improves intervention choices on held-out experiments.</li>
+    <li><strong>Accumulating capabilities.</strong> Reusable model edits that add perturbation and cell-context skills without forgetting.</li>
+  </ul>
 </div>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}Selected Publications {#publications}

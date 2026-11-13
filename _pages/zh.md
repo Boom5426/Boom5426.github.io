@@ -35,95 +35,77 @@ author_profile: true
 <figure class="research-figure">
   <a href="{{ '/images/research_loop.webp' | relative_url }}" title="查看高清原图">
     <picture>
-      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="3924">
+      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="4413">
       <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
            srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
            sizes="(max-width: 57.8em) 100vw, 900px"
-           alt="研究闭环示意图，共四个面板：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个。所选干预的实验产生新的测量，形成闭环。" width="1200" height="385" loading="lazy" decoding="async">
+           alt="研究闭环示意图，共五部分：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个；所选干预的实验给出实测结果，(e) 自我改进模型（WeightCode、WeightLoop、CellScientist）把这些结果转化为持久的模型更新，回到虚拟细胞。" width="1200" height="524" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>从多模态虚拟细胞到实验决策。</strong> (a) 学习多模态细胞状态；(b) 预测基因与药物扰动响应；(c) 检验测量能够可重复分辨哪些差异；(d) 在有限预算下选择下一步干预。实验提供新的测量证据，形成概念上的反馈闭环。</figcaption>
+  <figcaption><strong>从多模态虚拟细胞到自我改进的模型。</strong> (a) 学习多模态细胞状态；(b) 预测基因与药物扰动响应；(c) 检验测量能够可重复分辨哪些差异；(d) 在有限预算下选择下一步干预；(e) 把实测结果转化为持久的模型更新，进入下一轮预测。</figcaption>
 </figure>
 
-<div class="research-grid">
-
-  <div class="research-card stage-a">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="microscope" %}</span>
-      <div class="research-num">(a) · 细胞状态</div>
-    </div>
-    <h3>从成像与组学测量中能学到怎样的细胞状态表征？</h3>
-    <p>从显微图像、单细胞与空间组学以及病理切片中学习细胞表征，让不同的测量描述同一个细胞状态。</p>
-    <div class="research-work">
+<ol class="research-strands">
+  <li class="strand stage-a">
+    <div class="strand-label">{% include icon.html name="microscope" %}<span>(a) · 细胞状态</span></div>
+    <div class="strand-body">
+      <h3>从成像与组学测量中能学到怎样的细胞状态表征？</h3>
+      <div class="research-work">
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
       <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
       <a href="https://doi.org/10.1093/bib/bbae500">HGGEP</a>
+      </div>
     </div>
-  </div>
-
-  <div class="research-card stage-b">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="project-diagram" %}</span>
-      <div class="research-num">(b) · 响应预测</div>
-    </div>
-    <h3>预测的扰动响应在模态、化合物与细胞情境之间迁移得如何？</h3>
-    <p>预测细胞在药物和基因扰动下的图像与表达响应，并检验模型在化合物、细胞系、实验板和数据集变化下能否泛化。</p>
-    <div class="research-work">
+  </li>
+  <li class="strand stage-b">
+    <div class="strand-label">{% include icon.html name="project-diagram" %}<span>(b) · 响应预测</span></div>
+    <div class="strand-body">
+      <h3>学到的干预下细胞状态转变，能否跨模态、化合物与细胞情境泛化？</h3>
+      <div class="research-work">
       <a href="https://qsong-github.github.io/MVCBench/">MVCBench</a>
+      </div>
     </div>
-  </div>
-
-  <div class="research-card stage-c">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="search" %}</span>
-      <div class="research-num">(c) · 评估与分辨</div>
-    </div>
-    <h3>预测增益何时反映的是实验能够可重复分辨的生物学？</h3>
-    <p>弄清实验能够可重复地分辨哪些生物学差异、模型真正恢复了哪些响应结构，在解读基准结果之前先把测量局限和模型局限区分开。</p>
-    <div class="research-work">
+  </li>
+  <li class="strand stage-c">
+    <div class="strand-label">{% include icon.html name="search" %}<span>(c) · 评估与分辨</span></div>
+    <div class="strand-body">
+      <h3>预测增益何时反映的是实验能够可重复分辨的生物学？</h3>
+      <div class="research-work">
       <a href="https://boom5426.github.io/PertResolve/">PertResolve</a>
       <a href="https://boom5426.github.io/DrugDis/">DrugDis</a>
-      <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>
+      <a href="https://www.biorxiv.org/content/10.64898/2026.09.22.753654v2">MorphoSuff</a>
+      </div>
     </div>
-  </div>
-
-  <div class="research-card stage-d">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="bullseye" %}</span>
-      <div class="research-num">(d) · 实验选择</div>
-      <span class="research-focus">当前重点</span>
-    </div>
-    <h3>给定目标细胞状态和有限预算，下一步最值得测试哪些干预？</h3>
-    <p>按从起始状态到目标状态的预测迁移对候选干预排序，在预算 B 内测试排名前 K 的候选，并用独立测得的结果评估这些选择。</p>
-    <div class="research-work">
+  </li>
+  <li class="strand stage-d">
+    <div class="strand-label">{% include icon.html name="bullseye" %}<span>(d) · 实验选择</span><span class="research-focus">当前重点</span></div>
+    <div class="strand-body">
+      <h3>用模型做规划：给定目标细胞状态和有限预算，下一步最值得测试哪些干预？</h3>
+      <div class="research-work">
       <a href="https://boom5426.github.io/VCDesign-CED/">VCDesign</a>
+      </div>
     </div>
-  </div>
-</div>
-
-
-<div class="research-card research-capability">
-  <a class="research-capability-figure" href="https://github.com/Gen-Verse/WeightCode/blob/main/assets/fig1.png" title="查看 WeightCode 论文图 1" target="_blank" rel="noopener">
-    <img src="https://raw.githubusercontent.com/Gen-Verse/WeightCode/main/assets/fig1.png" alt="WeightCode：通过可执行权重程序将新知识写入已训练网络，并实现跨网络复用与连续更新" loading="lazy" decoding="async" width="1100" height="620">
-  </a>
-  <div class="research-capability-content">
-    <div class="research-card-head">
-      <span class="research-icon">{% include icon.html name="code" %}</span>
-      <div class="research-num">SELF-IMPROVING MODELS · 模型能力进化</div>
-    </div>
-    <h3>如何让已训练的神经网络获得、保留并积累新能力？</h3>
-    <p>探索将新知识转化为持久模型能力的方法。WeightCode 通过可执行权重程序，在无需梯度训练的情况下安装新能力；这些程序能够跨独立训练的网络复用，并连续应用于已更新的模型。</p>
-    <div class="research-work">
-      <a href="https://gen-verse.github.io/WeightCode/">WeightCode</a>
+  </li>
+  <li class="strand stage-e">
+    <div class="strand-label">{% include icon.html name="code" %}<span>(e) · 模型能力进化</span></div>
+    <div class="strand-body">
+      <h3>闭合反馈环：实测结果能否持续为模型增加能力，这些增益又能否改进它的下一步决策？</h3>
+      <div class="research-work">
+      <a href="https://github.com/Gen-Verse/WeightCode">WeightCode</a>
       <a href="https://arxiv.org/abs/2611.07319">WeightLoop</a>
       <a href="https://arxiv.org/abs/2605.07335">CellScientist</a>
+      </div>
     </div>
-  </div>
-</div>
+  </li>
+</ol>
 
 <div class="research-next" id="vision">
   <span class="research-next-label">下一步方向</span>
-  <p>面向自我改进的科学 AI：连接虚拟细胞世界模型、独立实验反馈与持久模型更新，检验能力积累能否持续改善后续干预决策。</p>
+  <ul>
+    <li><strong>可更新的细胞世界模型。</strong> 把新的实验结果转化为持久、可迁移的模型更新，而不是重新训练。</li>
+    <li><strong>能力增长是否带来回报？</strong> 检验每次更新能否在留出实验上改进干预选择。</li>
+    <li><strong>能力积累。</strong> 用可复用的模型编辑加入扰动与细胞情境相关能力，同时不遗忘已有能力。</li>
+  </ul>
 </div>
 
 ## {% include icon.html name="file-alt" class="h-icon" %}代表性论文 {#publications}

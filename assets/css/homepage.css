@@ -50,27 +50,73 @@ html { scroll-behavior: smooth; }
 .avail-copy { flex: 1 1 22rem; }
 .avail-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
 .avail-actions .link-btn { padding: .35rem .65rem; white-space: nowrap; }
-.research-grid { margin-bottom: .7rem; }
+/* Research strands (a)-(e): one row each, coloured label | question and project links.
+   Stage colours match the figure panels. */
+.research-strands {
+  margin: 1.1rem 0 1rem;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #e3e7ee;
+}
+.research-strands .strand {
+  display: grid;
+  grid-template-columns: 13.2rem minmax(0, 1fr);
+  gap: .25rem 1.1rem;
+  margin: 0;
+  padding: .78rem .15rem .72rem;
+  border-bottom: 1px solid #e3e7ee;
+}
+.strand-label {
+  display: grid;
+  grid-template-columns: 1.15em minmax(0, 1fr);
+  align-content: start;
+  align-items: start;
+  gap: .35rem .45rem;
+  padding-top: .16rem;
+  color: #00369f;
+  font-size: .72em;
+  font-weight: 800;
+  letter-spacing: .06em;
+  line-height: 1.35;
+}
+.strand-label .icon { width: 1.1em; height: 1.1em; margin-top: .05em; }
+.strand-label .research-focus { grid-column: 2; justify-self: start; margin-left: 0; letter-spacing: .02em; }
+.strand-body { min-width: 0; }
+.strand-body h3 {
+  margin: 0 0 .42rem;
+  color: #293241;
+  font-size: .93em;
+  font-weight: 650;
+  line-height: 1.42;
+}
+.stage-a .strand-label { color: #2f6db5; }
+.stage-b .strand-label { color: #1e8a7a; }
+.stage-c .strand-label { color: #9a6514; }
+.stage-d .strand-label { color: #c0392b; }
+.stage-e .strand-label { color: #6c4fa3; }
 .research-next {
-  display: flex;
-  align-items: baseline;
-  gap: .75rem;
-  margin: 0 0 1.5rem;
-  padding: .55rem .1rem;
-  color: #56606d;
+  margin: 0 0 1.6rem;
+  padding: .7rem .9rem .6rem;
+  border-left: 3px solid #6c4fa3;
+  border-radius: 0 8px 8px 0;
+  background: #f7f5fc;
+  color: #4a5361;
   font-size: .8em;
   line-height: 1.55;
   scroll-margin-top: 5rem;
 }
 .research-next-label {
-  flex: 0 0 auto;
-  color: #00369f;
-  font-size: .83em;
-  font-weight: 750;
-  letter-spacing: .045em;
+  display: block;
+  margin-bottom: .3rem;
+  color: #6c4fa3;
+  font-size: .86em;
+  font-weight: 800;
+  letter-spacing: .06em;
   text-transform: uppercase;
 }
-.research-next p { margin: 0; }
+.research-next ul { margin: 0; padding-left: 1.1rem; }
+.research-next li { margin: .15rem 0; }
+.research-next strong { color: #293241; }
 .paper-box {
   display: grid;
   grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr);
@@ -256,8 +302,7 @@ html { scroll-behavior: smooth; }
   .paper-box { grid-template-columns: minmax(0, 1fr); gap: .7rem; padding: .9rem 0; }
   .paper-box .paper-box-text { order: 1; }
   .paper-box .paper-box-image { order: 2; margin: 0 auto; }
-  .research-next { display: block; }
-  .research-next-label { display: inline-block; margin-bottom: .2rem; }
+  .research-strands .strand { grid-template-columns: minmax(0, 1fr); gap: .3rem; padding: .7rem .1rem .65rem; }
   .avail-copy { flex-basis: calc(100% - 2rem); }
   .avail-actions { margin-left: 1.4rem; }
 }
@@ -268,8 +313,15 @@ html { scroll-behavior: smooth; }
   .hero-copy, .hero-topics { color: #c4ccd8; }
   .hero-affiliations { color: #aeb8c6; }
   .hero-affiliations .icon, .page__content h2 .h-icon { color: #8fb2ff; }
-  .hero-evidence strong, .hero-metric-src, .research-next-label { color: #9bbcfc; }
-  .research-next { color: #a6b0bf; }
+  .hero-evidence strong, .hero-metric-src { color: #9bbcfc; }
+  .research-strands, .research-strands .strand { border-color: #2d3440; }
+  .strand-body h3, .research-next strong { color: #e0e7f2; }
+  .stage-a .strand-label { color: #8fb2ff; }
+  .stage-b .strand-label { color: #6fd0bd; }
+  .stage-c .strand-label { color: #e0b46a; }
+  .stage-d .strand-label { color: #f09184; }
+  .stage-e .strand-label, .research-next-label { color: #b9a2ec; }
+  .research-next { border-left-color: #8d72c9; background: #1c1a26; color: #a6b0bf; }
   .paper-box .badge { background: #1c2636; border-color: #354967; color: #a8c4ff; }
   .paper-figure-link { border-color: #3c4655; }
   .paper-figure-link:hover { border-color: #8ba8d6; }
@@ -289,71 +341,4 @@ html { scroll-behavior: smooth; }
   .lightbox { background: #1b1f27; }
   .lightbox-close { color: #b8c0cc; }
   .pub-group, .news-earlier summary { color: #9bbcfc; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .research-card { transition: none; }
-  .research-card:hover { transform: none; }
-}
-
-
-/* Fifth research strand: WeightCode, using the existing research-card visual language. */
-.research-card.research-capability {
-  display: grid;
-  grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr);
-  align-items: stretch;
-  gap: 1rem;
-  min-height: 0;
-  margin: .2rem 0 .65rem;
-  border-top-color: #456f9c;
-  padding: .8rem;
-}
-.research-capability-figure {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 0;
-  padding: .35rem;
-  border: 1px solid #e3e7ee;
-  border-radius: 6px;
-  background: #fff;
-  text-decoration: none;
-}
-.research-capability-figure:hover { border-color: #8ba8d6; }
-.research-capability-figure:focus-visible { outline: 2px solid #00369f; outline-offset: 3px; }
-.research-capability-figure img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 205px;
-  min-height: 0;
-  object-fit: contain;
-  border: 0;
-  box-shadow: none;
-}
-.research-capability-content { min-width: 0; display: flex; flex-direction: column; }
-.research-capability-content .research-card-head { margin-bottom: .3rem; }
-.research-capability-content .research-icon,
-.research-capability-content .research-num { color: #456f9c; }
-.research-capability-content .research-work { margin-top: auto; padding-top: .6rem; }
-.research-capability-content .research-work a:first-child {
-  color: #174b7d;
-  border-color: #bdd1ec;
-  background: #ebf2fb;
-}
-@media (max-width: 57.8124em) {
-  .research-card.research-capability { grid-template-columns: minmax(0, 1fr); gap: .65rem; }
-  .research-capability-content { order: 1; }
-  .research-capability-figure { order: 2; }
-  .research-capability-figure img { max-height: 190px; }
-}
-@media (prefers-color-scheme: dark) {
-  .research-card.research-capability { border-top-color: #91b4e6; }
-  .research-capability-figure { border-color: #3b4859; background: #fff; }
-  .research-capability-content .research-icon,
-  .research-capability-content .research-num { color: #a4c5f8; }
-  .research-capability-content .research-work a:first-child {
-    color: #b6d5ff;
-    border-color: #4a668e;
-    background: #21344d;
-  }
 }
