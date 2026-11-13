@@ -22,61 +22,73 @@
   zh: >-
     🎉 <strong>MVCBench</strong> 获 <em>Nature Communications</em> <strong>原则性接收</strong>。<a href="https://qsong-github.github.io/MVCBench/">项目</a> · <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">预印本</a>
 - date: "2026.09"
+  earlier: true
   en: >-
     🎯 Released <strong>VCDesign</strong>, a framework for finite-budget intervention design in virtual cells. <a href="https://boom5426.github.io/VCDesign-CED/">Project</a> · <a href="https://github.com/Boom5426/VCDesign-CED">Code</a>
   zh: >-
     🎯 发布 <strong>VCDesign</strong>：面向虚拟细胞的有限预算干预设计框架。<a href="https://boom5426.github.io/VCDesign-CED/">项目</a> · <a href="https://github.com/Boom5426/VCDesign-CED">代码</a>
 - date: "2026.09"
+  earlier: true
   en: >-
     🧬 Released <strong>PertResolve</strong>, using split-half reproducibility to distinguish measurement and model limitations in perturbation prediction. <a href="https://boom5426.github.io/PertResolve/">Project</a> · <a href="https://github.com/Boom5426/PertResolve">Code</a>
   zh: >-
     🧬 发布 <strong>PertResolve</strong>：借助独立半样本可重复性参照，区分扰动预测中的测量局限与模型局限。<a href="https://boom5426.github.io/PertResolve/">项目</a> · <a href="https://github.com/Boom5426/PertResolve">代码</a>
 - date: "2026.09"
+  earlier: true
   en: >-
     💊 Released <strong>DrugDis</strong>, a component-resolved framework for interpreting general and context-specific drug-response prediction. <a href="https://boom5426.github.io/DrugDis/">Project</a> · <a href="https://github.com/Boom5426/DrugDis">Code</a> · <a href="https://huggingface.co/datasets/Boom5426/DrugDis">Data</a>
   zh: >-
     💊 发布 <strong>DrugDis</strong>：拆分通用效应与情境特异效应、用于解释药物响应预测的框架。<a href="https://boom5426.github.io/DrugDis/">项目</a> · <a href="https://github.com/Boom5426/DrugDis">代码</a> · <a href="https://huggingface.co/datasets/Boom5426/DrugDis">数据</a>
 - date: "2026.08–09"
+  earlier: true
   en: >-
     📘 Three collaborative papers published: incomplete multi-view multi-label learning in <a href="https://doi.org/10.1007/s11263-026-03025-5"><strong>IJCV</strong></a> and <a href="https://pubmed.ncbi.nlm.nih.gov/42672031/"><strong>IEEE TPAMI</strong></a>, and <strong>PSSD</strong> for histology-to-gene-expression prediction in <a href="https://academic.oup.com/bioinformatics/article/42/8/btag598/8757724"><em>Bioinformatics</em></a>.
   zh: >-
     📘 三篇合作论文发表：不完整多视图多标签学习的两项工作分别发表于 <a href="https://doi.org/10.1007/s11263-026-03025-5"><strong>IJCV</strong></a> 和 <a href="https://pubmed.ncbi.nlm.nih.gov/42672031/"><strong>IEEE TPAMI</strong></a>；从组织切片预测基因表达的 <strong>PSSD</strong> 发表于 <a href="https://academic.oup.com/bioinformatics/article/42/8/btag598/8757724"><em>Bioinformatics</em></a>。
 - date: "2026.06"
+  earlier: true
   en: >-
     🇸🇬 Started a one-year visit to the <strong>National University of Singapore</strong>, hosted by <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Prof. Yang Zhang</a>.
   zh: >-
     🇸🇬 开始在<strong>新加坡国立大学</strong>进行为期一年的访问，合作导师为 <a href="https://www.comp.nus.edu.sg/cs/people/zhangy/">Yang Zhang 教授</a>。
 - date: "2026.05"
+  earlier: true
   en: >-
     🤖 <strong>CellScientist</strong> preprint released on <a href="https://arxiv.org/abs/2605.07335">arXiv</a> (co-author).
   zh: >-
     🤖 <strong>CellScientist</strong> 预印本发布于 <a href="https://arxiv.org/abs/2605.07335">arXiv</a>（合作作者）。
 - date: "2026.04"
+  earlier: true
   en: >-
     🧫 <strong>MVCBench</strong> preprint released on <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">bioRxiv</a>.
   zh: >-
     🧫 <strong>MVCBench</strong> 预印本发布于 <a href="https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1">bioRxiv</a>。
 - date: "2026.01"
+  earlier: true
   en: >-
     🎉 One paper accepted at <strong>ICLR 2026</strong> (co-author).
   zh: >-
     🎉 一篇论文被 <strong>ICLR 2026</strong> 接收（合作作者）。
 - date: "2025.12"
+  earlier: true
   en: >-
     🎉 <strong>PhenoProfiler</strong> published in <a href="https://www.nature.com/articles/s41467-025-67479-w"><em>Nature Communications</em></a>.
   zh: >-
     🎉 <strong>PhenoProfiler</strong> 发表于 <a href="https://www.nature.com/articles/s41467-025-67479-w"><em>Nature Communications</em></a>。
 - date: "2025.12"
+  earlier: true
   en: >-
     🧬 Collaborative spatial-omics paper <strong>HAST</strong> published in <a href="https://www.nature.com/articles/s42003-025-09312-0"><em>Communications Biology</em></a>.
   zh: >-
     🧬 合作的空间组学论文 <strong>HAST</strong> 发表于 <a href="https://www.nature.com/articles/s42003-025-09312-0"><em>Communications Biology</em></a>。
 - date: "2025.08"
+  earlier: true
   en: >-
     🧬 <strong>SpaIM</strong> published in <a href="https://www.nature.com/articles/s41467-025-63185-9"><em>Nature Communications</em></a>.
   zh: >-
     🧬 <strong>SpaIM</strong> 发表于 <a href="https://www.nature.com/articles/s41467-025-63185-9"><em>Nature Communications</em></a>。
 - date: "2025.02"
+  earlier: true
   en: >-
     🎤 Invited talk on <strong>PhenoProfiler</strong> at <a href="https://scholars.houstonmethodist.org/en/persons/guangyu-wang">Prof. Guangyu Wang</a>'s group (Weill Cornell Medicine &amp; Houston Methodist).
   zh: >-
