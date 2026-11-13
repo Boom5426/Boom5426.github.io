@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-11-13",
   "repositories": {
     "Boom5426/VCDesign-CED": {
       "stars": 5,
@@ -10,7 +10,7 @@
       "url": "https://github.com/Boom5426/PertResolve"
     },
     "Boom5426/DrugDis": {
-      "stars": 1,
+      "stars": 2,
       "url": "https://github.com/Boom5426/DrugDis"
     },
     "QSong-github/MVCBench": {
@@ -22,16 +22,24 @@
       "url": "https://github.com/QSong-github/PhenoProfiler"
     },
     "Boom5426/Awesome-Virtual-Cell": {
-      "stars": 334,
+      "stars": 337,
       "url": "https://github.com/Boom5426/Awesome-Virtual-Cell"
     },
     "Boom5426/Nature-Paper-Skills": {
-      "stars": 637,
+      "stars": 671,
       "url": "https://github.com/Boom5426/Nature-Paper-Skills"
     },
     "QSong-github/SpaIM": {
       "stars": 24,
       "url": "https://github.com/QSong-github/SpaIM"
+    },
+    "Gen-Verse/WeightCode": {
+      "stars": 10,
+      "url": "https://github.com/Gen-Verse/WeightCode"
+    },
+    "Boom5426/Awesome-Weight-Space-Programming": {
+      "stars": 7,
+      "url": "https://github.com/Boom5426/Awesome-Weight-Space-Programming"
     }
   }
 }
