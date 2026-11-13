@@ -294,3 +294,66 @@ html { scroll-behavior: smooth; }
   .research-card { transition: none; }
   .research-card:hover { transform: none; }
 }
+
+
+/* Fifth research strand: WeightCode, using the existing research-card visual language. */
+.research-card.research-capability {
+  display: grid;
+  grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr);
+  align-items: stretch;
+  gap: 1rem;
+  min-height: 0;
+  margin: .2rem 0 .65rem;
+  border-top-color: #456f9c;
+  padding: .8rem;
+}
+.research-capability-figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: .35rem;
+  border: 1px solid #e3e7ee;
+  border-radius: 6px;
+  background: #fff;
+  text-decoration: none;
+}
+.research-capability-figure:hover { border-color: #8ba8d6; }
+.research-capability-figure:focus-visible { outline: 2px solid #00369f; outline-offset: 3px; }
+.research-capability-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 205px;
+  min-height: 0;
+  object-fit: contain;
+  border: 0;
+  box-shadow: none;
+}
+.research-capability-content { min-width: 0; display: flex; flex-direction: column; }
+.research-capability-content .research-card-head { margin-bottom: .3rem; }
+.research-capability-content .research-icon,
+.research-capability-content .research-num { color: #456f9c; }
+.research-capability-content .research-work { margin-top: auto; padding-top: .6rem; }
+.research-capability-content .research-work a:first-child {
+  color: #174b7d;
+  border-color: #bdd1ec;
+  background: #ebf2fb;
+}
+@media (max-width: 57.8124em) {
+  .research-card.research-capability { grid-template-columns: minmax(0, 1fr); gap: .65rem; }
+  .research-capability-content { order: 1; }
+  .research-capability-figure { order: 2; }
+  .research-capability-figure img { max-height: 190px; }
+}
+@media (prefers-color-scheme: dark) {
+  .research-card.research-capability { border-top-color: #91b4e6; }
+  .research-capability-figure { border-color: #3b4859; background: #fff; }
+  .research-capability-content .research-icon,
+  .research-capability-content .research-num { color: #a4c5f8; }
+  .research-capability-content .research-work a:first-child {
+    color: #b6d5ff;
+    border-color: #4a668e;
+    background: #21344d;
+  }
+}
