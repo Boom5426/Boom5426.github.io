@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Bo Li 李波"
 tagline                  : "From Virtual-Cell World Models to Self-Improving Scientific AI"
-description              : "Bo Li, Ph.D. candidate at the University of Macau and visiting researcher at NUS. Research on virtual-cell world models, multimodal cellular learning, perturbation prediction, finite-budget intervention design, and weight-space programming for self-improving neural networks."
+description              : "Bo Li, Ph.D. candidate at the University of Macau and visiting Ph.D. student at NUS. Research on virtual-cell world models, perturbation modeling, intervention design, and weight-space programming for self-improving neural networks."
 url                      : "https://boom5426.github.io"
 baseurl                  : ""
 repository               : "Boom5426/Boom5426.github.io"
@@ -28,8 +28,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Bo Li 李波"
   avatar           : "images/CV_me.jpg"
-  bio              : "Ph.D. student · University of Macau<br>Visiting student · National University of Singapore"
-  bio_zh           : "澳门大学 博士生<br>新加坡国立大学 访问学生"
+  bio              : "Ph.D. candidate · University of Macau<br>Visiting Ph.D. student · National University of Singapore"
+  bio_zh           : "澳门大学 计算机科学博士生<br>新加坡国立大学 访问博士生"
   location         : "Singapore / Macau"
   location_zh      : "新加坡 / 澳门"
   employer         :
