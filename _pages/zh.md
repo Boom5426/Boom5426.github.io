@@ -165,12 +165,6 @@ author_profile: true
 
 ## {% include icon.html name="hands-helping" class="h-icon" %}学术服务 {#service}
 
-**会议服务**：AAAI 2027 Senior Program Committee；ICLR 2027 审稿人。
-
-**受邀报告**：PhenoProfiler，Guangyu Wang 教授团队（Weill Cornell Medicine & Houston Methodist，2025 年 2 月）。
-
-**学生指导**：联合指导 4 名北京工业大学研究生，相关工作产生 6 篇第一作者论文。
-
 **期刊审稿人**：*Science Advances*、**IEEE TPAMI**、IEEE TIP、IEEE TNNLS、Medical Image Analysis、Bioinformatics、Briefings in Bioinformatics、Pattern Recognition、BMC Biology、Engineering Applications of Artificial Intelligence、Expert Systems with Applications。
 
 **合作单位**：普渡大学、康奈尔大学、佛罗里达大学、新加坡国立大学、中山大学、四川大学、北京工业大学、澳门理工大学。
