@@ -44,6 +44,21 @@
 
 <h3 class="pub-group">{% if include.lang == "zh" %}在研工作 · 在审稿件与预印本{% else %}Current work · under review and preprints{% endif %}</h3>
 
+<div class='paper-box' id='weightcode'><div class='paper-box-image'><div><div class="badge stage-e">Self-improving Models · Weight Programming</div><a class="paper-figure-link" href="https://github.com/Gen-Verse/WeightCode/blob/main/assets/fig1.png" target="_blank" rel="noopener" title="WeightCode overview figure"><img src="https://raw.githubusercontent.com/Gen-Verse/WeightCode/main/assets/fig1.png" alt="WeightCode: executable weight programs install new capabilities, can rerun on other networks and support successive updates" loading="lazy" decoding="async" width="1100" height="675"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+[WeightCode: Installing new capabilities into neural networks via weight programming](https://github.com/Gen-Verse/WeightCode)
+
+**Bo Li**<sup>†</sup>, Taoyong Cui<sup>†</sup>, Bob Zhang, Mengran Li, Chengyang Zhang, Yang Zhang, Pheng Ann Heng, Wanli Ouyang, Zhenfei Yin, Yingcheng Wu, Ling Yang
+
+<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Project](https://gen-verse.github.io/WeightCode/) &nbsp;·&nbsp; [Paper](https://github.com/Gen-Verse/WeightCode/blob/main/assets/WeightCode.pdf) &nbsp;·&nbsp; [Code](https://github.com/Gen-Verse/WeightCode) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/WeightCode) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="weightcode">BibTeX</button>
+
+{% if include.lang == "zh" %}**简介**：冻结语言模型编写可执行权重程序，在无需梯度训练的情况下安装新能力。SCAN 组合泛化由 0% 提升至 99.8%；8 个示例使 BabyAI 拾取成功率由 0% 提升至 98.4%。程序在 5 个独立训练的 ViT 上保留源模型增益的 83–110%，且支持后续能力叠加。{% else %}**TL;DR**: Executable weight programs install capabilities without gradient training: SCAN exact match 0%→99.8%, and BabyAI pickup success 0%→98.4% from eight demonstrations. Replaying programs on five independently trained ViTs retains 83–110% of source-network gains, and subsequent programs add capabilities while preserving earlier ones.{% endif %}
+
+</div></div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge stage-d">(d) Experimental Choice · Intervention Design</div><a class="paper-figure-link" href="https://boom5426.github.io/VCDesign-CED/assets/vcdesign_overview.png" target="_blank" rel="noopener" title="View full-size figure"><img src="{{ '/images/publications/vcdesign.webp' | relative_url }}" alt="VCDesign: finite-budget intervention design for virtual cells" loading="lazy" decoding="async" width="800" height="498"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -82,6 +97,8 @@
 {% if include.lang == "zh" %}**简介**：把药物响应预测拆成药物通用效应、样本通用效应和药物–样本交互效应三部分，说明整体精度可能掩盖情境特异部分的弱恢复。{% else %}**TL;DR**: Decomposes drug-response prediction into general drug, general sample and drug–sample interaction effects, showing that aggregate accuracy can hide weak recovery of the context-specific part.{% endif %}
 
 </div></div>
+
+<div class="pub-additional">{% if include.lang == "zh" %}<strong>其他合作工作：</strong> PopRetrieve（单细胞群体信息与药物检索，在审）和 <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a>（无标注形态信息的适用边界，预印本）。{% else %}<strong>Additional collaborative work:</strong> PopRetrieve (single-cell population information for drug retrieval, under review) and <a href="https://github.com/limengran98/MorphoSuff">MorphoSuff</a> (when label-free morphology suffices for targeted measurement, preprint).{% endif %}</div>
 
 <div class="pub-record">{% if include.lang == "zh" %}完整论文列表见 {% else %}Full publication record on {% endif %}<a href="https://scholar.google.com/citations?hl=en&user=y1myk_IAAAAJ&view_op=list_works&sortby=pubdate"><strong>Google Scholar ↗</strong></a></div>
 
