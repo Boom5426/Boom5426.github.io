@@ -35,14 +35,14 @@ author_profile: true
 <figure class="research-figure">
   <a href="{{ '/images/research_loop.webp' | relative_url }}" title="查看高清原图">
     <picture>
-      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="4413">
+      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="4420">
       <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
            srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
            sizes="(max-width: 57.8em) 100vw, 900px"
-           alt="研究闭环示意图，共五部分：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个；所选干预的实验给出实测结果，(e) 自我改进模型（WeightCode、WeightLoop、CellScientist）把这些结果转化为持久的模型更新，回到虚拟细胞。" width="1200" height="524" loading="lazy" decoding="async">
+           alt="研究闭环示意图，共五部分：(a) 从图像、组学和空间测量中学习细胞状态；(b) 虚拟细胞预测药物和基因扰动下的图像与表达响应；(c) 评估测量能够分辨哪些预测差异；(d) 按从起始状态到目标状态的预测迁移对候选干预排序，并在预算 B 内测试前 K 个；下方紫色虚线框是未来方向 (e) 走向自我改进的世界模型：实验、新证据、可靠性检验，再把模型从 W_t 持久更新为 W_t+1（WeightCode），虚线箭头回到响应预测，标注为更好的后续决策？" width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>从多模态虚拟细胞到自我改进的模型。</strong> (a) 学习多模态细胞状态；(b) 预测基因与药物扰动响应；(c) 检验测量能够可重复分辨哪些差异；(d) 在有限预算下选择下一步干预；(e) 把实测结果转化为持久的模型更新，进入下一轮预测。</figcaption>
+  <figcaption><strong>从多模态虚拟细胞到自我改进的模型。</strong> (a) 学习多模态细胞状态；(b) 预测基因与药物扰动响应；(c) 检验测量能够可重复分辨哪些差异；(d) 在有限预算下选择下一步干预；(e) 未来方向：把可靠的新实验证据转化为持久的模型更新，并检验能否带来更好的后续决策。</figcaption>
 </figure>
 
 <ol class="research-strands">

@@ -37,14 +37,14 @@ redirect_from:
 <figure class="research-figure">
   <a href="{{ '/images/research_loop.webp' | relative_url }}" title="Open the full-resolution figure">
     <picture>
-      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="4413">
+      <source media="(max-width: 40em)" srcset="{{ '/images/research_loop_vertical.webp' | relative_url }}" width="940" height="4420">
       <img src="{{ '/images/research_loop_1200.webp' | relative_url }}"
            srcset="{{ '/images/research_loop_1200.webp' | relative_url }} 1200w, {{ '/images/research_loop.webp' | relative_url }} 2400w"
            sizes="(max-width: 57.8em) 100vw, 900px"
-           alt="Research loop in five parts: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B; experiments on the selected candidates give measured outcomes, and (e) self-improving models (WeightCode, WeightLoop, CellScientist) turn them into lasting model updates that return to the virtual cell." width="1200" height="524" loading="lazy" decoding="async">
+           alt="Research loop in five parts: (a) cellular state learned from image, omics and spatial measurements; (b) a virtual cell predicts image and expression responses to drug and gene perturbations; (c) evaluation of which predicted differences measurements can resolve; (d) intervention design that ranks candidates by their predicted shift from a source state to a target state and tests the top-K within budget B; a dashed lavender band marks the future direction, (e) toward self-improving world models: experiment, new evidence, a reliability check and a persistent model update from W_t to W_t+1 (WeightCode), with a dashed arrow back to response prediction labelled better future decisions?" width="1200" height="385" loading="lazy" decoding="async">
     </picture>
   </a>
-  <figcaption><strong>From Multimodal Virtual Cells to Self-Improving Models.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict responses to genetic and drug perturbations. (c) Assess which distinctions the measurements can reproducibly resolve. (d) Select interventions within a finite budget. (e) Turn measured outcomes into lasting model updates that feed the next round of prediction.</figcaption>
+  <figcaption><strong>From Multimodal Virtual Cells to Self-Improving Models.</strong> (a) Learn cellular state from multimodal measurements. (b) Predict responses to genetic and drug perturbations. (c) Assess which distinctions the measurements can reproducibly resolve. (d) Select interventions within a finite budget. (e) Future direction: turn reliable new evidence into persistent model updates, and test whether they lead to better future decisions.</figcaption>
 </figure>
 
 <ol class="research-strands">

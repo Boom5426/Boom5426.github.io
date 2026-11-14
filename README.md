@@ -82,16 +82,14 @@ in dark mode), and export both formats.
 ## Research figure
 
 `images/research_loop.webp` (2400 px), `research_loop_1200.webp` and `research_loop_vertical.webp` (phones)
-are generated; do not edit them by hand. Panels (a)–(d) come from the original four-panel artwork kept in
-[`docs/figure-src/`](docs/figure-src/), and the loop band with strand (e) is drawn by the script:
+are exported from the CV figure, so the homepage and the CV show the same picture; do not edit them by hand.
+The source is `make_research_loop.py` in the CV project (outside this repository), drawn as SVG and
+rendered at 3x (wide) and 2x (vertical) with `LOOP=rsi`; Pillow then writes the WebP files.
 
-```bash
-python3 scripts/build_research_figure.py --chrome /usr/bin/google-chrome
-```
-
-It needs Pillow, Playwright and a Chrome/Chromium (omit `--chrome` to use Playwright's bundled browser), and
-network access for the Kalam / Noto Sans fonts and rough.js. When the image heights change, update the
-`width`/`height` attributes of the figure in `_pages/about.md` and `_pages/zh.md`.
+`scripts/build_research_figure.py` and `docs/figure-src/` build the earlier version of the figure, whose
+(e) box listed WeightCode, WeightLoop and CellScientist. Running it would overwrite the CV-matched images.
+When the image heights change, update the `width`/`height` attributes of the figure in `_pages/about.md`
+and `_pages/zh.md`.
 
 ## Dark mode
 
