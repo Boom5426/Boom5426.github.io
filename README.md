@@ -86,8 +86,6 @@ are exported from the CV figure, so the homepage and the CV show the same pictur
 The source is `make_research_loop.py` in the CV project (outside this repository), drawn as SVG and
 rendered at 3x (wide) and 2x (vertical) with `LOOP=rsi`; Pillow then writes the WebP files.
 
-`scripts/build_research_figure.py` and `docs/figure-src/` build the earlier version of the figure, whose
-(e) box listed WeightCode, WeightLoop and CellScientist. Running it would overwrite the CV-matched images.
 When the image heights change, update the `width`/`height` attributes of the figure in `_pages/about.md`
 and `_pages/zh.md`.
 

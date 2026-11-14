@@ -53,7 +53,6 @@ author_profile: true
       <div class="research-work">
       <a href="https://phenoprofiler.org/">PhenoProfiler</a>
       <a href="https://github.com/QSong-github/SpaIM">SpaIM</a>
-      <a href="https://doi.org/10.1093/bib/bbae500">HGGEP</a>
       </div>
     </div>
   </li>
