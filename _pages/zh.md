@@ -6,11 +6,11 @@ description: "李波，澳门大学计算机科学博士生、新加坡国立大
 author_profile: true
 ---
 
-<h1 class="screen-reader-text">李波 Bo Li — 虚拟细胞、干预设计与模型能力进化</h1>
+<h1 class="screen-reader-text">李波 Bo Li — 面向闭环干预设计的虚拟细胞世界模型</h1>
 <span class='anchor' id='about-me'></span>
 <div class="hero-block">
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>科学人工智能</span><span class="hero-topics">虚拟细胞世界模型 · 闭环干预设计 · 模型能力进化</span></div>
-  <div class="hero-title">从虚拟细胞到持续进化的科学 AI</div>
+  <div class="hero-title">面向闭环干预设计的虚拟细胞世界模型</div>
   <p class="hero-copy">我研究 AI 系统如何从观测中学习、支持科学干预，并通过新证据持续改进。研究涵盖多模态细胞建模、基因与药物扰动预测、测量感知评估和干预设计。同时，我探索如何通过权重空间编程，使预训练模型获得、保留并积累新能力。长期目标是构建连接观测、实验与持续学习的自适应科学 AI 系统，支持更可靠的科学决策。</p>
   <div class="hero-affiliations">
     <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>澳门大学</strong></a> (导师 <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; 联合导师 <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>)</span>
@@ -99,11 +99,10 @@ author_profile: true
 </ol>
 
 <div class="research-next" id="vision">
-  <span class="research-next-label">下一步方向</span>
+  <span class="research-next-label">下一步：两个研究目标</span>
   <ul>
-    <li><strong>可更新的细胞世界模型。</strong> 把新的实验结果转化为持久、可迁移的模型更新，而不是重新训练。</li>
-    <li><strong>能力增长是否带来回报？</strong> 检验每次更新能否在留出实验上改进干预选择。</li>
-    <li><strong>能力积累。</strong> 用可复用的模型编辑加入扰动与细胞情境相关能力，同时不遗忘已有能力。</li>
+    <li><strong>Aim 1 · 自我改进的虚拟细胞世界模型。</strong> 依据实验证据修改模型所表示的内容，保留这一修改，并能证明它确实被保留。每次完成的实验都转化为一次受检验的编辑：只有当下一步决策变好、已有能力不受损、增益在留出体系中成立时才接受，否则回滚。</li>
+    <li><strong>Aim 2 · 闭环干预设计。</strong> 让模型与实验策略一起改进：从一次性排序走向面向细胞功能的多轮实验，与不使用闭环、花费相同预算的方案对比，并与合作湿实验室做前瞻性验证。</li>
   </ul>
 </div>
 

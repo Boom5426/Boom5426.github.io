@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="screen-reader-text">Bo Li 李波 — Virtual Cells, Intervention Design & Self-Improving Models</h1>
+<h1 class="screen-reader-text">Bo Li 李波 — Virtual-Cell World Models for Closed-Loop Intervention Design</h1>
 <span class='anchor' id='about-me'></span>
 <div class="hero-block">
   <div class="hero-kicker">{% include icon.html name="dna" %}<span>Scientific AI</span><span class="hero-topics">Virtual-Cell World Models · Closed-Loop Design · Self-Improving Models</span></div>
-  <div class="hero-title">From Virtual Cells to Self-Improving Scientific AI</div>
+  <div class="hero-title">Virtual-Cell World Models for Closed-Loop Intervention Design</div>
   <p class="hero-copy">I study how AI systems learn from observations, guide scientific interventions, and improve through new evidence. My research spans multimodal cellular modeling, genetic and drug perturbation prediction, measurement-aware evaluation, and intervention design. In parallel, I investigate how pretrained models can acquire, retain, and accumulate new capabilities through weight-space programming. My long-term goal is to develop adaptive scientific AI systems that connect observation, experimentation, and continual learning to support better scientific decisions.</p>
   <div class="hero-affiliations">
     <span>{% include icon.html name="university" %}<a href="https://www.um.edu.mo/"><strong>University of Macau</strong></a> (advisor <a href="https://fic.um.edu.mo/zh-hant/people/bobzhang/">Bob Zhang</a>; co-advisor <a href="https://polytechnic.purdue.edu/profile/song1081">Qianqian Song</a>)</span>
@@ -101,11 +101,10 @@ redirect_from:
 </ol>
 
 <div class="research-next" id="vision">
-  <span class="research-next-label">Next directions</span>
+  <span class="research-next-label">Next: two aims</span>
   <ul>
-    <li><strong>Updatable cell world models.</strong> Turn new assay results into persistent, transferable model updates, not retraining.</li>
-    <li><strong>Does capability growth pay off?</strong> Test whether each update improves intervention choices on held-out experiments.</li>
-    <li><strong>Accumulating capabilities.</strong> Reusable model edits that add perturbation and cell-context skills without forgetting.</li>
+    <li><strong>Aim 1 · Self-improving virtual-cell world models.</strong> Revise what the model represents from experimental evidence, keep the change, and show that it was kept. Each completed experiment becomes a checked edit: accepted only if the next decision improves, earlier capabilities survive and the gain holds in held-out systems; otherwise rolled back.</li>
+    <li><strong>Aim 2 · Closed-loop intervention design.</strong> Let the model and the experimental strategy improve together, from one-shot ranking to multi-round campaigns toward a cellular function, judged against the same budget spent without the loop and tested prospectively with a partner wet lab.</li>
   </ul>
 </div>
 
