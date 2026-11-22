@@ -51,7 +51,7 @@
 
 **Bo Li**<sup>†</sup>, Taoyong Cui<sup>†</sup>, Bob Zhang<sup>&#42;</sup>, Mengran Li, Chengyang Zhang, Yang Zhang, Pheng Ann Heng, Wanli Ouyang, Zhenfei Yin<sup>&#42;</sup>, Yingcheng Wu<sup>&#42;</sup>, Ling Yang<sup>&#42;</sup>
 
-<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Paper](https://github.com/Gen-Verse/WeightCode/blob/main/assets/WeightCode.pdf) &nbsp;·&nbsp; [Code](https://github.com/Gen-Verse/WeightCode) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/WeightCode) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="weightcode">BibTeX</button>
+<span class="venue venue-manuscript">Under review</span> 2026 &nbsp;·&nbsp; [Paper](https://github.com/Gen-Verse/WeightCode/blob/main/assets/WeightCode.pdf) &nbsp;·&nbsp; [Code](https://github.com/Gen-Verse/WeightCode) &nbsp;·&nbsp; [Data](https://huggingface.co/datasets/Boom5426/WeightCode) &nbsp;·&nbsp; [{% if include.lang == "zh" %}中文解读{% else %}Chinese overview{% endif %}](https://mp.weixin.qq.com/s/cfS8qTvAdV7k3qzXSdCqFA) &nbsp;·&nbsp; <button type="button" class="bibtex-btn" data-key="weightcode">BibTeX</button>
 
 {% if include.lang == "zh" %}**简介**：冻结语言模型编写可执行权重程序，在无需梯度训练的情况下安装新能力。SCAN 组合泛化由 0% 提升至 99.8%；8 个示例使 BabyAI 拾取成功率由 0% 提升至 98.4%。程序在 5 个独立训练的 ViT 上保留源模型增益的 83–110%，且支持后续能力叠加。{% else %}**TL;DR**: Executable weight programs install capabilities without gradient training: SCAN exact match 0%→99.8%, and BabyAI pickup success 0%→98.4% from eight demonstrations. Replaying programs on five independently trained ViTs retains 83–110% of source-network gains, and subsequent programs add capabilities while preserving earlier ones.{% endif %}
 
